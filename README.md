@@ -9,7 +9,7 @@ Below replace THISDIR with the location of this directory.
 Right now this is for my mac ...
 
 * Fortress
-	- install fortress: git clone
+	- install fortress: git clone https://github.com/WatForm/fortress.git
 	- the following script builds fortress and copies it into THISDIR/libs
 		./install_fortress.sh
 	- our evaluation was done with
@@ -20,9 +20,9 @@ Right now this is for my mac ...
 		+ Scala code runner version 2.13.6 -- Copyright 2002-2021, LAMP/EPFL and Lightbend, Inc.
 		
 * Benchmarks
-	- git cloned master branch of https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
-on 2022-01-10
-Commit: dd1c268beb61a2c583caf414b32248decdff0d0a
+	- git clone https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
+	- on 2022-01-11
+	- Commit: dd1c268beb61a2c583caf414b32248decdff0d0a
 
 * Generate randomly ordered list of smt2 files that are known to be unsat/sat problems
 
