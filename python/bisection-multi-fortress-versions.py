@@ -1,6 +1,8 @@
 """
     Use a bisection algorithm to determine a scope that completes
     within the time bounds on all versions
+
+    All indices start at 1
 """
 
 import re
@@ -18,14 +20,14 @@ goaltotal = 50
 #goal = "unsat"
 #countgoal = 100
 
-counter = 0  # change this if process does not finish and we have to restart
+counter = 1  # change this if process does not finish and we have to restart
 
 now = datetime.now()
 dt_string = now.strftime("%Y-%m-%d-%H-%M-%S")
 
 inputfilelist = thisdirprefix + "results/2022-01-11-"+goal+"-random-order-filelist.txt"
-longlogfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-bisection-multi-fortress-LONG-LOG.txt"
-logfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-bisection-multi-fortress-LOG.txt"
+longlogfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-LONG-LOG.txt"
+logfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-LOG.txt"
 outfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-with-scope-filelist.txt"
 
 # range is 5-30 determined after some trial and error
@@ -33,6 +35,7 @@ minscope = 4 # have to start 1 lower and 1 higher so can stop
 maxscope = 31  
 # starting scope will be 18, but it is calculated
 
+# 3-20 min
 lowertimethreshold = 3 * 60  # seconds
 uppertimethreshold = 20 * 60  # seconds
 fortresstimeout = (uppertimethreshold + 600) * 1000  # ms; always way bigger
@@ -61,7 +64,7 @@ def get_scope_bisection_with_versions(name, cnt):
     j = 0 # tests on this file
     ver = 0  # index into versions on versions list
     while minscope < sc and sc < maxscope and ver < len(versions):
-        ++j
+        j += 1
         fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
             ' --mode decision --scope ' + str(sc) + ' --version ' + versions[ver] + \
             " " + long(name)
@@ -69,11 +72,12 @@ def get_scope_bisection_with_versions(name, cnt):
         longlogf.write(fortressbin + fortressargs + '\n')
         longlogf.flush()
         (time, output, exitcode) = util.runprocess(fortressbin + fortressargs, longlogf, uppertimethreshold)
+        # there is a 30sec delay after the process is finished to make sure Z3 is dead
         # Check if the result aligns with our goal
         out = satisfiability_of_output(output)   
         if goal != out and (out == 'unsat' or out == 'sat'):
             # quit right away b/c it doesn't match sat/unsat that we want
-            return 0, "not goal"
+            return 0, "not "+goal
      
         if (out == "TIMEOUT" or out == "NONZEROCODE" or out == "StackOverflowError") :
             # If there is time out, looking for a smaller scope
@@ -86,10 +90,10 @@ def get_scope_bisection_with_versions(name, cnt):
             fmin = sc
             sc = math.ceil(mean([sc, fmax]))
         else:
-            ++ver
+            ver += 1
 
     # end of loop
-    if minscope < sc and sc < maxscope:
+    if not(minscope < sc and sc < maxscope):
         return 0, "no scope finishes in time range for all versions"
     else: 
         # we'd have to go to the logs to find out the times for these
@@ -117,8 +121,8 @@ with open(inputfilelist) as f:
         filelist.append(filename)
 maxcount = len(filelist)
 
-while counter < goaltotal and counter <= maxcount:
-    name = filelist[counter].strip()
+while counter < goaltotal and counter < maxcount:
+    name = filelist[counter-1].strip()
     (sc, reason) = get_scope_bisection_with_versions(name,counter) 
     # every file should have an entry in logf
     # and once this has been written that file is completed
@@ -127,7 +131,7 @@ while counter < goaltotal and counter <= maxcount:
     if reason == goal:
         outf.write(name + ", " + reason + ", " + str(sc) + '\n')
         outf.flush()
-    ++counter
+    counter += 1
 
 outf.close()
 logf.close()

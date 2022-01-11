@@ -47,15 +47,16 @@ Right now this is for my mac ...
 	- time range of 3 min to 20 min determined in order to have reasonable size of problems for fortress 1 
 	- we don't worry about lower time limit for version 3 and 3si
 	- set options for how many sat or unsat problems looking for
-	- runs versions 1, 3, 3si and makes sure all complete at the scope
-	
-****
+	- runs versions v1, v3, v3si and makes sure all complete at the scope
+	- finds 50 SAT problems and 100 UNSAT problems because UNSAT problems are generally harder. The known SAT problems might not end up SAT for finite scopes.	
 
+* Performance testing
+	- within THISDIR run: 
+	- this runs each file at the designated scope 5x on the three versions of fortress
 
-Get 50 SAT problems and 100 UNSAT problems with the argument that UNSAT problems are generally harder. (Note that SAT problems from step 2 might not end up SAT for finite scopes so we have to keep going until we get 50 SAT problems, but separating them should be better than ploughing through definitely unsat problems).
+* Tally results
+	- within THISDIR run:
+	- determines the average of the 5 runs for each file and sums the totals for 
+	- generates the tables for the paper in latex
+	- generates the plots for the paper in latex
 
-
-Then run all three versions 5x for each fortress version and take the average time.
-
-
-Create a simpler table than is currently in the paper to just look at total times and not at fraction that are faster or slower.

@@ -79,6 +79,8 @@ def runprocess(name,longlogf,uppertimethreshold):
     # check for leftover Z3 process; if they exist stop
     if check("z3",longlogf):
         longlogf.write("Extra Z3 process running")
+        longlogf.flush()
+        exit(1)
         output = "EXTRA_Z3"
         t = uppertimethreshold
     else:
@@ -115,4 +117,6 @@ def runprocess(name,longlogf,uppertimethreshold):
                 t = uppertimethreshold
                 output = "PROBLEM: "+message
             kill_child_processes(longlogf)
+            longlogf.write("------\n")
+            longlogf.flush()
     return t, output, exitcode
