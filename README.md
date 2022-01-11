@@ -2,44 +2,44 @@
 
 Last updated: 2022-01-11
 
-This is how the fortress-evaluation was completed.
+This is how the fortress evaluation of Poremba and Day's symmetry breakign schemes was completed.
 
 Below replace THISDIR with the location of this directory.
 
 Right now this is for my mac ...
 
 * Fortress evaluation scripts
-	- git clone <this repo>
+	- git clone https://github.com/WatForm/fortress-eval-poremba-symmetry.git
 	
-* Fortress
-	- git clone https://github.com/WatForm/fortress.git
-
-* Build fortress 
-	- the following script builds fortress and copies it into THISDIR/libs
-		./install_fortress.sh
-	- our evaluation was done with
-		+ Z3 version 4.8.12 - 64 bit
+* install Fortress
+	- in a sister directory: git clone https://github.com/WatForm/fortress.git
+	- Java 10 or higher is required
+	- sbt needs to be installed (we used version ...)
+	- a command-line version of z3 is required
+		+ Binaries for Z3 are [available here](https://github.com/Z3Prover/z3/releases).
+    	+ If using MacOS, we recommend using Homebrew: `brew install z3`.
+    	+ If on `Ubuntu`, do not use `apt-get`, since its version of Z3 is out of date.
+    - we use:
+    	+ sbt 
 		+ java version "12.0.1" 2019-04-16
 			Java(TM) SE Runtime Environment (build 12.0.1+12)
 			Java HotSpot(TM) 64-Bit Server VM (build 12.0.1+12, mixed mode, sharing)
-		+ Scala code runner version 2.13.6 -- Copyright 2002-2021, LAMP/EPFL and Lightbend, Inc.
+    	+ Z3 version 4.8.12 - 64 bit    
+	- within fortress-eval-poremba-symmetry, run the script to build fortress 
+		+ ./install_fortress.sh
+		+ this script copies the necessary parts of fortress into THISDIR/libs
 		
-* Benchmarks
+* Get the benchmark files
 	- git clone https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
 	- on 2022-01-11
 	- Commit: dd1c268beb61a2c583caf414b32248decdff0d0a
 
 * Generate randomly ordered list of smt2 files that are known to be unsat/sat problems
-
-Within benchmarks directory, run
-grep -r -l " unsat" . | gshuf >  ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-unsat-random-order-filelist.txt
-grep -r -l " sat" . | gshuf > ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-sat-random-order-filelist.txt
-
-Totals: 
-Unsat 3394 files
-Sat 1233 files
-
-(Note: gshuf works for mac; shuf for bash in linux probably)
+	- Within benchmarks directory, run
+		grep -r -l " unsat" . | gshuf >  ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-unsat-random-order-filelist.txt
+		grep -r -l " sat" . | gshuf > ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-sat-random-order-filelist.txt
+	- Totals: Unsat 3394 files Sat 1233 files
+	(Note: gshuf works for mac; shuf for bash in linux probably)
 
 * Finding a good scope
 	- within THISDIR run: python3 python/bisection-multi-fortress-versions.py
