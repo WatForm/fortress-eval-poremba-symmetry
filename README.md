@@ -2,7 +2,7 @@
 
 Last updated: 2022-01-11
 
-This is how the fortress evaluation of Poremba and Day's symmetry breakign schemes was completed.
+This is how the fortress evaluation of Poremba and Day's symmetry breaking schemes was completed.
 
 Below replace THISDIR with the location of this directory.
 
