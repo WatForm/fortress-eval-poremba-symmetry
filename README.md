@@ -8,8 +8,13 @@ Below replace THISDIR with the location of this directory.
 
 Right now this is for my mac ...
 
+* Fortress evaluation scripts
+	- git clone <this repo>
+	
 * Fortress
-	- install fortress: git clone https://github.com/WatForm/fortress.git
+	- git clone https://github.com/WatForm/fortress.git
+
+* Build fortress 
 	- the following script builds fortress and copies it into THISDIR/libs
 		./install_fortress.sh
 	- our evaluation was done with
