@@ -33,7 +33,7 @@ dt_string = now.strftime("%Y-%m-%d-%H-%M-%S")
 inputfilelist = thisdirprefix + "results/2022-01-11-"+goal+"-random-order-filelist.txt"
 longlogfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-LONG-LOG.txt"
 logfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-LOG.txt"
-outfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-with-scope-filelist.txt"
+outfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-filelist.txt"
 
 # range is 5-30 determined after some trial and error
 minscope = 4 # have to start 1 lower and 1 higher so can stop 
