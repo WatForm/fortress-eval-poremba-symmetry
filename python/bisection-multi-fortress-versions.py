@@ -15,12 +15,17 @@ from defs import *
 
 versions = ["v1","v3","v3si"]
 
+# for finding at files
 goal = "sat"
 goaltotal = 50
-#goal = "unsat"
-#countgoal = 100
 
-counter = 1  # change this if process does not finish and we have to restart
+# for finding unsat files
+#goal = "unsat"
+#goaltotal = 100
+
+filecounter = 1  # start at first line of files
+                 # change above if process does not finish and we have to restart
+goalcounter = 0
 
 now = datetime.now()
 dt_string = now.strftime("%Y-%m-%d-%H-%M-%S")
@@ -67,7 +72,7 @@ def get_scope_bisection_with_versions(name, cnt):
         j += 1
         fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
             ' --mode decision --scope ' + str(sc) + ' --version ' + versions[ver] + \
-            " " + long(name)
+            " --rawdata" + " " + long(name)
         longlogf.write("\nRUN NO. " + str(cnt) + "," + str(j) + " scope=" + str(sc) + "\n" + name + '\n')
         longlogf.write(fortressbin + fortressargs + '\n')
         longlogf.flush()
@@ -119,19 +124,19 @@ with open(inputfilelist) as f:
     for row in reader:
         filename = row[0].strip()
         filelist.append(filename)
-maxcount = len(filelist)
 
-while counter < goaltotal and counter < maxcount:
-    name = filelist[counter-1].strip()
-    (sc, reason) = get_scope_bisection_with_versions(name,counter) 
+while goalcounter < goaltotal and filecounter <= len(filelist):
+    name = filelist[filecounter-1].strip()
+    (sc, reason) = get_scope_bisection_with_versions(name,filecounter) 
     # every file should have an entry in logf
     # and once this has been written that file is completed
-    logf.write(str(counter)+", "+ name + ", " + reason + ", " + str(sc) + '\n')
+    logf.write(str(filecounter)+", "+ name + ", " + reason + ", " + str(sc) + '\n')
     logf.flush()
     if reason == goal:
+        goalcounter += 1
         outf.write(name + ", " + reason + ", " + str(sc) + '\n')
         outf.flush()
-    counter += 1
+    filecounter += 1
 
 outf.close()
 logf.close()
