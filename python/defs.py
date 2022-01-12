@@ -1,2 +1,2 @@
-benchmarksdir = "/Users/nday/UW/github/UF/"
+benchmarksdir = "../UF/"
 thisdirprefix = "./"
