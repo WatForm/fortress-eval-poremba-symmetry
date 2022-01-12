@@ -7,6 +7,7 @@ This is how the fortress evaluation of Poremba and Day's symmetry breaking schem
 Below replace THISDIR with the location of this directory.
 
 Right now this is for my mac ...
+## TLDR;
 
 * Fortress evaluation scripts (this repo)
 	- git clone https://github.com/WatForm/fortress-eval-poremba-symmetry.git
@@ -28,7 +29,7 @@ Right now this is for my mac ...
     	+ java 13.0.2 2020-01-14
 	  Java(TM) SE Runtime Environment (build 13.0.2+8)
 	  Java HotSpot(TM) 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
-    	+ Z3 version 4.8.12 - 64 bit    
+    	+ Z3 version 4.8.10 - 64 bit    
 	
 * Get the benchmark files
 	- git clone https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
