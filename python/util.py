@@ -98,7 +98,9 @@ def runprocess(name,longlogf,uppertimethreshold):
                     longlogf.write("\n***Non-zero return code: " + name+"\n")
                     longlogf.flush()
                     if re.search(r'java.lang.StackOverflowError', str(err)):
-                        output = "StackOverflowError"
+                        output = "JavaStackOverflowError"
+                    elif re.search(r'java.lang.OutOfMemoryError', str(err)):
+                        output = "JavaOutOfMemoryError"
                     else:
                         output = "NONZEROCODE"
                     t = uppertimethreshold

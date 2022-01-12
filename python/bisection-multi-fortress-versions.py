@@ -84,7 +84,10 @@ def get_scope_bisection_with_versions(name, cnt):
             # quit right away b/c it doesn't match sat/unsat that we want
             return 0, "not "+goal
      
-        if (out == "TIMEOUT" or out == "NONZEROCODE" or out == "StackOverflowError") :
+        if (out == "TIMEOUT" or \
+            out == "NONZEROCODE" or \
+            out == "JavaStackOverflowError" or \
+            out == "JavaOutOfMemoryError" ) :
             # If there is time out, looking for a smaller scope
             ver = 0  # might already be version 0
             # lower scope
