@@ -6,8 +6,16 @@ This is how the fortress evaluation of Poremba and Day's symmetry breaking schem
 
 Below replace THISDIR with the location of this directory.
 
-Right now this is for my mac ...
-## TLDR;
+## TL;DR
+```
+git clone https://github.com/WatForm/fortress-eval-poremba-symmetry.git
+git clone https://github.com/WatForm/fortress.git
+git clone https://github.com/WatForm/fortress.git
+cd fortress-eval-poremba-symmetry.git
+./install_fortress.sh
+```
+
+## Complete Experiment Instructions
 
 * Fortress evaluation scripts (this repo)
 	- git clone https://github.com/WatForm/fortress-eval-poremba-symmetry.git
@@ -32,25 +40,29 @@ Right now this is for my mac ...
     	+ Z3 version 4.8.10 - 64 bit    
 	
 * Get the benchmark files
-	- git clone https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
+	- c
 	- on 2022-01-11
 	- Commit: dd1c268beb61a2c583caf414b32248decdff0d0a
 
 * Generate randomly ordered list of smt2 files that are known to be unsat/sat problems
+	- these filelists are included in this repo because if you redo this step, you may get a different order and therefore may not get the same results
 	- Within benchmarks directory, run
-		grep -r -l " unsat" . | gshuf >  ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-unsat-random-order-filelist.txt
-		grep -r -l " sat" . | gshuf > ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-sat-random-order-filelist.txt
+	```
+	grep -r -l " unsat" . | gshuf >  ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-unsat-random-order-filelist.txt
+	grep -r -l " sat" . | gshuf > ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-sat-random-order-filelist.txt
+	```
 	- Totals: Unsat 3394 files Sat 1233 files
 	(Note: gshuf works for mac; shuf for bash in linux probably)
 
 * Finding a good scope
-	- within THISDIR run: python3 python/bisection-multi-fortress-versions.py
-	- range is 5-30 scope determined after some trial and error
-	- time range of 3 min to 20 min determined in order to have reasonable size of problems for fortress 1 
-	- we don't worry about lower time limit for version 3 and 3si
-	- set options for how many sat or unsat problems looking for
-	- runs versions v1, v3, v3si and makes sure all complete at the scope
-	- finds 50 SAT problems and 100 UNSAT problems because UNSAT problems are generally harder. The known SAT problems might not end up SAT for finite scopes.	
+	- within python/bisection-multi-fortress-versions.py, set sat/unsat and any other parameters
+		+ we asked for 50 sat and 100 unsat 
+			- unsat problems are generally harder
+			- known SAT problems might not end up SAT at a specific/finite scope so harder to find these problems
+		+ scope of 5 to 30 (range of scopes determined after some trial and error) -- all timing is done by the python script not fortress
+		+ v1 time within 3-20min; v3,v3si times < 30min (to have reasonable size problems with no timeouts)
+	- within THISDIR run: 
+	 ```python3 python/bisection-multi-fortress-versions.py```	
 
 * Performance testing
 	- within THISDIR run: 
