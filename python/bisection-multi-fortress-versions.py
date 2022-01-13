@@ -23,7 +23,7 @@ goaltotal = 50
 #goal = "unsat"
 #goaltotal = 100
 
-filecounter = 12  # start at first line of files
+filecounter = 19  # start at first line of files; counting starts at 1
                  # change above if process does not finish and we have to restart
 goalcounter = 0
 
@@ -66,15 +66,12 @@ def get_scope_bisection_with_versions(name, cnt):
     fmax = maxscope
     # starting scope
     sc = math.ceil(mean([fmin, fmax]))
-    nextsc = sc
-    prev = 0  # just to start
+    ver0_scopes_tried = [] 
     j = 0 # tests on this file
     ver = 0  # index into versions on versions list
-    # nextsc == prev means potential looping where high one is timeout and low one is too little time
-    while minscope < nextsc and nextsc < maxscope and nextsc != prev and ver < len(versions):
-        prev = sc 
-        sc = nextsc
+    while minscope < sc and sc < maxscope and not(ver == 0 and sc in ver0_scopes_tried) and ver < len(versions):
         j += 1
+        ver0_scopes_tried.append(sc)
         fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
             ' --mode decision --scope ' + str(sc) + ' --version ' + versions[ver] + \
             " --rawdata" + " " + long(name)
@@ -97,17 +94,16 @@ def get_scope_bisection_with_versions(name, cnt):
             ver = 0  # might already be version 0
             # lower scope
             fmax = sc
-            nextsc = math.floor(mean([fmin, sc]))
+            sc = math.floor(mean([fmin, sc]))
         elif time < lowertimethreshold and ver == 0:
             # only bother with looking at higher scopes if ver == 0
             fmin = sc
-            nextsc = math.ceil(mean([sc, fmax]))
+            sc = math.ceil(mean([sc, fmax]))
         else:
-            # nextsc is = sc still
             ver += 1
 
     # end of loop
-    if not(minscope < nextsc and nextsc < maxscope) or nextsc == prev:
+    if not(minscope < nextsc and nextsc < maxscope) or (ver == 0 and sc in ver0_scopes_tried):
         return 0, "no scope finishes in time range for all versions"
     else: 
         # we'd have to go to the logs to find out the times for these
