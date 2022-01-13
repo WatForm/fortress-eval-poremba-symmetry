@@ -23,7 +23,7 @@ goaltotal = 50
 #goal = "unsat"
 #goaltotal = 100
 
-filecounter = 1  # start at first line of files
+filecounter = 12  # start at first line of files
                  # change above if process does not finish and we have to restart
 goalcounter = 0
 
@@ -66,9 +66,14 @@ def get_scope_bisection_with_versions(name, cnt):
     fmax = maxscope
     # starting scope
     sc = math.ceil(mean([fmin, fmax]))
+    nextsc = sc
+    prev = 0  # just to start
     j = 0 # tests on this file
     ver = 0  # index into versions on versions list
-    while minscope < sc and sc < maxscope and ver < len(versions):
+    # nextsc == prev means potential looping where high one is timeout and low one is too little time
+    while minscope < nextsc and nextsc < maxscope and nextsc != prev and ver < len(versions):
+        prev = sc 
+        sc = nextsc
         j += 1
         fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
             ' --mode decision --scope ' + str(sc) + ' --version ' + versions[ver] + \
@@ -83,7 +88,7 @@ def get_scope_bisection_with_versions(name, cnt):
         if goal != out and (out == 'unsat' or out == 'sat'):
             # quit right away b/c it doesn't match sat/unsat that we want
             return 0, "not "+goal
-     
+    
         if (out == "TIMEOUT" or \
             out == "NONZEROCODE" or \
             out == "JavaStackOverflowError" or \
@@ -92,16 +97,17 @@ def get_scope_bisection_with_versions(name, cnt):
             ver = 0  # might already be version 0
             # lower scope
             fmax = sc
-            sc = math.floor(mean([fmin, sc]))
+            nextsc = math.floor(mean([fmin, sc]))
         elif time < lowertimethreshold and ver == 0:
             # only bother with looking at higher scopes if ver == 0
             fmin = sc
-            sc = math.ceil(mean([sc, fmax]))
+            nextsc = math.ceil(mean([sc, fmax]))
         else:
+            # nextsc is = sc still
             ver += 1
 
     # end of loop
-    if not(minscope < sc and sc < maxscope):
+    if not(minscope < nextsc and nextsc < maxscope) or nextsc == prev:
         return 0, "no scope finishes in time range for all versions"
     else: 
         # we'd have to go to the logs to find out the times for these
