@@ -48,8 +48,8 @@ cd fortress-eval-poremba-symmetry.git
 	- these filelists are included in this repo because if you redo this step, you may get a different order and therefore may not get the same results
 	- Within benchmarks directory, run
 	```
-	grep -r -l " unsat" . | gshuf >  ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-unsat-random-order-filelist.txt
-	grep -r -l " sat" . | gshuf > ~nday/UW/github/fortress-eval-2022-tse/results/2022-01-11-sat-random-order-filelist.txt
+	grep -r -l "(set-info :status unsat)" . | gshuf >  ../fortress-eval-poremba-symmetry/results/2022-01-13-unsat-random-order-filelist.txt
+	grep -r -l "(set-info :status sat)" . | gshuf > ../fortress-eval-poremba-symmetry/results/2022-01-13-sat-random-order-filelist.txt
 	```
 	- Totals: Unsat 3394 files Sat 1233 files
 	(Note: gshuf works for mac; shuf for bash in linux probably)
