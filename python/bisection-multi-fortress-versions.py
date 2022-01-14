@@ -23,7 +23,7 @@ goaltotal = 50
 #goal = "unsat"
 #goaltotal = 100
 
-filecounter = 19  # start at first line of files; counting starts at 1
+filecounter = 1  # start at first line of files; counting starts at 1
                  # change above if process does not finish and we have to restart
 goalcounter = 0
 
