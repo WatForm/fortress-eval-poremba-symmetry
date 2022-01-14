@@ -30,7 +30,7 @@ goalcounter = 0
 now = datetime.now()
 dt_string = now.strftime("%Y-%m-%d-%H-%M-%S")
 
-inputfilelist = thisdirprefix + "results/2022-01-11-"+goal+"-random-order-filelist.txt"
+inputfilelist = thisdirprefix + "results/2022-01-13-"+goal+"-random-order-filelist.txt"
 longlogfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-LONG-LOG.txt"
 logfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-LOG.txt"
 outfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-filelist.txt"
