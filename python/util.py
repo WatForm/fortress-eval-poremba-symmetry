@@ -80,9 +80,9 @@ def runprocess(name,longlogf,uppertimethreshold):
     if check("z3",longlogf):
         longlogf.write("Extra Z3 process running")
         longlogf.flush()
-        exit(1)
         output = "EXTRA_Z3"
         t = uppertimethreshold
+        exit(1)
     else:
         with Popen(name, shell=True, stdout=PIPE, stderr=PIPE, preexec_fn=os.setsid) as process:
             try:
