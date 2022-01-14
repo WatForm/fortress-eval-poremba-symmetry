@@ -87,14 +87,14 @@ def get_scope_bisection_with_versions(name, cnt):
             # quit right away b/c it doesn't match sat/unsat that we want
             return 0, "not "+goal
     
-        if (out in toobig_outputcodes ) :
+        if (out in toobig_outputcodes):
             # If there is time out, looking for a smaller scope
             ver = 0  # might already be version 0
             # lower scope
             fmax = sc
             sc = math.floor(mean([fmin, sc]))
         elif not (out in ['sat','unsat']):  # toobig_outputcodes already handled above
-            return 0, "non-zero output, not known overflow"
+            return 0, "non-zero output, not known overflow or timeout"
         elif time < lowertimethreshold and ver == 0:
             # only bother with looking at higher scopes if ver == 0
             fmin = sc
