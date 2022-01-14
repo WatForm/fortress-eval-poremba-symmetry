@@ -103,7 +103,7 @@ def get_scope_bisection_with_versions(name, cnt):
             ver += 1
 
     # end of loop
-    if not(minscope < nextsc and nextsc < maxscope) or (ver == 0 and sc in ver0_scopes_tried):
+    if not(minscope < sc and sc < maxscope) or (ver == 0 and sc in ver0_scopes_tried):
         return 0, "no scope finishes in time range for all versions"
     else: 
         # we'd have to go to the logs to find out the times for these
