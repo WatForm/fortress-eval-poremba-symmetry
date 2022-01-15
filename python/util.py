@@ -89,21 +89,26 @@ def runprocess(name,longlogf,uppertimethreshold):
                 (out,err) = process.communicate(timeout=uppertimethreshold)
                 t = timer() - start
                 output = out.decode("utf-8")
+                errput = err.decode("utf-8")
                 longlogf.write(output)
-                longlogf.write(err)
+                longlogf.write(errput)
                 minutes = math.floor(t / 60)
                 seconds = round(t % 60,3)
                 longlogf.write("\nPython time: "+str(minutes)+'m '+str(seconds)+'s\n')
                 longlogf.flush()
                 if process.returncode == 1:
-                    if re.search(r'java.lang.StackOverflowError', str(err)):
+                    if re.search(r'java.lang.StackOverflowError', str(errput)):
                         output = "JavaStackOverflowError"
-                    elif re.search(r'java.lang.OutOfMemoryError', str(err)):
+                        longlogf.write("\n***output: " + output +"\n")
+                        longlogf.flush()
+                    elif re.search(r'java.lang.OutOfMemoryError', str(errput)):
                         output = "JavaOutOfMemoryError"
+                        longlogf.write("\n***output: " + output +"\n")
+                        longlogf.flush()
                     else:
                         output = "NONZEROCODE"
-                    longlogf.write("\n***output: " + output +"\n")
-                    longlogf.flush()
+                        longlogf.write("\n***output: " + output +"\n")
+                        longlogf.flush()
                     t = uppertimethreshold
                 exitcode = process.returncode
             except TimeoutExpired:
