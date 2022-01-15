@@ -18,12 +18,14 @@ versions = ["v1","v3","v3si"]
 # for finding at files
 goal = "sat"
 goaltotal = 50
+originalfilescopelist = thisdirprefix + "results/2020-09-13-sat-original-best-scope.txt"
 
 # for finding unsat files
 #goal = "unsat"
 #goaltotal = 100
+#originalfilescopelist = thisdirprefix + "results/2020-09-01-unsat-original-best-scope.txt"
 
-filecounter = 4  # start at first line of files; counting starts at 1
+filecounter = 1  # start at first line of files; counting starts at 1
                  # change above if process does not finish and we have to restart
 goalcounter = 0
 
@@ -61,12 +63,23 @@ def long(n):
 
 def get_scope_bisection_with_versions(name, cnt):
     global fortresstimeout, lowertimethreshold, uppertimethreshold, longlogf,minscope,maxscope
+    global originalfilescope
 
     # non-recursive
     fmin = minscope
     fmax = maxscope
     # starting scope
-    sc = math.ceil(mean([fmin, fmax]))
+    if name in originalfilescope.keys():
+        # if we have a scope that worked in our last eval
+        # start there, but still go through checking for 3 versions
+        sc = originalfilescope[name]
+        if not(minscope < sc and sc < maxscope):
+            sc = math.ceil(mean([fmin, fmax]))
+        else:
+            longlogf.write("Using original scope of "+str(sc))
+            longlogf.flush()
+    else:
+        sc = math.ceil(mean([fmin, fmax]))
     ver0_scopes_tried = [] 
     j = 0 # tests on this file
     ver = 0  # index into versions on versions list
@@ -129,6 +142,14 @@ with open(inputfilelist) as f:
     for row in reader:
         filename = row[0].strip()
         filelist.append(filename)
+
+# original file scope info -> can use it to start
+originalfilescope = {}
+with open(originalfilescopelist) as f:
+    reader = csv.reader(f, delimiter=",")
+    for row in reader:
+        filename = "./"+row[0].strip()
+        originalfilescope[filename] = int(row[2].strip())
 
 while goalcounter < goaltotal and filecounter <= len(filelist):
     name = filelist[filecounter-1].strip()

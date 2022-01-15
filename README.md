@@ -63,6 +63,8 @@ cd fortress-eval-poremba-symmetry.git
 		+ v1 time within 3-20min; v3,v3si times < 30min (to have reasonable size problems with no timeouts)
 	- within THISDIR run: 
 	 ```python3 python/bisection-multi-fortress-versions.py```	
+	- some files are not parseable b/c our smt parser does not support everything in smt-lib
+	- for files of the same name, we started the bisection algorithm with the good scope  from 1st submission (but ran the bisection algorithm on it to make sure that scope fit in the time window for all versions)
 
 * Performance testing
 	- within THISDIR run: 
