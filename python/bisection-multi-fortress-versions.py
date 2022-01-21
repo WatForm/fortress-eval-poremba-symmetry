@@ -27,7 +27,7 @@ originalfilescopelist = thisdirprefix + "results/2020-09-13-sat-original-best-sc
 
 filecounter = 1  # start at first line of files; counting starts at 1
                  # change above if process does not finish and we have to restart
-goalcounter = 0
+goalcounter = 0 # need to reset this if change filecounter!!!
 
 now = datetime.now()
 dt_string = now.strftime("%Y-%m-%d-%H-%M-%S")
