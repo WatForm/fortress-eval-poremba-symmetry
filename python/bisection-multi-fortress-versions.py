@@ -2,7 +2,6 @@
     Use a bisection algorithm to determine a scope that completes
     within the time bounds on all versions
 
-    All indices start at 1
 """
 
 import re
@@ -16,16 +15,16 @@ from defs import *
 versions = ["v1","v3","v3si"]
 
 # for finding at files
-goal = "sat"
-goaltotal = 50
-originalfilescopelist = thisdirprefix + "results/2020-09-13-sat-original-best-scope.txt"
+#goal = "sat"
+#goaltotal = 50
+#originalfilescopelist = thisdirprefix + "results/2020-09-13-sat-original-best-scope.txt"
 
 # for finding unsat files
-#goal = "unsat"
-#goaltotal = 100
-#originalfilescopelist = thisdirprefix + "results/2020-09-01-unsat-original-best-scope.txt"
+goal = "unsat"
+goaltotal = 100
+originalfilescopelist = thisdirprefix + "results/2020-09-01-unsat-original-best-scope.txt"
 
-filecounter = 31  # start at first line of files; counting starts at 1
+filecounter = 1  # start at first line of files; counting starts at 1
                  # change above if process does not finish and we have to restart
 goalcounter = 0 # need to reset this if change filecounter!!!
 
