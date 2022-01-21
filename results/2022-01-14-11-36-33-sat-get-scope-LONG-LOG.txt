@@ -1,0 +1,1908 @@
+
+RUN NO. 4,1 scope=18
+./sledgehammer/Hoare/uf.574997.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.009
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.029
+Applying transformer: Quantifier Expansion Transformer (-, -)... 
+Python time: 15m 18.299s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+------
+
+RUN NO. 4,2 scope=11
+./sledgehammer/Hoare/uf.574997.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+TIMEOUT
+Need to kill: 3274 z3
+Need to kill: 3184 java
+Need to kill: 3183 sh
+Trying to kill: 3274 z3
+killed: z3
+Trying to kill: 3184 java
+killed: java
+Trying to kill: 3183 sh
+killed: sh
+------
+
+RUN NO. 4,3 scope=7
+./sledgehammer/Hoare/uf.574997.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+TIMEOUT
+Need to kill: 3389 z3
+Need to kill: 3304 java
+Need to kill: 3303 sh
+Trying to kill: 3389 z3
+killed: z3
+Trying to kill: 3304 java
+killed: java
+Trying to kill: 3303 sh
+killed: sh
+------
+
+RUN NO. 4,4 scope=5
+./sledgehammer/Hoare/uf.574997.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.009
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.028
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.285
+Applying transformer: Range Formula Transformer... 0.034
+Applying transformer: Simplify Transformer... 0.436
+Applying transformer: Domain Elimination Transformer... 0.188
+Total transformation time: 1.029
+Invoking solver strategy...
+Converting to solver format: 0.716
+Z3 solver time: 671.187
+Done. Result was Sat.
+TOTAL time: 672.938
+Sat
+
+Python time: 11m 13.728s
+------
+
+RUN NO. 4,5 scope=5
+./sledgehammer/Hoare/uf.574997.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v3 --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.009
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.058
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.284
+Applying transformer: Range Formula Transformer... 0.067
+Applying transformer: Simplify Transformer... 0.398
+Applying transformer: Domain Elimination Transformer... 0.169
+Total transformation time: 1.033
+Invoking solver strategy...
+Converting to solver format: 0.699
+Z3 solver time: 532.576
+Done. Result was Sat.
+TOTAL time: 534.312
+Sat
+
+Python time: 8m 55.103s
+------
+
+RUN NO. 4,6 scope=5
+./sledgehammer/Hoare/uf.574997.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.009
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.107
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.279
+Applying transformer: Range Formula Transformer... 0.033
+Applying transformer: Simplify Transformer... 0.391
+Applying transformer: Domain Elimination Transformer... 0.175
+Total transformation time: 1.042
+Invoking solver strategy...
+Converting to solver format: 0.659
+Z3 solver time: 532.794
+Done. Result was Sat.
+TOTAL time: 534.499
+Sat
+
+Python time: 8m 55.294s
+------
+
+RUN NO. 5,1 scope=18
+./sledgehammer/Hoare/uf.690289.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.690289.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.013
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.024
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.031
+Applying transformer: Quantifier Expansion Transformer (-, -)... 
+Python time: 14m 34.695s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.690289.smt2
+------
+
+RUN NO. 5,2 scope=11
+./sledgehammer/Hoare/uf.690289.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.690289.smt2
+TIMEOUT
+Need to kill: 4093 z3
+Need to kill: 4002 java
+Need to kill: 4001 sh
+Trying to kill: 4093 z3
+killed: z3
+Trying to kill: 4002 java
+killed: java
+Trying to kill: 4001 sh
+killed: sh
+------
+
+RUN NO. 5,3 scope=7
+./sledgehammer/Hoare/uf.690289.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.690289.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.012
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.030
+Applying transformer: Quantifier Expansion Transformer (-, -)... 6.370
+Applying transformer: Range Formula Transformer... 0.045
+Applying transformer: Simplify Transformer... 6.724
+Applying transformer: Domain Elimination Transformer... 3.378
+Total transformation time: 16.609
+Invoking solver strategy...
+Converting to solver format: 12.620
+Z3 solver time: 837.955
+Done. Result was Unsat.
+TOTAL time: 867.188
+Unsat
+
+Python time: 14m 28.083s
+------
+
+RUN NO. 6,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.090
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.102
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.208
+Applying transformer: Quantifier Expansion Transformer (-, -)... 
+Python time: 16m 20.566s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+------
+
+RUN NO. 6,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.103
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.104
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.176
+Applying transformer: Quantifier Expansion Transformer (-, -)... 179.620
+Applying transformer: Range Formula Transformer... 0.711
+Applying transformer: Simplify Transformer... 426.200
+Applying transformer: Domain Elimination Transformer... 
+Python time: 17m 55.036s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+------
+
+RUN NO. 6,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+TIMEOUT
+Need to kill: 4507 z3
+Need to kill: 4421 java
+Need to kill: 4420 sh
+Trying to kill: 4507 z3
+killed: z3
+Trying to kill: 4421 java
+killed: java
+Trying to kill: 4420 sh
+killed: sh
+------
+
+RUN NO. 6,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.113
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.119
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.187
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.285
+Applying transformer: Range Formula Transformer... 0.090
+Applying transformer: Simplify Transformer... 1.816
+Applying transformer: Domain Elimination Transformer... 0.914
+Total transformation time: 4.566
+Invoking solver strategy...
+Converting to solver format: 4.302
+Z3 solver time: 11.830
+Done. Result was Unsat.
+TOTAL time: 20.703
+Unsat
+
+Python time: 0m 21.675s
+------
+
+RUN NO. 7,1 scope=18
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+TIMEOUT
+Need to kill: 4703 z3
+Need to kill: 4617 java
+Need to kill: 4616 sh
+Trying to kill: 4703 z3
+killed: z3
+Trying to kill: 4617 java
+killed: java
+Trying to kill: 4616 sh
+killed: sh
+------
+
+RUN NO. 7,2 scope=11
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+TIMEOUT
+Need to kill: 4816 z3
+Need to kill: 4729 java
+Need to kill: 4728 sh
+Trying to kill: 4816 z3
+killed: z3
+Trying to kill: 4729 java
+killed: java
+Trying to kill: 4728 sh
+killed: sh
+------
+
+RUN NO. 7,3 scope=7
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+TIMEOUT
+Need to kill: 4919 z3
+Need to kill: 4841 java
+Need to kill: 4840 sh
+Trying to kill: 4919 z3
+killed: z3
+Trying to kill: 4841 java
+killed: java
+Trying to kill: 4840 sh
+killed: sh
+------
+
+RUN NO. 7,4 scope=5
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.033
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.007
+Applying transformer: Skolemize Transformer... 0.039
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.074
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.170
+Applying transformer: Range Formula Transformer... 0.019
+Applying transformer: Simplify Transformer... 0.115
+Applying transformer: Domain Elimination Transformer... 0.099
+Total transformation time: 0.584
+Invoking solver strategy...
+Converting to solver format: 0.265
+Z3 solver time: 39.870
+Done. Result was Sat.
+TOTAL time: 40.723
+Sat
+
+Python time: 0m 41.576s
+------
+
+RUN NO. 7,5 scope=6
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.037
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.007
+Applying transformer: Skolemize Transformer... 0.039
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.082
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.299
+Applying transformer: Range Formula Transformer... 0.025
+Applying transformer: Simplify Transformer... 0.212
+Applying transformer: Domain Elimination Transformer... 0.152
+Total transformation time: 0.880
+Invoking solver strategy...
+Converting to solver format: 0.516
+Z3 solver time: 951.111
+Done. Result was Sat.
+TOTAL time: 952.511
+Sat
+
+Python time: 15m 53.37s
+------
+
+RUN NO. 7,6 scope=6
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.035
+Applying transformer: Enum Elimination Transformer... 0.010
+Applying transformer: Negation Normal Form Transformer... 0.007
+Applying transformer: Skolemize Transformer... 0.042
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.145
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.290
+Applying transformer: Range Formula Transformer... 0.045
+Applying transformer: Simplify Transformer... 0.230
+Applying transformer: Domain Elimination Transformer... 0.171
+Total transformation time: 0.995
+Invoking solver strategy...
+Converting to solver format: 0.494
+Z3 solver time: 662.487
+Done. Result was Sat.
+TOTAL time: 663.982
+Sat
+
+Python time: 11m 4.857s
+------
+
+RUN NO. 7,7 scope=6
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.036
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.007
+Applying transformer: Skolemize Transformer... 0.041
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.495
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.272
+Applying transformer: Range Formula Transformer... 0.038
+Applying transformer: Simplify Transformer... 0.224
+Applying transformer: Domain Elimination Transformer... 0.167
+Total transformation time: 1.307
+Invoking solver strategy...
+Converting to solver format: 0.496
+Z3 solver time: 630.242
+Done. Result was Sat.
+TOTAL time: 632.048
+Sat
+
+Python time: 10m 32.923s
+------
+
+RUN NO. 8,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_40_300_2744817.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_40_300_2744817.smt_in.smt2
+TIMEOUT
+Need to kill: 5401 z3
+Need to kill: 5313 java
+Need to kill: 5312 sh
+Trying to kill: 5401 z3
+killed: z3
+Trying to kill: 5313 java
+killed: java
+Trying to kill: 5312 sh
+killed: sh
+------
+
+RUN NO. 8,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_40_300_2744817.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_40_300_2744817.smt_in.smt2
+TIMEOUT
+Need to kill: 5508 z3
+Need to kill: 5420 java
+Need to kill: 5419 sh
+Trying to kill: 5508 z3
+killed: z3
+Trying to kill: 5420 java
+killed: java
+Trying to kill: 5419 sh
+killed: sh
+------
+
+RUN NO. 8,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_40_300_2744817.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_40_300_2744817.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.051
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.010
+Applying transformer: Skolemize Transformer... 0.073
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.071
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.157
+Applying transformer: Range Formula Transformer... 0.033
+Applying transformer: Simplify Transformer... 1.009
+Applying transformer: Domain Elimination Transformer... 0.681
+Total transformation time: 3.114
+Invoking solver strategy...
+Converting to solver format: 2.326
+Z3 solver time: 211.168
+Done. Result was Unsat.
+TOTAL time: 216.613
+Unsat
+
+Python time: 3m 37.507s
+------
+
+RUN NO. 9,1 scope=18
+./sledgehammer/Hoare/uf.1097483.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.1097483.smt2
+TIMEOUT
+Need to kill: 5903 z3
+Need to kill: 5817 java
+Need to kill: 5816 sh
+Trying to kill: 5903 z3
+killed: z3
+Trying to kill: 5817 java
+killed: java
+Trying to kill: 5816 sh
+killed: sh
+------
+
+RUN NO. 9,2 scope=11
+./sledgehammer/Hoare/uf.1097483.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.1097483.smt2
+TIMEOUT
+Need to kill: 6003 z3
+Need to kill: 5925 java
+Need to kill: 5924 sh
+Trying to kill: 6003 z3
+killed: z3
+Trying to kill: 5925 java
+killed: java
+Trying to kill: 5924 sh
+killed: sh
+------
+
+RUN NO. 9,3 scope=7
+./sledgehammer/Hoare/uf.1097483.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.1097483.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.026
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.034
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.057
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.226
+Applying transformer: Range Formula Transformer... 0.026
+Applying transformer: Simplify Transformer... 0.199
+Applying transformer: Domain Elimination Transformer... 0.128
+Total transformation time: 0.730
+Invoking solver strategy...
+Converting to solver format: 0.448
+Z3 solver time: 490.353
+Done. Result was Unsat.
+TOTAL time: 491.535
+Unsat
+
+Python time: 8m 12.392s
+------
+
+RUN NO. 10,1 scope=18
+./sledgehammer/TypeSafe/smtlib.1426402.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.1426402.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.021
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.033
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.052
+Applying transformer: Quantifier Expansion Transformer (-, -)... 
+Python time: 16m 59.928s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.1426402.smt2
+------
+
+RUN NO. 10,2 scope=11
+./sledgehammer/TypeSafe/smtlib.1426402.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.1426402.smt2
+TIMEOUT
+Need to kill: 6232 java
+Need to kill: 6231 sh
+Trying to kill: 6232 java
+killed: java
+Trying to kill: 6231 sh
+killed: sh
+------
+
+RUN NO. 10,3 scope=7
+./sledgehammer/TypeSafe/smtlib.1426402.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.1426402.smt2
+TIMEOUT
+Need to kill: 6335 java
+Need to kill: 6334 sh
+Trying to kill: 6335 java
+killed: java
+Trying to kill: 6334 sh
+killed: sh
+------
+
+RUN NO. 10,4 scope=5
+./sledgehammer/TypeSafe/smtlib.1426402.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.1426402.smt2
+TIMEOUT
+Need to kill: 6589 z3
+Need to kill: 6491 java
+Need to kill: 6490 sh
+Trying to kill: 6589 z3
+killed: z3
+Trying to kill: 6491 java
+killed: java
+Trying to kill: 6490 sh
+killed: sh
+------
+
+RUN NO. 11,1 scope=18
+./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-2.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-2.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.004
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.015
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.008
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.006
+Applying transformer: Range Formula Transformer... 0.001
+Applying transformer: Simplify Transformer... 0.007
+Applying transformer: Domain Elimination Transformer... 0.003
+Total transformation time: 0.076
+Invoking solver strategy...
+Converting to solver format: 0.012
+Z3 solver time: 0.014
+Done. Result was Sat.
+TOTAL time: 0.105
+Sat
+
+Python time: 0m 0.883s
+------
+
+RUN NO. 11,2 scope=25
+./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-2.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 25 --version v1 --rawdata ../UF/./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-2.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.011
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.015
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.008
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.006
+Applying transformer: Range Formula Transformer... 0.001
+Applying transformer: Simplify Transformer... 0.007
+Applying transformer: Domain Elimination Transformer... 0.003
+Total transformation time: 0.076
+Invoking solver strategy...
+Converting to solver format: 0.011
+Z3 solver time: 0.014
+Done. Result was Sat.
+TOTAL time: 0.104
+Sat
+
+Python time: 0m 0.913s
+------
+
+RUN NO. 11,3 scope=28
+./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-2.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 28 --version v1 --rawdata ../UF/./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-2.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.011
+Applying transformer: Enum Elimination Transformer... 0.004
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.016
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.009
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.006
+Applying transformer: Range Formula Transformer... 0.001
+Applying transformer: Simplify Transformer... 0.008
+Applying transformer: Domain Elimination Transformer... 0.003
+Total transformation time: 0.079
+Invoking solver strategy...
+Converting to solver format: 0.011
+Z3 solver time: 0.014
+Done. Result was Sat.
+TOTAL time: 0.108
+Sat
+
+Python time: 0m 0.882s
+------
+
+RUN NO. 11,4 scope=30
+./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-2.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 30 --version v1 --rawdata ../UF/./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-2.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.011
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.015
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.009
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.006
+Applying transformer: Range Formula Transformer... 0.001
+Applying transformer: Simplify Transformer... 0.008
+Applying transformer: Domain Elimination Transformer... 0.003
+Total transformation time: 0.078
+Invoking solver strategy...
+Converting to solver format: 0.011
+Z3 solver time: 0.014
+Done. Result was Sat.
+TOTAL time: 0.107
+Sat
+
+Python time: 0m 0.874s
+------
+
+RUN NO. 12,1 scope=18
+./sledgehammer/QEpres/uf.1123092.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+TIMEOUT
+Need to kill: 7461 z3
+Need to kill: 7384 java
+Need to kill: 7383 sh
+Trying to kill: 7461 z3
+killed: z3
+Trying to kill: 7384 java
+killed: java
+Trying to kill: 7383 sh
+killed: sh
+------
+
+RUN NO. 12,2 scope=11
+./sledgehammer/QEpres/uf.1123092.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.018
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.024
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.046
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.160
+Applying transformer: Range Formula Transformer... 0.045
+Applying transformer: Simplify Transformer... 0.121
+Applying transformer: Domain Elimination Transformer... 0.094
+Total transformation time: 0.537
+Invoking solver strategy...
+Converting to solver format: 0.284
+Z3 solver time: 60.328
+Done. Result was Sat.
+TOTAL time: 61.154
+Sat
+
+Python time: 1m 1.978s
+------
+
+RUN NO. 12,3 scope=15
+./sledgehammer/QEpres/uf.1123092.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.024
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.049
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.262
+Applying transformer: Range Formula Transformer... 0.085
+Applying transformer: Simplify Transformer... 0.388
+Applying transformer: Domain Elimination Transformer... 0.194
+Total transformation time: 1.047
+Invoking solver strategy...
+Converting to solver format: 0.666
+Z3 solver time: 448.293
+Done. Result was Sat.
+TOTAL time: 450.010
+Sat
+
+Python time: 7m 30.826s
+------
+
+RUN NO. 12,4 scope=15
+./sledgehammer/QEpres/uf.1123092.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3 --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.024
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.163
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.302
+Applying transformer: Range Formula Transformer... 0.104
+Applying transformer: Simplify Transformer... 0.253
+Applying transformer: Domain Elimination Transformer... 0.187
+Total transformation time: 1.079
+Invoking solver strategy...
+Converting to solver format: 0.713
+Z3 solver time: 616.458
+Done. Result was Sat.
+TOTAL time: 618.254
+Sat
+
+Python time: 10m 19.087s
+------
+
+RUN NO. 12,5 scope=15
+./sledgehammer/QEpres/uf.1123092.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.024
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.289
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.262
+Applying transformer: Range Formula Transformer... 0.110
+Applying transformer: Simplify Transformer... 0.274
+Applying transformer: Domain Elimination Transformer... 0.199
+Total transformation time: 1.204
+Invoking solver strategy...
+Converting to solver format: 0.746
+Z3 solver time: 737.362
+Done. Result was Sat.
+TOTAL time: 739.316
+Sat
+
+Python time: 12m 20.165s
+------
+
+RUN NO. 13,1 scope=18
+./sledgehammer/FFT/uf.794316.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.794316.smt2
+TIMEOUT
+Need to kill: 10116 z3
+Need to kill: 9968 java
+Need to kill: 9967 sh
+Trying to kill: 10116 z3
+killed: z3
+Trying to kill: 9968 java
+killed: java
+Trying to kill: 9967 sh
+killed: sh
+------
+
+RUN NO. 13,2 scope=11
+./sledgehammer/FFT/uf.794316.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.794316.smt2
+TIMEOUT
+Need to kill: 11009 z3
+Need to kill: 10919 java
+Need to kill: 10918 sh
+Trying to kill: 11009 z3
+killed: z3
+Trying to kill: 10919 java
+killed: java
+Trying to kill: 10918 sh
+killed: sh
+------
+
+RUN NO. 13,3 scope=7
+./sledgehammer/FFT/uf.794316.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.794316.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.026
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.045
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.057
+Applying transformer: Range Formula Transformer... 0.019
+Applying transformer: Simplify Transformer... 0.271
+Applying transformer: Domain Elimination Transformer... 0.364
+Total transformation time: 1.840
+Invoking solver strategy...
+Converting to solver format: 0.759
+Z3 solver time: 6.038
+Done. Result was Unsat.
+TOTAL time: 8.642
+Unsat
+
+Python time: 0m 9.531s
+------
+
+RUN NO. 14,1 scope=18
+./sledgehammer/NS_Shared/smtlib.654800.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.654800.smt2
+TIMEOUT
+Need to kill: 11997 java
+Need to kill: 11996 sh
+Trying to kill: 11997 java
+killed: java
+Trying to kill: 11996 sh
+killed: sh
+------
+
+RUN NO. 14,2 scope=11
+./sledgehammer/NS_Shared/smtlib.654800.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.654800.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.016
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.042
+Applying transformer: Quantifier Expansion Transformer (-, -)... 
+Python time: 14m 45.244s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.654800.smt2
+------
+
+RUN NO. 14,3 scope=7
+./sledgehammer/NS_Shared/smtlib.654800.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.654800.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.018
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.016
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.038
+Applying transformer: Quantifier Expansion Transformer (-, -)... 
+Python time: 15m 12.372s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.654800.smt2
+------
+
+RUN NO. 14,4 scope=5
+./sledgehammer/NS_Shared/smtlib.654800.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.654800.smt2
+TIMEOUT
+Need to kill: 12616 z3
+Need to kill: 12521 java
+Need to kill: 12520 sh
+Trying to kill: 12616 z3
+killed: z3
+Trying to kill: 12521 java
+killed: java
+Trying to kill: 12520 sh
+killed: sh
+------
+
+RUN NO. 15,1 scope=18
+./sledgehammer/FFT/uf.904687.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.904687.smt2
+TIMEOUT
+Need to kill: 12709 z3
+Need to kill: 12632 java
+Need to kill: 12631 sh
+Trying to kill: 12709 z3
+killed: z3
+Trying to kill: 12632 java
+killed: java
+Trying to kill: 12631 sh
+killed: sh
+------
+
+RUN NO. 15,2 scope=11
+./sledgehammer/FFT/uf.904687.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.904687.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.018
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.021
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.036
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.159
+Applying transformer: Range Formula Transformer... 0.019
+Applying transformer: Simplify Transformer... 0.052
+Applying transformer: Domain Elimination Transformer... 0.094
+Total transformation time: 0.427
+Invoking solver strategy...
+Converting to solver format: 0.195
+Z3 solver time: 209.612
+Done. Result was Unsat.
+TOTAL time: 210.237
+Unsat
+
+Python time: 3m 31.101s
+------
+
+RUN NO. 16,1 scope=18
+./sledgehammer/QEpres/uf.778020.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.778020.smt2
+TIMEOUT
+Need to kill: 12910 z3
+Need to kill: 12820 java
+Need to kill: 12819 sh
+Trying to kill: 12910 z3
+killed: z3
+Trying to kill: 12820 java
+killed: java
+Trying to kill: 12819 sh
+killed: sh
+------
+
+RUN NO. 16,2 scope=11
+./sledgehammer/QEpres/uf.778020.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.778020.smt2
+TIMEOUT
+Need to kill: 13013 z3
+Need to kill: 12927 java
+Need to kill: 12926 sh
+Trying to kill: 13013 z3
+killed: z3
+Trying to kill: 12927 java
+killed: java
+Trying to kill: 12926 sh
+killed: sh
+------
+
+RUN NO. 16,3 scope=7
+./sledgehammer/QEpres/uf.778020.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.778020.smt2
+TIMEOUT
+Need to kill: 13111 z3
+Need to kill: 13036 java
+Need to kill: 13035 sh
+Trying to kill: 13111 z3
+killed: z3
+Trying to kill: 13036 java
+killed: java
+Trying to kill: 13035 sh
+killed: sh
+------
+
+RUN NO. 16,4 scope=5
+./sledgehammer/QEpres/uf.778020.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.778020.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.031
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.042
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.066
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.189
+Applying transformer: Range Formula Transformer... 0.033
+Applying transformer: Simplify Transformer... 0.132
+Applying transformer: Domain Elimination Transformer... 0.116
+Total transformation time: 0.642
+Invoking solver strategy...
+Converting to solver format: 0.256
+Z3 solver time: 2.839
+Done. Result was Unsat.
+TOTAL time: 3.743
+Unsat
+
+Python time: 0m 4.591s
+------
+
+RUN NO. 17,1 scope=18
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1261274.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1261274.smt2
+TIMEOUT
+Need to kill: 13333 z3
+Need to kill: 13248 java
+Need to kill: 13247 sh
+Trying to kill: 13333 z3
+killed: z3
+Trying to kill: 13248 java
+killed: java
+Trying to kill: 13247 sh
+killed: sh
+------
+
+RUN NO. 17,2 scope=11
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1261274.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1261274.smt2
+TIMEOUT
+Need to kill: 13427 z3
+Need to kill: 13352 java
+Need to kill: 13351 sh
+Trying to kill: 13427 z3
+killed: z3
+Trying to kill: 13352 java
+killed: java
+Trying to kill: 13351 sh
+killed: sh
+------
+
+RUN NO. 17,3 scope=7
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1261274.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1261274.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.023
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.034
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.056
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.117
+Applying transformer: Range Formula Transformer... 0.023
+Applying transformer: Simplify Transformer... 0.059
+Applying transformer: Domain Elimination Transformer... 0.061
+Total transformation time: 0.405
+Invoking solver strategy...
+Converting to solver format: 0.126
+Z3 solver time: 230.632
+Done. Result was Unsat.
+TOTAL time: 231.169
+Unsat
+
+Python time: 3m 51.994s
+------
+
+RUN NO. 18,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.101
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.010
+Applying transformer: Skolemize Transformer... 0.066
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.154
+Applying transformer: Quantifier Expansion Transformer (-, -)... 69.446
+Applying transformer: Range Formula Transformer... 64.253
+Applying transformer: Simplify Transformer... 105.500
+Applying transformer: Domain Elimination Transformer... 
+Python time: 11m 34.49s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2
+------
+
+RUN NO. 18,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2
+TIMEOUT
+Need to kill: 13727 z3
+Need to kill: 13632 java
+Need to kill: 13631 sh
+Trying to kill: 13727 z3
+killed: z3
+Trying to kill: 13632 java
+killed: java
+Trying to kill: 13631 sh
+killed: sh
+------
+
+RUN NO. 18,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2
+TIMEOUT
+Need to kill: 13836 z3
+Need to kill: 13747 java
+Need to kill: 13746 sh
+Trying to kill: 13836 z3
+killed: z3
+Trying to kill: 13747 java
+killed: java
+Trying to kill: 13746 sh
+killed: sh
+------
+
+RUN NO. 18,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2
+TIMEOUT
+Need to kill: 13952 z3
+Need to kill: 13877 java
+Need to kill: 13876 sh
+Trying to kill: 13952 z3
+killed: z3
+Trying to kill: 13877 java
+killed: java
+Trying to kill: 13876 sh
+killed: sh
+------
+
+RUN NO. 19,1 scope=18
+./sledgehammer/FFT/uf.786894.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.786894.smt2
+TIMEOUT
+Need to kill: 14054 z3
+Need to kill: 13967 java
+Need to kill: 13966 sh
+Trying to kill: 14054 z3
+killed: z3
+Trying to kill: 13967 java
+killed: java
+Trying to kill: 13966 sh
+killed: sh
+------
+
+RUN NO. 19,2 scope=11
+./sledgehammer/FFT/uf.786894.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.786894.smt2
+TIMEOUT
+Need to kill: 14154 z3
+Need to kill: 14070 java
+Need to kill: 14069 sh
+Trying to kill: 14154 z3
+killed: z3
+Trying to kill: 14070 java
+killed: java
+Trying to kill: 14069 sh
+killed: sh
+------
+
+RUN NO. 19,3 scope=7
+./sledgehammer/FFT/uf.786894.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.786894.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.029
+Applying transformer: Enum Elimination Transformer... 0.010
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.028
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.047
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.407
+Applying transformer: Range Formula Transformer... 0.024
+Applying transformer: Simplify Transformer... 0.141
+Applying transformer: Domain Elimination Transformer... 0.247
+Total transformation time: 0.959
+Invoking solver strategy...
+Converting to solver format: 0.481
+Z3 solver time: 111.068
+Done. Result was Unsat.
+TOTAL time: 112.514
+Unsat
+
+Python time: 1m 53.409s
+------
+
+RUN NO. 20,1 scope=18
+./sledgehammer/Fundamental_Theorem_Algebra/uf.633046.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.633046.smt2
+TIMEOUT
+Need to kill: 14339 z3
+Need to kill: 14253 java
+Need to kill: 14252 sh
+Trying to kill: 14339 z3
+killed: z3
+Trying to kill: 14253 java
+killed: java
+Trying to kill: 14252 sh
+killed: sh
+------
+
+RUN NO. 20,2 scope=11
+./sledgehammer/Fundamental_Theorem_Algebra/uf.633046.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.633046.smt2
+TIMEOUT
+Need to kill: 14438 z3
+Need to kill: 14354 java
+Need to kill: 14353 sh
+Trying to kill: 14438 z3
+killed: z3
+Trying to kill: 14354 java
+killed: java
+Trying to kill: 14353 sh
+killed: sh
+------
+
+RUN NO. 20,3 scope=7
+./sledgehammer/Fundamental_Theorem_Algebra/uf.633046.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.633046.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.023
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.028
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.059
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.370
+Applying transformer: Range Formula Transformer... 0.021
+Applying transformer: Simplify Transformer... 0.121
+Applying transformer: Domain Elimination Transformer... 0.211
+Total transformation time: 0.863
+Invoking solver strategy...
+Converting to solver format: 0.373
+Z3 solver time: 46.145
+Done. Result was Unsat.
+TOTAL time: 47.386
+Unsat
+
+Python time: 0m 48.23s
+------
+
+RUN NO. 21,1 scope=18
+./sledgehammer/Hoare/uf.764283.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.764283.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.030
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.007
+Applying transformer: Skolemize Transformer... 0.041
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.058
+Applying transformer: Quantifier Expansion Transformer (-, -)... 
+Python time: 16m 1.885s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.764283.smt2
+------
+
+RUN NO. 21,2 scope=11
+./sledgehammer/Hoare/uf.764283.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.764283.smt2
+TIMEOUT
+Need to kill: 14718 z3
+Need to kill: 14628 java
+Need to kill: 14627 sh
+Trying to kill: 14718 z3
+killed: z3
+Trying to kill: 14628 java
+killed: java
+Trying to kill: 14627 sh
+killed: sh
+------
+
+RUN NO. 21,3 scope=7
+./sledgehammer/Hoare/uf.764283.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.764283.smt2
+TIMEOUT
+Need to kill: 14816 z3
+Need to kill: 14731 java
+Need to kill: 14730 sh
+Trying to kill: 14816 z3
+killed: z3
+Trying to kill: 14731 java
+killed: java
+Trying to kill: 14730 sh
+killed: sh
+------
+
+RUN NO. 21,4 scope=5
+./sledgehammer/Hoare/uf.764283.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./sledgehammer/Hoare/uf.764283.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.030
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.037
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.051
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.458
+Applying transformer: Range Formula Transformer... 0.019
+Applying transformer: Simplify Transformer... 0.323
+Applying transformer: Domain Elimination Transformer... 0.201
+Total transformation time: 1.151
+Invoking solver strategy...
+Converting to solver format: 0.533
+Z3 solver time: 52.138
+Done. Result was Unsat.
+TOTAL time: 53.827
+Unsat
+
+Python time: 0m 54.729s
+------
+
+RUN NO. 22,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_18_50_427_2851946.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_18_50_427_2851946.smt_in.smt2
+TIMEOUT
+Need to kill: 14911 java
+Need to kill: 14910 sh
+Trying to kill: 14911 java
+killed: java
+Trying to kill: 14910 sh
+killed: sh
+------
+
+RUN NO. 22,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_18_50_427_2851946.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_18_50_427_2851946.smt_in.smt2
+TIMEOUT
+Need to kill: 15140 z3
+Need to kill: 15016 java
+Need to kill: 15015 sh
+Trying to kill: 15140 z3
+killed: z3
+Trying to kill: 15016 java
+killed: java
+Trying to kill: 15015 sh
+killed: sh
+------
+
+RUN NO. 22,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_18_50_427_2851946.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_18_50_427_2851946.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.083
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.095
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.109
+Applying transformer: Quantifier Expansion Transformer (-, -)... 9.183
+Applying transformer: Range Formula Transformer... 0.285
+Applying transformer: Simplify Transformer... 3.952
+Applying transformer: Domain Elimination Transformer... 2.432
+Total transformation time: 16.181
+Invoking solver strategy...
+Converting to solver format: 9.623
+Z3 solver time: 278.907
+Done. Result was Unsat.
+TOTAL time: 304.715
+Unsat
+
+Python time: 5m 5.707s
+------
+
+RUN NO. 23,1 scope=18
+./sledgehammer/FFT/uf.672005.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.672005.smt2
+TIMEOUT
+Need to kill: 15395 z3
+Need to kill: 15307 java
+Need to kill: 15306 sh
+Trying to kill: 15395 z3
+killed: z3
+Trying to kill: 15307 java
+killed: java
+Trying to kill: 15306 sh
+killed: sh
+------
+
+RUN NO. 23,2 scope=11
+./sledgehammer/FFT/uf.672005.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.672005.smt2
+TIMEOUT
+Need to kill: 15514 z3
+Need to kill: 15437 java
+Need to kill: 15436 sh
+Trying to kill: 15514 z3
+killed: z3
+Trying to kill: 15437 java
+killed: java
+Trying to kill: 15436 sh
+killed: sh
+------
+
+RUN NO. 23,3 scope=7
+./sledgehammer/FFT/uf.672005.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.672005.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.019
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.022
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.035
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.195
+Applying transformer: Range Formula Transformer... 0.012
+Applying transformer: Simplify Transformer... 0.133
+Applying transformer: Domain Elimination Transformer... 0.098
+Total transformation time: 0.544
+Invoking solver strategy...
+Converting to solver format: 0.248
+Z3 solver time: 280.882
+Done. Result was Unsat.
+TOTAL time: 281.679
+Unsat
+
+Python time: 4m 42.512s
+------
+
+RUN NO. 24,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_08_306_1594995.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_08_306_1594995.smt_in.smt2
+TIMEOUT
+Need to kill: 16100 z3
+Need to kill: 15991 java
+Need to kill: 15990 sh
+Trying to kill: 16100 z3
+killed: z3
+Trying to kill: 15991 java
+killed: java
+Trying to kill: 15990 sh
+killed: sh
+------
+
+RUN NO. 24,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_08_306_1594995.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_08_306_1594995.smt_in.smt2
+TIMEOUT
+Need to kill: 16525 z3
+Need to kill: 16433 java
+Need to kill: 16432 sh
+Trying to kill: 16525 z3
+killed: z3
+Trying to kill: 16433 java
+killed: java
+Trying to kill: 16432 sh
+killed: sh
+------
+
+RUN NO. 24,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_08_306_1594995.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_08_306_1594995.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.046
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.010
+Applying transformer: Skolemize Transformer... 0.063
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.068
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.820
+Applying transformer: Range Formula Transformer... 0.031
+Applying transformer: Simplify Transformer... 0.667
+Applying transformer: Domain Elimination Transformer... 0.383
+Total transformation time: 2.119
+Invoking solver strategy...
+Converting to solver format: 1.429
+Z3 solver time: 17.292
+Done. Result was Unsat.
+TOTAL time: 20.845
+Unsat
+
+Python time: 0m 21.736s
+------
+
+RUN NO. 25,1 scope=18
+./sledgehammer/TypeSafe/smtlib.713939.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.713939.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.076
+Applying transformer: Enum Elimination Transformer... 0.010
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.083
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.159
+Applying transformer: Quantifier Expansion Transformer (-, -)... 
+Python time: 15m 19.6s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.713939.smt2
+------
+
+RUN NO. 25,2 scope=11
+./sledgehammer/TypeSafe/smtlib.713939.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.713939.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.086
+Applying transformer: Enum Elimination Transformer... 0.010
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.086
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.138
+Applying transformer: Quantifier Expansion Transformer (-, -)... 
+Python time: 17m 39.061s
+
+***Non-zero return code: ./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.713939.smt2
+------
+
+RUN NO. 25,3 scope=7
+./sledgehammer/TypeSafe/smtlib.713939.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.713939.smt2
+TIMEOUT
+Need to kill: 18052 z3
+Need to kill: 17837 java
+Need to kill: 17836 sh
+Trying to kill: 18052 z3
+killed: z3
+Trying to kill: 17837 java
+killed: java
+Trying to kill: 17836 sh
+killed: sh
+------
+
+RUN NO. 25,4 scope=5
+./sledgehammer/TypeSafe/smtlib.713939.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.713939.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.074
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.097
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.171
+Applying transformer: Quantifier Expansion Transformer (-, -)... 14.339
+Applying transformer: Range Formula Transformer... 0.048
+Applying transformer: Simplify Transformer... 5.562
+Applying transformer: Domain Elimination Transformer... 10.292
+Total transformation time: 30.623
+Invoking solver strategy...
+Converting to solver format: 17.828
+Z3 solver time: 170.392
+Done. Result was Unsat.
+TOTAL time: 218.847
+Unsat
+
+Python time: 3m 39.856s
+------
+
+RUN NO. 26,1 scope=18
+./sledgehammer/NS_Shared/smtlib.595554.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.595554.smt2
+TIMEOUT
+Need to kill: 18611 z3
+Need to kill: 18523 java
+Need to kill: 18522 sh
+Trying to kill: 18611 z3
+killed: z3
+Trying to kill: 18523 java
+killed: java
+Trying to kill: 18522 sh
+killed: sh
+------
+
+RUN NO. 26,2 scope=11
+./sledgehammer/NS_Shared/smtlib.595554.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.595554.smt2
+TIMEOUT
+Need to kill: 19231 z3
+Need to kill: 19153 java
+Need to kill: 19152 sh
+Trying to kill: 19231 z3
+killed: z3
+Trying to kill: 19153 java
+killed: java
+Trying to kill: 19152 sh
+killed: sh
+------
+
+RUN NO. 26,3 scope=7
+./sledgehammer/NS_Shared/smtlib.595554.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.595554.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.022
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.033
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.040
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.154
+Applying transformer: Range Formula Transformer... 0.014
+Applying transformer: Simplify Transformer... 0.087
+Applying transformer: Domain Elimination Transformer... 0.068
+Total transformation time: 0.450
+Invoking solver strategy...
+Converting to solver format: 0.174
+Z3 solver time: 6.010
+Done. Result was Unsat.
+TOTAL time: 6.638
+Unsat
+
+Python time: 0m 7.496s
+------
+
+RUN NO. 27,1 scope=18
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+TIMEOUT
+Need to kill: 19813 z3
+Need to kill: 19731 java
+Need to kill: 19730 sh
+Trying to kill: 19813 z3
+killed: z3
+Trying to kill: 19731 java
+killed: java
+Trying to kill: 19730 sh
+killed: sh
+------
+
+RUN NO. 27,2 scope=11
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+TIMEOUT
+Need to kill: 20306 z3
+Need to kill: 20231 java
+Need to kill: 20230 sh
+Trying to kill: 20306 z3
+killed: z3
+Trying to kill: 20231 java
+killed: java
+Trying to kill: 20230 sh
+killed: sh
+------
+
+RUN NO. 27,3 scope=7
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.027
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.047
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.111
+Applying transformer: Range Formula Transformer... 0.024
+Applying transformer: Simplify Transformer... 0.119
+Applying transformer: Domain Elimination Transformer... 0.065
+Total transformation time: 0.438
+Invoking solver strategy...
+Converting to solver format: 0.178
+Z3 solver time: 7.827
+Done. Result was Sat.
+TOTAL time: 8.448
+Sat
+
+Python time: 0m 9.268s
+------
+
+RUN NO. 27,4 scope=9
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.018
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.028
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.050
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.206
+Applying transformer: Range Formula Transformer... 0.021
+Applying transformer: Simplify Transformer... 0.137
+Applying transformer: Domain Elimination Transformer... 0.087
+Total transformation time: 0.575
+Invoking solver strategy...
+Converting to solver format: 0.291
+Z3 solver time: 78.945
+Done. Result was Sat.
+TOTAL time: 79.816
+Sat
+
+Python time: 1m 20.689s
+------
+
+RUN NO. 27,5 scope=10
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.026
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.054
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.229
+Applying transformer: Range Formula Transformer... 0.027
+Applying transformer: Simplify Transformer... 0.172
+Applying transformer: Domain Elimination Transformer... 0.117
+Total transformation time: 0.671
+Invoking solver strategy...
+Converting to solver format: 0.369
+Z3 solver time: 333.306
+Done. Result was Sat.
+TOTAL time: 334.351
+Sat
+
+Python time: 5m 35.182s
+------
+
+RUN NO. 27,6 scope=10
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v3 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.018
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.026
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.103
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.248
+Applying transformer: Range Formula Transformer... 0.046
+Applying transformer: Simplify Transformer... 0.194
+Applying transformer: Domain Elimination Transformer... 0.132
+Total transformation time: 0.797
+Invoking solver strategy...
+Converting to solver format: 0.414
+Z3 solver time: 266.889
+Done. Result was Sat.
+TOTAL time: 268.104
+Sat
+
+Python time: 4m 28.956s
+------
+
+RUN NO. 27,7 scope=10
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.028
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.265
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.241
+Applying transformer: Range Formula Transformer... 0.044
+Applying transformer: Simplify Transformer... 0.233
+Applying transformer: Domain Elimination Transformer... 0.146
+Total transformation time: 1.003
+Invoking solver strategy...
+Converting to solver format: 0.386
+Z3 solver time: 131.388
+Done. Result was Sat.
+TOTAL time: 132.781
+Sat
+
+Python time: 2m 13.611s
+------
+
+RUN NO. 28,1 scope=18
+./sledgehammer/QEpres/smtlib.984268.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/QEpres/smtlib.984268.smt2
+TIMEOUT
+Need to kill: 21566 z3
+Need to kill: 21475 java
+Need to kill: 21474 sh
+Trying to kill: 21566 z3
+killed: z3
+Trying to kill: 21475 java
+killed: java
+Trying to kill: 21474 sh
+killed: sh
+------
+
+RUN NO. 28,2 scope=11
+./sledgehammer/QEpres/smtlib.984268.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/QEpres/smtlib.984268.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.011
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.013
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.030
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.624
+Applying transformer: Range Formula Transformer... 0.027
+Applying transformer: Simplify Transformer... 0.291
+Applying transformer: Domain Elimination Transformer... 0.317
+Total transformation time: 1.338
+Invoking solver strategy...
+Converting to solver format: 0.659
+Z3 solver time: 32.083
+Done. Result was Sat.
+TOTAL time: 34.084
+Sat
+
+Python time: 0m 34.897s
+------
+
+RUN NO. 28,3 scope=15
+./sledgehammer/QEpres/smtlib.984268.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v1 --rawdata ../UF/./sledgehammer/QEpres/smtlib.984268.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.011
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.014
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.031
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.949
+Applying transformer: Range Formula Transformer... 0.028
+Applying transformer: Simplify Transformer... 0.654
+Applying transformer: Domain Elimination Transformer... 1.061
+Total transformation time: 3.773
+Invoking solver strategy...
+Converting to solver format: 2.235
+Z3 solver time: 323.076
+Done. Result was Sat.
+TOTAL time: 329.088
+Sat
+
+Python time: 5m 29.913s
+------
+
+RUN NO. 28,4 scope=15
+./sledgehammer/QEpres/smtlib.984268.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3 --rawdata ../UF/./sledgehammer/QEpres/smtlib.984268.smt2
+TIMEOUT
+Need to kill: 22443 z3
+Need to kill: 22353 java
+Need to kill: 22352 sh
+Trying to kill: 22443 z3
+killed: z3
+Trying to kill: 22353 java
+killed: java
+Trying to kill: 22352 sh
+killed: sh
+------
+
+RUN NO. 28,5 scope=13
+./sledgehammer/QEpres/smtlib.984268.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 13 --version v1 --rawdata ../UF/./sledgehammer/QEpres/smtlib.984268.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.011
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.013
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.030
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.102
+Applying transformer: Range Formula Transformer... 0.024
+Applying transformer: Simplify Transformer... 0.495
+Applying transformer: Domain Elimination Transformer... 0.735
+Total transformation time: 2.436
+Invoking solver strategy...
+Converting to solver format: 1.375
+Z3 solver time: 88.841
+Done. Result was Sat.
+TOTAL time: 92.656
+Sat
+
+Python time: 1m 33.482s
+------
+
+RUN NO. 28,6 scope=14
+./sledgehammer/QEpres/smtlib.984268.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 14 --version v1 --rawdata ../UF/./sledgehammer/QEpres/smtlib.984268.smt2
+TIMEOUT
+Need to kill: 23079 z3
+Need to kill: 22994 java
+Need to kill: 22993 sh
+Trying to kill: 23079 z3
+killed: z3
+Trying to kill: 22994 java
+killed: java
+Trying to kill: 22993 sh
+killed: sh
+------
+
+RUN NO. 29,1 scope=18
+./sledgehammer/TwoSquares/uf.810457.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/TwoSquares/uf.810457.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.012
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.017
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.021
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.316
+Applying transformer: Range Formula Transformer... 0.013
+Applying transformer: Simplify Transformer... 0.262
+Applying transformer: Domain Elimination Transformer... 0.129
+Total transformation time: 0.794
+Invoking solver strategy...
+Converting to solver format: 0.352
+Z3 solver time: 23.654
+Done. Result was Sat.
+TOTAL time: 24.804
+Sat
+
+Python time: 0m 25.627s
+------
+
+RUN NO. 29,2 scope=25
+./sledgehammer/TwoSquares/uf.810457.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 25 --version v1 --rawdata ../UF/./sledgehammer/TwoSquares/uf.810457.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.013
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.018
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.022
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.734
+Applying transformer: Range Formula Transformer... 0.019
+Applying transformer: Simplify Transformer... 0.501
+Applying transformer: Domain Elimination Transformer... 0.306
+Total transformation time: 1.638
+Invoking solver strategy...
+Converting to solver format: 0.905
+Z3 solver time: 719.853
+Done. Result was Sat.
+TOTAL time: 722.400
+Sat
+
+Python time: 12m 3.21s
+------
+
+RUN NO. 29,3 scope=25
+./sledgehammer/TwoSquares/uf.810457.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 25 --version v3 --rawdata ../UF/./sledgehammer/TwoSquares/uf.810457.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.013
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.017
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.066
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.707
+Applying transformer: Range Formula Transformer... 0.024
+Applying transformer: Simplify Transformer... 0.464
+Applying transformer: Domain Elimination Transformer... 0.299
+Total transformation time: 1.615
+Invoking solver strategy...
+Converting to solver format: 0.880
+Z3 solver time: 771.728
+Done. Result was Sat.
+TOTAL time: 774.227
+Sat
+
+Python time: 12m 55.065s
+------
+
+RUN NO. 29,4 scope=25
+./sledgehammer/TwoSquares/uf.810457.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 25 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.810457.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.013
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.017
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.124
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.713
+Applying transformer: Range Formula Transformer... 0.022
+Applying transformer: Simplify Transformer... 0.471
+Applying transformer: Domain Elimination Transformer... 0.260
+Total transformation time: 1.646
+Invoking solver strategy...
+Converting to solver format: 0.883
+Z3 solver time: 780.495
+Done. Result was Sat.
+TOTAL time: 783.027
+Sat
+
+Python time: 13m 3.859s
+------
+
+RUN NO. 30,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_59_46_012_1301922.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_59_46_012_1301922.smt_in.smt2
+TIMEOUT
+Need to kill: 24669 java
+Need to kill: 24668 sh
+Trying to kill: 24669 java
+killed: java
+Trying to kill: 24668 sh
+killed: sh
+------
+
+RUN NO. 30,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_59_46_012_1301922.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_59_46_012_1301922.smt_in.smt2
+TIMEOUT
+Need to kill: 25366 java
+Need to kill: 25365 sh
+Trying to kill: 25366 java
+killed: java
+Trying to kill: 25365 sh
+killed: sh
+------
+
+RUN NO. 30,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_59_46_012_1301922.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_59_46_012_1301922.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.084
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.100
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.144
+Applying transformer: Quantifier Expansion Transformer (-, -)... 147.960
+Applying transformer: Range Formula Transformer... 1.172
+Applying transformer: Simplify Transformer... 183.082
+Applying transformer: Domain Elimination Transformer... 87.042
+Total transformation time: 419.628
+Invoking solver strategy...
+Converting to solver format: 433.191
+Z3 solver time: 96.708
+Done. Result was Unsat.
+TOTAL time: 949.532
+Unsat
+
+Python time: 15m 50.882s
+------
+
+RUN NO. 31,1 scope=18
+./sledgehammer/Arrow_Order/uf.800448.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Arrow_Order/uf.800448.smt2

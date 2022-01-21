@@ -1,0 +1,177 @@
+31, ./sledgehammer/Arrow_Order/uf.800448.smt2, no scope finishes in time range for all versions, 0
+32, ./sledgehammer/TwoSquares/uf.663922.smt2, sat, 8
+33, ./sledgehammer/TwoSquares/uf.812258.smt2, sat, 30
+34, ./sledgehammer/QEpres/uf.709796.smt2, not sat, 0
+35, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_24_06_393_1183277.smt_in.smt2, no scope finishes in time range for all versions, 0
+36, ./sledgehammer/Hoare/smtlib.946488.smt2, not sat, 0
+37, ./sledgehammer/FFT/uf.846723.smt2, not sat, 0
+38, ./sledgehammer/QEpres/uf.987659.smt2, sat, 15
+39, ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768393.smt2, sat, 21
+40, ./sledgehammer/NS_Shared/smtlib.589172.smt2, not sat, 0
+41, ./sledgehammer/QEpres/uf.721680.smt2, not sat, 0
+42, ./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_57_42_212_1161461.smt_in.smt2, not sat, 0
+43, ./sledgehammer/FFT/uf.636327.smt2, not sat, 0
+44, ./sledgehammer/FFT/uf.638714.smt2, sat, 9
+45, ./sledgehammer/Fundamental_Theorem_Algebra/uf.624259.smt2, sat, 9
+46, ./sledgehammer/QEpres/uf.710024.smt2, not sat, 0
+47, ./sledgehammer/Arrow_Order/uf.838235.smt2, no scope finishes in time range for all versions, 0
+48, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1295955.smt2, no scope finishes in time range for all versions, 0
+49, ./sledgehammer/QEpres/uf.802712.smt2, not sat, 0
+50, ./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_57_15_725_1133432.smt_in.smt2, no scope finishes in time range for all versions, 0
+51, ./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-9.smt2, no scope finishes in time range for all versions, 0
+52, ./sledgehammer/Fundamental_Theorem_Algebra/uf.735289.smt2, sat, 15
+53, ./sledgehammer/TwoSquares/uf.754203.smt2, no scope finishes in time range for all versions, 0
+54, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2, sat, 15
+55, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2, sat, 8
+56, ./sledgehammer/NS_Shared/smtlib.592411.smt2, not sat, 0
+57, ./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2, sat, 8
+58, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_45_128_1930757.smt_in.smt2, no scope finishes in time range for all versions, 0
+59, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_02_44_169_1850576.smt_in.smt2, not sat, 0
+60, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1295569.smt2, not sat, 0
+61, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1225284.smt2, no scope finishes in time range for all versions, 0
+62, ./sledgehammer/FFT/uf.829247.smt2, not sat, 0
+63, ./sledgehammer/TwoSquares/uf.754283.smt2, no scope finishes in time range for all versions, 0
+64, ./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_57_31_736_1151380.smt_in.smt2, no scope finishes in time range for all versions, 0
+65, ./sledgehammer/QEpres/uf.692344.smt2, not sat, 0
+66, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_02_55_698_1865622.smt_in.smt2, not sat, 0
+67, ./sledgehammer/Hoare/uf.571654.smt2, not sat, 0
+68, ./sledgehammer/QEpres/uf.1021012.smt2, sat, 15
+69, ./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_17_00_02_527_1958677.smt_in.smt2, no scope finishes in time range for all versions, 0
+70, ./sledgehammer/Hoare/uf.717436.smt2, not sat, 0
+71, ./sledgehammer/Arrow_Order/z3.726701.smt2, sat, 30
+72, ./sledgehammer/TypeSafe/smtlib.1449645.smt2, no scope finishes in time range for all versions, 0
+73, ./sledgehammer/Fundamental_Theorem_Algebra/uf.980348.smt2, no scope finishes in time range for all versions, 0
+74, ./sledgehammer/Fundamental_Theorem_Algebra/uf.815463.smt2, not sat, 0
+75, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1190366.smt2, not sat, 0
+76, ./20190906-CLEARSY/0018/00092.smt2, non-zero output, not known overflow or timeout, 0
+77, ./sledgehammer/Fundamental_Theorem_Algebra/uf.991564.smt2, not sat, 0
+78, ./sledgehammer/Hoare/smtlib.1210111.smt2, not sat, 0
+79, ./sledgehammer/Fundamental_Theorem_Algebra/uf.762413.smt2, sat, 9
+80, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_23_844_1500987.smt_in.smt2, not sat, 0
+81, ./sledgehammer/Hoare/uf.906117.smt2, not sat, 0
+82, ./sledgehammer/QEpres/uf.982274.smt2, sat, 14
+83, ./20190906-CLEARSY/0023/00302.smt2, non-zero output, not known overflow or timeout, 0
+84, ./sledgehammer/NS_Shared/smtlib.592202.smt2, not sat, 0
+85, ./sledgehammer/FFT/uf.656241.smt2, sat, 15
+86, ./sledgehammer/Hoare/uf.1075670.smt2, not sat, 0
+87, ./20190906-CLEARSY/0016/00401.smt2, non-zero output, not known overflow or timeout, 0
+88, ./sledgehammer/QEpres/uf.902376.smt2, not sat, 0
+89, ./sledgehammer/QEpres/uf.847784.smt2, sat, 18
+90, ./sledgehammer/Fundamental_Theorem_Algebra/uf.620366.smt2, not sat, 0
+91, ./sledgehammer/Fundamental_Theorem_Algebra/uf.774257.smt2, sat, 8
+92, ./20170428-Barrett/cdt-cade2015/nada/gandl/cotree/x2015_09_10_16_50_32_377_1061137.smt_in.smt2, no scope finishes in time range for all versions, 0
+93, ./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_17_00_00_771_1955911.smt_in.smt2, not sat, 0
+94, ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768401.smt2, no scope finishes in time range for all versions, 0
+95, ./sledgehammer/TwoSquares/uf.614718.smt2, sat, 18
+96, ./sledgehammer/NS_Shared/uf.575493.smt2, not sat, 0
+97, ./sledgehammer/Fundamental_Theorem_Algebra/uf.731832.smt2, sat, 11
+98, ./sledgehammer/Hoare/uf.1020827.smt2, sat, 10
+99, ./sledgehammer/QEpres/uf.734915.smt2, not sat, 0
+100, ./sledgehammer/Hoare/smtlib.936401.smt2, not sat, 0
+101, ./sledgehammer/QEpres/uf.916595.smt2, not sat, 0
+102, ./sledgehammer/Fundamental_Theorem_Algebra/uf.818041.smt2, not sat, 0
+103, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1443347.smt2, not sat, 0
+104, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_30_626_1615786.smt_in.smt2, not sat, 0
+105, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2, sat, 13
+106, ./sledgehammer/FFT/uf.564278.smt2, not sat, 0
+107, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_22_24_294_1088247.smt_in.smt2, not sat, 0
+108, ./sledgehammer/TypeSafe/uf.714544.smt2, not sat, 0
+109, ./sledgehammer/Hoare/smtlib.1237999.smt2, no scope finishes in time range for all versions, 0
+110, ./sledgehammer/Fundamental_Theorem_Algebra/uf.602901.smt2, not sat, 0
+111, ./sledgehammer/FFT/uf.799236.smt2, not sat, 0
+112, ./sledgehammer/Fundamental_Theorem_Algebra/uf.563103.smt2, sat, 22
+113, ./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_10_240_1024216.smt_in.smt2, no scope finishes in time range for all versions, 0
+114, ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768411.smt2, sat, 23
+115, ./sledgehammer/QEpres/uf.706412.smt2, not sat, 0
+116, ./sledgehammer/TypeSafe/uf.705099.smt2, no scope finishes in time range for all versions, 0
+117, ./sledgehammer/Hoare/uf.674326.smt2, not sat, 0
+118, ./sledgehammer/FFT/uf.593969.smt2, not sat, 0
+119, ./sledgehammer/StrongNorm/uf.574168.smt2, not sat, 0
+120, ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.723494.smt2, not sat, 0
+121, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2, sat, 6
+122, ./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-8.smt2, no scope finishes in time range for all versions, 0
+123, ./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_59_56_949_1954217.smt_in.smt2, not sat, 0
+124, ./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_50_15_352_1236971.smt_in.smt2, not sat, 0
+125, ./sledgehammer/Hoare/uf.1029313.smt2, not sat, 0
+126, ./sledgehammer/Fundamental_Theorem_Algebra/uf.620472.smt2, sat, 13
+127, ./sledgehammer/FFT/uf.831735.smt2, not sat, 0
+128, ./sledgehammer/Hoare/smtlib.1177204.smt2, not sat, 0
+129, ./sledgehammer/FFT/uf.796794.smt2, not sat, 0
+130, ./sledgehammer/Hoare/uf.897425.smt2, not sat, 0
+131, ./sledgehammer/Hoare/uf.690390.smt2, not sat, 0
+132, ./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_57_10_938_1128792.smt_in.smt2, no scope finishes in time range for all versions, 0
+133, ./sledgehammer/FFT/uf.557456.smt2, sat, 8
+134, ./sledgehammer/TwoSquares/uf.759421.smt2, no scope finishes in time range for all versions, 0
+135, ./sledgehammer/Hoare/smtlib.1113599.smt2, sat, 10
+136, ./sledgehammer/NS_Shared/smtlib.631475.smt2, sat, 8
+137, ./sledgehammer/TypeSafe/smtlib.1492800.smt2, no scope finishes in time range for all versions, 0
+138, ./sledgehammer/FFT/uf.892719.smt2, sat, 26
+139, ./sledgehammer/TwoSquares/uf.596948.smt2, sat, 18
+140, ./sledgehammer/TypeSafe/uf.758991.smt2, no scope finishes in time range for all versions, 0
+141, ./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_51_14_432_1299856.smt_in.smt2, not sat, 0
+142, ./sledgehammer/FFT/uf.915721.smt2, sat, 25
+143, ./sledgehammer/FFT/uf.869937.smt2, not sat, 0
+144, ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.710152.smt2, not sat, 0
+145, ./sledgehammer/TypeSafe/smtlib.734366.smt2, not sat, 0
+146, ./sledgehammer/Hoare/smtlib.1068690.smt2, not sat, 0
+147, ./sledgehammer/FFT/uf.752994.smt2, no scope finishes in time range for all versions, 0
+148, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_35_002_2247287.smt_in.smt2, not sat, 0
+149, ./sledgehammer/Hoare/uf.575042.smt2, no scope finishes in time range for all versions, 0
+150, ./sledgehammer/FFT/uf.649232.smt2, not sat, 0
+151, ./sledgehammer/FFT/uf.847616.smt2, not sat, 0
+152, ./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_00_926_1067930.smt_in.smt2, not sat, 0
+153, ./sledgehammer/Hoare/uf.575069.smt2, sat, 5
+154, ./sledgehammer/Fundamental_Theorem_Algebra/uf.815890.smt2, not sat, 0
+155, ./sledgehammer/Hoare/uf.764575.smt2, not sat, 0
+156, ./sledgehammer/FFT/uf.796970.smt2, sat, 9
+157, ./sledgehammer/Arrow_Order/uf.800289.smt2, no scope finishes in time range for all versions, 0
+158, ./sledgehammer/FFT/uf.709529.smt2, not sat, 0
+159, ./sledgehammer/Fundamental_Theorem_Algebra/uf.908739.smt2, no scope finishes in time range for all versions, 0
+160, ./sledgehammer/FFT/uf.652299.smt2, not sat, 0
+161, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_18_46_498_2849524.smt_in.smt2, not sat, 0
+162, ./sledgehammer/TwoSquares/uf.663784.smt2, sat, 8
+163, ./sledgehammer/Fundamental_Theorem_Algebra/uf.558431.smt2, not sat, 0
+164, ./sledgehammer/FFT/uf.707472.smt2, not sat, 0
+165, ./sledgehammer/FFT/uf.679490.smt2, sat, 11
+166, ./sledgehammer/NS_Shared/uf.583901.smt2, not sat, 0
+167, ./sledgehammer/Fundamental_Theorem_Algebra/uf.786008.smt2, not sat, 0
+168, ./sledgehammer/FFT/uf.724605.smt2, not sat, 0
+169, ./sledgehammer/QEpres/uf.804859.smt2, sat, 28
+170, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_02_860_1479702.smt_in.smt2, no scope finishes in time range for all versions, 0
+171, ./sledgehammer/Hoare/uf.793960.smt2, not sat, 0
+172, ./sledgehammer/Hoare/uf.785543.smt2, not sat, 0
+173, ./sledgehammer/Fundamental_Theorem_Algebra/uf.939351.smt2, no scope finishes in time range for all versions, 0
+174, ./sledgehammer/Fundamental_Theorem_Algebra/uf.580702.smt2, not sat, 0
+175, ./sledgehammer/TwoSquares/uf.636812.smt2, no scope finishes in time range for all versions, 0
+176, ./sledgehammer/FFT/uf.807359.smt2, not sat, 0
+177, ./20190906-CLEARSY/0015/00415.smt2, non-zero output, not known overflow or timeout, 0
+178, ./sledgehammer/FFT/uf.891324.smt2, not sat, 0
+179, ./sledgehammer/QEpres/uf.658047.smt2, sat, 9
+180, ./sledgehammer/Hoare/uf.1020858.smt2, no scope finishes in time range for all versions, 0
+181, ./sledgehammer/QEpres/uf.721948.smt2, no scope finishes in time range for all versions, 0
+182, ./sledgehammer/FFT/uf.745291.smt2, sat, 7
+183, ./sledgehammer/TwoSquares/uf.715927.smt2, sat, 11
+184, ./sledgehammer/FFT/uf.791813.smt2, not sat, 0
+185, ./sledgehammer/Fundamental_Theorem_Algebra/uf.727624.smt2, sat, 10
+186, ./sledgehammer/StrongNorm/uf.758566.smt2, not sat, 0
+187, ./sledgehammer/Hoare/uf.772764.smt2, not sat, 0
+188, ./sledgehammer/QEpres/uf.855035.smt2, not sat, 0
+189, ./sledgehammer/NS_Shared/smtlib.722349.smt2, not sat, 0
+190, ./sledgehammer/TypeSafe/uf.705417.smt2, no scope finishes in time range for all versions, 0
+191, ./sledgehammer/QEpres/uf.581004.smt2, sat, 14
+192, ./sledgehammer/FFT/uf.771115.smt2, not sat, 0
+193, ./sledgehammer/FFT/uf.824627.smt2, not sat, 0
+194, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_12_533_1545974.smt_in.smt2, not sat, 0
+195, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_01_970_2285816.smt_in.smt2, not sat, 0
+196, ./sledgehammer/FFT/uf.564493.smt2, not sat, 0
+197, ./sledgehammer/Hoare/uf.1093691.smt2, not sat, 0
+198, ./sledgehammer/Fundamental_Theorem_Algebra/uf.711399.smt2, not sat, 0
+199, ./sledgehammer/Fundamental_Theorem_Algebra/uf.729868.smt2, not sat, 0
+200, ./sledgehammer/FFT/uf.911849.smt2, sat, 18
+201, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_02_969_2287043.smt_in.smt2, not sat, 0
+202, ./sledgehammer/Hoare/z3.721436.smt2, sat, 21
+203, ./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_31_124_1370932.smt_in.smt2, not sat, 0
+204, ./20190906-CLEARSY/0016/00649.smt2, non-zero output, not known overflow or timeout, 0
+205, ./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_45_54_120_999406.smt_in.smt2, no scope finishes in time range for all versions, 0
+206, ./20190906-CLEARSY/0023/00907.smt2, non-zero output, not known overflow or timeout, 0
+207, ./sledgehammer/TypeSafe/uf.621156.smt2, sat, 5
