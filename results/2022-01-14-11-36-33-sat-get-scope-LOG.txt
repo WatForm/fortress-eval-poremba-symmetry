@@ -1,0 +1,27 @@
+4, ./sledgehammer/Hoare/uf.574997.smt2, sat, 5
+5, ./sledgehammer/Hoare/uf.690289.smt2, not sat, 0
+6, ./20170428-Barrett/cdt-cade2015/nada/distro/stream_processor/x2015_09_10_16_46_04_392_1017490.smt_in.smt2, not sat, 0
+7, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2, sat, 6
+8, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_40_300_2744817.smt_in.smt2, not sat, 0
+9, ./sledgehammer/Hoare/uf.1097483.smt2, not sat, 0
+10, ./sledgehammer/TypeSafe/smtlib.1426402.smt2, no scope finishes in time range for all versions, 0
+11, ./wintersteiger/fmsd13/fixpoint/small-bug1-fixpoint-2.smt2, no scope finishes in time range for all versions, 0
+12, ./sledgehammer/QEpres/uf.1123092.smt2, sat, 15
+13, ./sledgehammer/FFT/uf.794316.smt2, not sat, 0
+14, ./sledgehammer/NS_Shared/smtlib.654800.smt2, no scope finishes in time range for all versions, 0
+15, ./sledgehammer/FFT/uf.904687.smt2, not sat, 0
+16, ./sledgehammer/QEpres/uf.778020.smt2, not sat, 0
+17, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1261274.smt2, not sat, 0
+18, ./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_58_46_766_1848627.smt_in.smt2, no scope finishes in time range for all versions, 0
+19, ./sledgehammer/FFT/uf.786894.smt2, not sat, 0
+20, ./sledgehammer/Fundamental_Theorem_Algebra/uf.633046.smt2, not sat, 0
+21, ./sledgehammer/Hoare/uf.764283.smt2, not sat, 0
+22, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_18_50_427_2851946.smt_in.smt2, not sat, 0
+23, ./sledgehammer/FFT/uf.672005.smt2, not sat, 0
+24, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_08_306_1594995.smt_in.smt2, not sat, 0
+25, ./sledgehammer/TypeSafe/smtlib.713939.smt2, not sat, 0
+26, ./sledgehammer/NS_Shared/smtlib.595554.smt2, not sat, 0
+27, ./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2, sat, 10
+28, ./sledgehammer/QEpres/smtlib.984268.smt2, no scope finishes in time range for all versions, 0
+29, ./sledgehammer/TwoSquares/uf.810457.smt2, sat, 25
+30, ./20170428-Barrett/cdt-cade2015/nada/afp/tllist/x2015_09_10_16_59_46_012_1301922.smt_in.smt2, not sat, 0

@@ -1,0 +1,5 @@
+./sledgehammer/Hoare/uf.574997.smt2, sat, 5
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2, sat, 6
+./sledgehammer/QEpres/uf.1123092.smt2, sat, 15
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2, sat, 10
+./sledgehammer/TwoSquares/uf.810457.smt2, sat, 25
