@@ -4,3 +4,7 @@
 
 2022-01-15
 31-   : restart at 31 with looking up old scopes if possible
+Found 50 although did not stop job b/c forget to reset goalcounter from 0
+
+2022-01-21
+started looking for unsat files

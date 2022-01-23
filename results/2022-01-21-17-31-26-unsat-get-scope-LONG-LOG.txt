@@ -1,0 +1,3038 @@
+
+RUN NO. 1,1 scope=18
+./sledgehammer/TypeSafe/smtlib.1201697.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.1201697.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.193
+Applying transformer: Enum Elimination Transformer... 0.017
+Applying transformer: Negation Normal Form Transformer... 0.021
+Applying transformer: Skolemize Transformer... 0.119
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.194
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 28.991s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 1,2 scope=11
+./sledgehammer/TypeSafe/smtlib.1201697.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.1201697.smt2
+TIMEOUT
+Need to kill: 19974 java
+Need to kill: 19973 sh
+Trying to kill: 19974 java
+killed: java
+Trying to kill: 19973 sh
+killed: sh
+------
+
+RUN NO. 1,3 scope=7
+./sledgehammer/TypeSafe/smtlib.1201697.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.1201697.smt2
+TIMEOUT
+Need to kill: 20202 java
+Need to kill: 20201 sh
+Trying to kill: 20202 java
+killed: java
+Trying to kill: 20201 sh
+killed: sh
+------
+
+RUN NO. 1,4 scope=5
+./sledgehammer/TypeSafe/smtlib.1201697.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/smtlib.1201697.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.189
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.015
+Applying transformer: Skolemize Transformer... 0.092
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.232
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 42.633s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 2,1 scope=18
+./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.020
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.034
+Applying transformer: Quantifier Expansion Transformer (-, -)... 23.615
+Applying transformer: Range Formula Transformer... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.collection.immutable.Vector1.map(Vector.scala:1819)
+	at scala.collection.immutable.Vector1.map(Vector.scala:348)
+	at fortress.operations.TermOps.equalsOneOf(TermOps.scala:85)
+	at fortress.transformers.RangeFormulaTransformer.$anonfun$apply$11(RangeFormulaTransformer.scala:82)
+	at fortress.transformers.RangeFormulaTransformer$$Lambda$334/0x0000000800d54840.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)
+	at fortress.data.CartesianSeqProduct.foreach(CartesianSeqProduct.scala:19)
+	at fortress.transformers.RangeFormulaTransformer.$anonfun$apply$7(RangeFormulaTransformer.scala:77)
+	at fortress.transformers.RangeFormulaTransformer.$anonfun$apply$7$adapted(RangeFormulaTransformer.scala:49)
+	at fortress.transformers.RangeFormulaTransformer$$Lambda$330/0x0000000800d51840.apply(Unknown Source)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:553)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:551)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:920)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:890)
+	at fortress.transformers.RangeFormulaTransformer.apply(RangeFormulaTransformer.scala:49)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$4(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$206/0x0000000800cd3840.apply(Unknown Source)
+	at fortress.util.Control$.measureTime(Control.scala:8)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$2(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$204/0x0000000800cd4840.apply(Unknown Source)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:168)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:164)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$1(LogicCompiler.scala:27)
+	at fortress.compiler.LogicCompiler$$Lambda$203/0x0000000800cd5840.apply(Unknown Source)
+	at fortress.util.Control$.withCountdown(Control.scala:22)
+	at fortress.compiler.LogicCompiler.compile(LogicCompiler.scala:26)
+	at fortress.compiler.LogicCompiler.compile$(LogicCompiler.scala:18)
+	at fortress.compiler.BaseFortressCompiler.compile(FortressCompilers.scala:14)
+	at fortress.modelfind.CompilationModelFinder.checkSat(CompilationModelFinder.scala:33)
+	at fortress.cli.FortressDebug$.main(FortressDebug.scala:102)
+
+Python time: 6m 55.526s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 2,2 scope=11
+./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+TIMEOUT
+Need to kill: 20844 z3
+Need to kill: 20746 java
+Need to kill: 20745 sh
+Trying to kill: 20844 z3
+killed: z3
+Trying to kill: 20746 java
+killed: java
+Trying to kill: 20745 sh
+killed: sh
+------
+
+RUN NO. 2,3 scope=7
+./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.022
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.027
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.343
+Applying transformer: Range Formula Transformer... 0.386
+Applying transformer: Simplify Transformer... 0.672
+Applying transformer: Domain Elimination Transformer... 0.921
+Total transformation time: 2.416
+Invoking solver strategy...
+Converting to solver format: 4.571
+Z3 solver time: 13.421
+Done. Result was Unsat.
+TOTAL time: 20.411
+Unsat
+
+Python time: 0m 21.244s
+------
+
+RUN NO. 2,4 scope=9
+./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v1 --rawdata ../UF/./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.030
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.985
+Applying transformer: Range Formula Transformer... 2.150
+Applying transformer: Simplify Transformer... 2.739
+Applying transformer: Domain Elimination Transformer... 4.029
+Total transformation time: 10.001
+Invoking solver strategy...
+Converting to solver format: 24.544
+Z3 solver time: 103.050
+Done. Result was Unsat.
+TOTAL time: 137.599
+Unsat
+
+Python time: 2m 18.469s
+------
+
+RUN NO. 2,5 scope=10
+./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v1 --rawdata ../UF/./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2
+TIMEOUT
+Need to kill: 21273 z3
+Need to kill: 21177 java
+Need to kill: 21176 sh
+Trying to kill: 21273 z3
+killed: z3
+Trying to kill: 21177 java
+killed: java
+Trying to kill: 21176 sh
+killed: sh
+------
+
+RUN NO. 3,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.065
+Applying transformer: Enum Elimination Transformer... 0.016
+Applying transformer: Negation Normal Form Transformer... 0.017
+Applying transformer: Skolemize Transformer... 0.144
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.115
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 10m 48.372s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 3,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.056
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.140
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.126
+Applying transformer: Quantifier Expansion Transformer (-, -)... 30.193
+Applying transformer: Range Formula Transformer... 0.605
+Applying transformer: Simplify Transformer... 38.211
+Applying transformer: Domain Elimination Transformer... 19.343
+Total transformation time: 88.719
+Invoking solver strategy...
+Converting to solver format: 93.555
+Z3 solver time: 6.845
+Done. Result was Unsat.
+TOTAL time: 189.123
+Unsat
+
+Python time: 3m 10.228s
+------
+
+RUN NO. 3,3 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.056
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.119
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.285
+Applying transformer: Quantifier Expansion Transformer (-, -)... 29.564
+Applying transformer: Range Formula Transformer... 1.026
+Applying transformer: Simplify Transformer... 37.751
+Applying transformer: Domain Elimination Transformer... 19.470
+Total transformation time: 88.316
+Invoking solver strategy...
+Converting to solver format: 95.878
+Z3 solver time: 6.827
+Done. Result was Unsat.
+TOTAL time: 191.025
+Unsat
+
+Python time: 3m 12.124s
+------
+
+RUN NO. 3,4 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.047
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.132
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 1.668
+Applying transformer: Quantifier Expansion Transformer (-, -)... 29.589
+Applying transformer: Range Formula Transformer... 1.088
+Applying transformer: Simplify Transformer... 37.537
+Applying transformer: Domain Elimination Transformer... 19.378
+Total transformation time: 89.484
+Invoking solver strategy...
+Converting to solver format: 94.087
+Z3 solver time: 6.888
+Done. Result was Unsat.
+TOTAL time: 190.463
+Unsat
+
+Python time: 3m 11.613s
+------
+
+RUN NO. 4,1 scope=18
+./sledgehammer/TypeSafe/uf.1190212.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/uf.1190212.smt2
+TIMEOUT
+Need to kill: 22107 java
+Need to kill: 22106 sh
+Trying to kill: 22107 java
+killed: java
+Trying to kill: 22106 sh
+killed: sh
+------
+
+RUN NO. 4,2 scope=11
+./sledgehammer/TypeSafe/uf.1190212.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/uf.1190212.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.112
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.145
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.307
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 9.949s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 4,3 scope=7
+./sledgehammer/TypeSafe/uf.1190212.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/uf.1190212.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.116
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.016
+Applying transformer: Skolemize Transformer... 0.150
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.295
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.collection.immutable.Vector$.newBuilder(Vector.scala:63)
+	at scala.collection.immutable.Vector$.newBuilder(Vector.scala:34)
+	at scala.collection.SeqFactory$Delegate.newBuilder(Factory.scala:307)
+	at scala.collection.immutable.Range.map(Range.scala:152)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:45)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:27)
+	at scala.collection.immutable.List.prependedAll(List.scala:156)
+	at scala.collection.immutable.List$.from(List.scala:651)
+	at scala.collection.immutable.List$.from(List.scala:648)
+	at scala.collection.SeqFactory$Delegate.from(Factory.scala:306)
+	at scala.collection.immutable.Seq$.from(Seq.scala:42)
+	at scala.collection.IterableOnceOps.toSeq(IterableOnce.scala:1270)
+	at scala.collection.IterableOnceOps.toSeq$(IterableOnce.scala:1270)
+	at fortress.data.CartesianSeqProduct.toSeq(CartesianSeqProduct.scala:19)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:63)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+	at fortress.transformers.QuantifierExpansionTransformer.$anonfun$apply$6(QuantifierExpansionTransformer.scala:41)
+	at fortress.transformers.QuantifierExpansionTransformer$$Lambda$341/0x0000000800d60040.apply(Unknown Source)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:99)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:86)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:34)
+	at fortress.transformers.QuantifierExpansionTransformer.apply(QuantifierExpansionTransformer.scala:41)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$4(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$227/0x0000000800cf1c40.apply(Unknown Source)
+	at fortress.util.Control$.measureTime(Control.scala:8)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$2(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$225/0x0000000800cf1040.apply(Unknown Source)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:168)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:164)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+
+Python time: 13m 20.325s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 4,4 scope=5
+./sledgehammer/TypeSafe/uf.1190212.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./sledgehammer/TypeSafe/uf.1190212.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.134
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.018
+Applying transformer: Skolemize Transformer... 0.160
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.291
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 14m 22.128s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 5,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.051
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.111
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.128
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.collection.mutable.HashMap.get(HashMap.scala:406)
+	at fortress.data.Caching.create(Factory.scala:19)
+	at fortress.data.Caching.create$(Factory.scala:18)
+	at fortress.msfol.App$.create(Term.scala:213)
+	at fortress.msfol.App$.apply(Term.scala:216)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:108)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:102)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$353/0x0000000800d69840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$355/0x0000000800d6b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$355/0x0000000800d6b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$355/0x0000000800d6b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$355/0x0000000800d6b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+
+Python time: 12m 19.39s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 5,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.051
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.089
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.143
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 9m 5.59s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 5,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+TIMEOUT
+Need to kill: 23041 z3
+Need to kill: 22943 java
+Need to kill: 22942 sh
+Trying to kill: 23041 z3
+killed: z3
+Trying to kill: 22943 java
+killed: java
+Trying to kill: 22942 sh
+killed: sh
+------
+
+RUN NO. 5,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.085
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.087
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.109
+Applying transformer: Quantifier Expansion Transformer (-, -)... 4.908
+Applying transformer: Range Formula Transformer... 0.050
+Applying transformer: Simplify Transformer... 9.314
+Applying transformer: Domain Elimination Transformer... 2.689
+Total transformation time: 17.283
+Invoking solver strategy...
+Converting to solver format: 18.704
+Z3 solver time: 25.367
+Done. Result was Unsat.
+TOTAL time: 61.359
+Unsat
+
+Python time: 1m 2.325s
+------
+
+RUN NO. 5,5 scope=6
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.053
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.079
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.141
+Applying transformer: Quantifier Expansion Transformer (-, -)... 17.811
+Applying transformer: Range Formula Transformer... 0.053
+Applying transformer: Simplify Transformer... 37.145
+Applying transformer: Domain Elimination Transformer... 9.918
+Total transformation time: 65.244
+Invoking solver strategy...
+Converting to solver format: 74.352
+Z3 solver time: 245.698
+Done. Result was Unsat.
+TOTAL time: 385.298
+Unsat
+
+Python time: 6m 26.362s
+------
+
+RUN NO. 5,6 scope=6
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.057
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.079
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.227
+Applying transformer: Quantifier Expansion Transformer (-, -)... 17.674
+Applying transformer: Range Formula Transformer... 0.087
+Applying transformer: Simplify Transformer... 36.676
+Applying transformer: Domain Elimination Transformer... 9.596
+Total transformation time: 64.437
+Invoking solver strategy...
+Converting to solver format: 75.427
+Z3 solver time: 401.304
+Done. Result was Unsat.
+TOTAL time: 541.173
+Unsat
+
+Python time: 9m 2.234s
+------
+
+RUN NO. 5,7 scope=6
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.056
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.083
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 1.354
+Applying transformer: Quantifier Expansion Transformer (-, -)... 18.160
+Applying transformer: Range Formula Transformer... 0.119
+Applying transformer: Simplify Transformer... 37.092
+Applying transformer: Domain Elimination Transformer... 9.916
+Total transformation time: 66.821
+Invoking solver strategy...
+Converting to solver format: 75.422
+Z3 solver time: 419.998
+Done. Result was Unsat.
+TOTAL time: 562.246
+Unsat
+
+Python time: 9m 23.293s
+------
+
+RUN NO. 6,1 scope=18
+./grasshopper/instantiated/create_check_heap_access_49_4.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./grasshopper/instantiated/create_check_heap_access_49_4.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.012
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.014
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.037
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.022
+Applying transformer: Range Formula Transformer... 0.023
+Applying transformer: Simplify Transformer... 0.023
+Applying transformer: Domain Elimination Transformer... 0.027
+Total transformation time: 0.182
+Invoking solver strategy...
+Converting to solver format: 0.071
+Z3 solver time: 0.120
+Done. Result was Unsat.
+TOTAL time: 0.377
+Unsat
+
+Python time: 0m 1.191s
+------
+
+RUN NO. 6,2 scope=25
+./grasshopper/instantiated/create_check_heap_access_49_4.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 25 --version v1 --rawdata ../UF/./grasshopper/instantiated/create_check_heap_access_49_4.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.011
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.014
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.042
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.030
+Applying transformer: Range Formula Transformer... 0.034
+Applying transformer: Simplify Transformer... 0.037
+Applying transformer: Domain Elimination Transformer... 0.046
+Total transformation time: 0.237
+Invoking solver strategy...
+Converting to solver format: 0.162
+Z3 solver time: 0.299
+Done. Result was Unsat.
+TOTAL time: 0.704
+Unsat
+
+Python time: 0m 1.488s
+------
+
+RUN NO. 6,3 scope=28
+./grasshopper/instantiated/create_check_heap_access_49_4.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 28 --version v1 --rawdata ../UF/./grasshopper/instantiated/create_check_heap_access_49_4.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.012
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.015
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.045
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.034
+Applying transformer: Range Formula Transformer... 0.036
+Applying transformer: Simplify Transformer... 0.046
+Applying transformer: Domain Elimination Transformer... 0.064
+Total transformation time: 0.277
+Invoking solver strategy...
+Converting to solver format: 0.155
+Z3 solver time: 0.367
+Done. Result was Unsat.
+TOTAL time: 0.804
+Unsat
+
+Python time: 0m 1.588s
+------
+
+RUN NO. 6,4 scope=30
+./grasshopper/instantiated/create_check_heap_access_49_4.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 30 --version v1 --rawdata ../UF/./grasshopper/instantiated/create_check_heap_access_49_4.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.011
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.014
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.047
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.045
+Applying transformer: Range Formula Transformer... 0.041
+Applying transformer: Simplify Transformer... 0.047
+Applying transformer: Domain Elimination Transformer... 0.064
+Total transformation time: 0.296
+Invoking solver strategy...
+Converting to solver format: 0.197
+Z3 solver time: 0.530
+Done. Result was Unsat.
+TOTAL time: 1.027
+Unsat
+
+Python time: 0m 1.82s
+------
+
+RUN NO. 7,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.046
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.091
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.116
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at fortress.msfol.Not$.apply(Term.scala:80)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:102)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$352/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$352/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$355/0x0000000800d6b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$352/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.apply(Substitution.scala:131)
+	at fortress.operations.TermOps.fastSubstitute(TermOps.scala:39)
+	at fortress.operations.QuantifierExpander$.$anonfun$apply$8(QuantifierExpander.scala:71)
+	at fortress.operations.QuantifierExpander$$$Lambda$351/0x0000000800d68040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:64)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+
+Python time: 16m 28.025s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 7,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+TIMEOUT
+Need to kill: 24092 z3
+Need to kill: 23989 java
+Need to kill: 23988 sh
+Trying to kill: 24092 z3
+killed: z3
+Trying to kill: 23989 java
+killed: java
+Trying to kill: 23988 sh
+killed: sh
+------
+
+RUN NO. 7,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.042
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.010
+Applying transformer: Skolemize Transformer... 0.078
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.084
+Applying transformer: Quantifier Expansion Transformer (-, -)... 5.202
+Applying transformer: Range Formula Transformer... 0.108
+Applying transformer: Simplify Transformer... 7.260
+Applying transformer: Domain Elimination Transformer... 3.150
+Total transformation time: 15.964
+Invoking solver strategy...
+Converting to solver format: 18.912
+Z3 solver time: 253.104
+Done. Result was Unsat.
+TOTAL time: 287.984
+Unsat
+
+Python time: 4m 48.937s
+------
+
+RUN NO. 7,4 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.050
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.081
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.165
+Applying transformer: Quantifier Expansion Transformer (-, -)... 5.313
+Applying transformer: Range Formula Transformer... 0.149
+Applying transformer: Simplify Transformer... 7.454
+Applying transformer: Domain Elimination Transformer... 3.076
+Total transformation time: 16.329
+Invoking solver strategy...
+Converting to solver format: 19.203
+Z3 solver time: 207.680
+Done. Result was Unsat.
+TOTAL time: 243.215
+Unsat
+
+Python time: 4m 4.174s
+------
+
+RUN NO. 7,5 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.049
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.078
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.989
+Applying transformer: Quantifier Expansion Transformer (-, -)... 5.060
+Applying transformer: Range Formula Transformer... 0.214
+Applying transformer: Simplify Transformer... 7.385
+Applying transformer: Domain Elimination Transformer... 3.281
+Total transformation time: 17.099
+Invoking solver strategy...
+Converting to solver format: 18.874
+Z3 solver time: 151.638
+Done. Result was Unsat.
+TOTAL time: 187.616
+Unsat
+
+Python time: 3m 8.564s
+------
+
+RUN NO. 8,1 scope=18
+./sledgehammer/QEpres/uf.867345.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.867345.smt2
+TIMEOUT
+Need to kill: 24481 java
+Need to kill: 24480 sh
+Trying to kill: 24481 java
+killed: java
+Trying to kill: 24480 sh
+killed: sh
+------
+
+RUN NO. 8,2 scope=11
+./sledgehammer/QEpres/uf.867345.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.867345.smt2
+TIMEOUT
+Need to kill: 24751 z3
+Need to kill: 24638 java
+Need to kill: 24637 sh
+Trying to kill: 24751 z3
+killed: z3
+Trying to kill: 24638 java
+killed: java
+Trying to kill: 24637 sh
+killed: sh
+------
+
+RUN NO. 8,3 scope=7
+./sledgehammer/QEpres/uf.867345.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.867345.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.097
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.111
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.255
+Applying transformer: Quantifier Expansion Transformer (-, -)... 10.564
+Applying transformer: Range Formula Transformer... 0.414
+Applying transformer: Simplify Transformer... 6.559
+Applying transformer: Domain Elimination Transformer... 5.117
+Total transformation time: 23.160
+Invoking solver strategy...
+Converting to solver format: 19.064
+Z3 solver time: 752.895
+Done. Result was Unsat.
+TOTAL time: 795.123
+Unsat
+
+Python time: 13m 16.144s
+------
+
+RUN NO. 8,4 scope=7
+./sledgehammer/QEpres/uf.867345.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v3 --rawdata ../UF/./sledgehammer/QEpres/uf.867345.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.100
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.083
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.466
+Applying transformer: Quantifier Expansion Transformer (-, -)... 10.380
+Applying transformer: Range Formula Transformer... 0.954
+Applying transformer: Simplify Transformer... 6.754
+Applying transformer: Domain Elimination Transformer... 5.121
+Total transformation time: 23.898
+Invoking solver strategy...
+Converting to solver format: 19.195
+Z3 solver time: 771.015
+Done. Result was Unsat.
+TOTAL time: 814.111
+Unsat
+
+Python time: 13m 35.101s
+------
+
+RUN NO. 8,5 scope=7
+./sledgehammer/QEpres/uf.867345.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.867345.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.099
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.087
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 2.674
+Applying transformer: Quantifier Expansion Transformer (-, -)... 10.599
+Applying transformer: Range Formula Transformer... 0.987
+Applying transformer: Simplify Transformer... 6.487
+Applying transformer: Domain Elimination Transformer... 5.084
+Total transformation time: 26.057
+Invoking solver strategy...
+Converting to solver format: 19.031
+Z3 solver time: 905.784
+Done. Result was Unsat.
+TOTAL time: 950.875
+Unsat
+
+Python time: 15m 51.915s
+------
+
+RUN NO. 9,1 scope=18
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2
+TIMEOUT
+Need to kill: 25421 z3
+Need to kill: 25326 java
+Need to kill: 25325 sh
+Trying to kill: 25421 z3
+killed: z3
+Trying to kill: 25326 java
+killed: java
+Trying to kill: 25325 sh
+killed: sh
+------
+
+RUN NO. 9,2 scope=11
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.031
+Applying transformer: Quantifier Expansion Transformer (-, -)... 2.154
+Applying transformer: Range Formula Transformer... 0.026
+Applying transformer: Simplify Transformer... 1.390
+Applying transformer: Domain Elimination Transformer... 1.034
+Total transformation time: 4.705
+Invoking solver strategy...
+Converting to solver format: 4.966
+Z3 solver time: 477.091
+Done. Result was Unsat.
+TOTAL time: 486.766
+Unsat
+
+Python time: 8m 7.621s
+------
+
+RUN NO. 9,3 scope=11
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v3 --rawdata ../UF/./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.026
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.035
+Applying transformer: Quantifier Expansion Transformer (-, -)... 2.131
+Applying transformer: Range Formula Transformer... 0.024
+Applying transformer: Simplify Transformer... 1.406
+Applying transformer: Domain Elimination Transformer... 1.013
+Total transformation time: 4.682
+Invoking solver strategy...
+Converting to solver format: 4.807
+Z3 solver time: 479.667
+Done. Result was Unsat.
+TOTAL time: 489.160
+Unsat
+
+Python time: 8m 10.013s
+------
+
+RUN NO. 9,4 scope=11
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v3si --rawdata ../UF/./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.122
+Applying transformer: Quantifier Expansion Transformer (-, -)... 2.283
+Applying transformer: Range Formula Transformer... 0.027
+Applying transformer: Simplify Transformer... 1.445
+Applying transformer: Domain Elimination Transformer... 1.084
+Total transformation time: 5.030
+Invoking solver strategy...
+Converting to solver format: 4.738
+Z3 solver time: 481.015
+Done. Result was Unsat.
+TOTAL time: 490.786
+Unsat
+
+Python time: 8m 11.68s
+------
+
+RUN NO. 10,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.105
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.105
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.199
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 43.068s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 10,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.062
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.102
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.159
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 9m 18.765s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 10,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+TIMEOUT
+Need to kill: 26248 z3
+Need to kill: 26150 java
+Need to kill: 26149 sh
+Trying to kill: 26248 z3
+killed: z3
+Trying to kill: 26150 java
+killed: java
+Trying to kill: 26149 sh
+killed: sh
+------
+
+RUN NO. 10,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.068
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.095
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.136
+Applying transformer: Quantifier Expansion Transformer (-, -)... 5.318
+Applying transformer: Range Formula Transformer... 0.109
+Applying transformer: Simplify Transformer... 5.901
+Applying transformer: Domain Elimination Transformer... 2.702
+Total transformation time: 14.370
+Invoking solver strategy...
+Converting to solver format: 14.689
+Z3 solver time: 361.513
+Done. Result was Unsat.
+TOTAL time: 390.576
+Unsat
+
+Python time: 6m 31.556s
+------
+
+RUN NO. 10,5 scope=5
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.104
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.110
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.265
+Applying transformer: Quantifier Expansion Transformer (-, -)... 5.301
+Applying transformer: Range Formula Transformer... 0.173
+Applying transformer: Simplify Transformer... 5.761
+Applying transformer: Domain Elimination Transformer... 2.730
+Total transformation time: 14.486
+Invoking solver strategy...
+Converting to solver format: 14.855
+Z3 solver time: 461.376
+Done. Result was Unsat.
+TOTAL time: 490.721
+Unsat
+
+Python time: 8m 11.683s
+------
+
+RUN NO. 10,6 scope=5
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.088
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.126
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 1.911
+Applying transformer: Quantifier Expansion Transformer (-, -)... 5.088
+Applying transformer: Range Formula Transformer... 0.308
+Applying transformer: Simplify Transformer... 5.720
+Applying transformer: Domain Elimination Transformer... 2.719
+Total transformation time: 16.001
+Invoking solver strategy...
+Converting to solver format: 14.762
+Z3 solver time: 234.480
+Done. Result was Unsat.
+TOTAL time: 265.247
+Unsat
+
+Python time: 4m 26.222s
+------
+
+RUN NO. 11,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/process/x2015_09_10_16_46_13_720_1027456.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/process/x2015_09_10_16_46_13_720_1027456.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.172
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.017
+Applying transformer: Skolemize Transformer... 0.134
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.564
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 9.855s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 11,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/process/x2015_09_10_16_46_13_720_1027456.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/process/x2015_09_10_16_46_13_720_1027456.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.185
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.017
+Applying transformer: Skolemize Transformer... 0.120
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.504
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 4.366s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 11,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/distro/process/x2015_09_10_16_46_13_720_1027456.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/process/x2015_09_10_16_46_13_720_1027456.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.171
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.015
+Applying transformer: Skolemize Transformer... 0.118
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.483
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 4.44s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 11,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/distro/process/x2015_09_10_16_46_13_720_1027456.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/process/x2015_09_10_16_46_13_720_1027456.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.159
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.017
+Applying transformer: Skolemize Transformer... 0.131
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.503
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 14.25s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 12,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2
+TIMEOUT
+Need to kill: 27291 z3
+Need to kill: 27190 java
+Need to kill: 27189 sh
+Trying to kill: 27291 z3
+killed: z3
+Trying to kill: 27190 java
+killed: java
+Trying to kill: 27189 sh
+killed: sh
+------
+
+RUN NO. 12,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.045
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.078
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.090
+Applying transformer: Quantifier Expansion Transformer (-, -)... 8.528
+Applying transformer: Range Formula Transformer... 0.783
+Applying transformer: Simplify Transformer... 10.031
+Applying transformer: Domain Elimination Transformer... 5.143
+Total transformation time: 24.740
+Invoking solver strategy...
+Converting to solver format: 30.877
+Z3 solver time: 930.087
+Done. Result was Unsat.
+TOTAL time: 985.708
+Unsat
+
+Python time: 16m 26.675s
+------
+
+RUN NO. 12,3 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.055
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.010
+Applying transformer: Skolemize Transformer... 0.074
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.212
+Applying transformer: Quantifier Expansion Transformer (-, -)... 8.808
+Applying transformer: Range Formula Transformer... 1.210
+Applying transformer: Simplify Transformer... 10.230
+Applying transformer: Domain Elimination Transformer... 5.199
+Total transformation time: 25.828
+Invoking solver strategy...
+Converting to solver format: 31.219
+Z3 solver time: 813.655
+Done. Result was Unsat.
+TOTAL time: 870.705
+Unsat
+
+Python time: 14m 31.705s
+------
+
+RUN NO. 12,4 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.043
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.010
+Applying transformer: Skolemize Transformer... 0.079
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 1.162
+Applying transformer: Quantifier Expansion Transformer (-, -)... 8.803
+Applying transformer: Range Formula Transformer... 1.621
+Applying transformer: Simplify Transformer... 9.951
+Applying transformer: Domain Elimination Transformer... 5.275
+Total transformation time: 26.975
+Invoking solver strategy...
+Converting to solver format: 30.758
+Z3 solver time: 834.073
+Done. Result was Unsat.
+TOTAL time: 891.811
+Unsat
+
+Python time: 14m 52.8s
+------
+
+RUN NO. 13,1 scope=18
+./sledgehammer/FFT/uf.549548.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.549548.smt2
+TIMEOUT
+Need to kill: 27914 z3
+Need to kill: 27829 java
+Need to kill: 27828 sh
+Trying to kill: 27914 z3
+killed: z3
+Trying to kill: 27829 java
+killed: java
+Trying to kill: 27828 sh
+killed: sh
+------
+
+RUN NO. 13,2 scope=11
+./sledgehammer/FFT/uf.549548.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.549548.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.047
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.059
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.090
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.129
+Applying transformer: Range Formula Transformer... 0.037
+Applying transformer: Simplify Transformer... 0.726
+Applying transformer: Domain Elimination Transformer... 0.535
+Total transformation time: 2.665
+Invoking solver strategy...
+Converting to solver format: 1.866
+Z3 solver time: 128.338
+Done. Result was Unsat.
+TOTAL time: 132.875
+Unsat
+
+Python time: 2m 13.799s
+------
+
+RUN NO. 13,3 scope=15
+./sledgehammer/FFT/uf.549548.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.549548.smt2
+TIMEOUT
+Need to kill: 28181 z3
+Need to kill: 28095 java
+Need to kill: 28094 sh
+Trying to kill: 28181 z3
+killed: z3
+Trying to kill: 28095 java
+killed: java
+Trying to kill: 28094 sh
+killed: sh
+------
+
+RUN NO. 13,4 scope=13
+./sledgehammer/FFT/uf.549548.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 13 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.549548.smt2
+TIMEOUT
+Need to kill: 28353 z3
+Need to kill: 28268 java
+Need to kill: 28267 sh
+Trying to kill: 28353 z3
+killed: z3
+Trying to kill: 28268 java
+killed: java
+Trying to kill: 28267 sh
+killed: sh
+------
+
+RUN NO. 13,5 scope=12
+./sledgehammer/FFT/uf.549548.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 12 --version v1 --rawdata ../UF/./sledgehammer/FFT/uf.549548.smt2
+TIMEOUT
+Need to kill: 28544 z3
+Need to kill: 28459 java
+Need to kill: 28458 sh
+Trying to kill: 28544 z3
+killed: z3
+Trying to kill: 28459 java
+killed: java
+Trying to kill: 28458 sh
+killed: sh
+------
+
+RUN NO. 14,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.090
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.109
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.164
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at fortress.msfol.App$.apply(Term.scala:216)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$15(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$$$Lambda$348/0x0000000800d5f040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:102)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$351/0x0000000800d68040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$351/0x0000000800d68040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$351/0x0000000800d68040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$351/0x0000000800d68040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$352/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+
+Python time: 16m 9.827s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 14,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.066
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.107
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.168
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 11m 21.098s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 14,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+TIMEOUT
+Need to kill: 28952 z3
+Need to kill: 28860 java
+Need to kill: 28859 sh
+Trying to kill: 28952 z3
+killed: z3
+Trying to kill: 28860 java
+killed: java
+Trying to kill: 28859 sh
+killed: sh
+------
+
+RUN NO. 14,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.076
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.107
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.182
+Applying transformer: Quantifier Expansion Transformer (-, -)... 6.468
+Applying transformer: Range Formula Transformer... 0.072
+Applying transformer: Simplify Transformer... 7.717
+Applying transformer: Domain Elimination Transformer... 3.958
+Total transformation time: 18.623
+Invoking solver strategy...
+Converting to solver format: 17.949
+Z3 solver time: 176.140
+Done. Result was Unsat.
+TOTAL time: 212.716
+Unsat
+
+Python time: 3m 33.691s
+------
+
+RUN NO. 14,5 scope=5
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.078
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.120
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.347
+Applying transformer: Quantifier Expansion Transformer (-, -)... 6.535
+Applying transformer: Range Formula Transformer... 0.125
+Applying transformer: Simplify Transformer... 7.566
+Applying transformer: Domain Elimination Transformer... 3.923
+Total transformation time: 18.738
+Invoking solver strategy...
+Converting to solver format: 17.529
+Z3 solver time: 174.388
+Done. Result was Unsat.
+TOTAL time: 210.658
+Unsat
+
+Python time: 3m 31.641s
+------
+
+RUN NO. 14,6 scope=5
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.082
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.121
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 1.840
+Applying transformer: Quantifier Expansion Transformer (-, -)... 6.293
+Applying transformer: Range Formula Transformer... 0.161
+Applying transformer: Simplify Transformer... 7.652
+Applying transformer: Domain Elimination Transformer... 4.000
+Total transformation time: 20.192
+Invoking solver strategy...
+Converting to solver format: 17.473
+Z3 solver time: 258.681
+Done. Result was Unsat.
+TOTAL time: 296.350
+Unsat
+
+Python time: 4m 57.313s
+------
+
+RUN NO. 15,1 scope=18
+./sledgehammer/QEpres/uf.780191.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.780191.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.213
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.020
+Applying transformer: Skolemize Transformer... 0.115
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.570
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 16m 19.537s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 15,2 scope=11
+./sledgehammer/QEpres/uf.780191.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.780191.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.180
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.016
+Applying transformer: Skolemize Transformer... 0.114
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.520
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at fortress.msfol.OrList$.apply(Term.scala:113)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$353/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$353/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$353/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$351/0x0000000800d5b840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.apply(Substitution.scala:131)
+	at fortress.operations.TermOps.fastSubstitute(TermOps.scala:39)
+	at fortress.operations.QuantifierExpander$.$anonfun$apply$8(QuantifierExpander.scala:71)
+	at fortress.operations.QuantifierExpander$$$Lambda$348/0x0000000800d5d840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:64)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+
+Python time: 9m 54.884s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 15,3 scope=7
+./sledgehammer/QEpres/uf.780191.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/QEpres/uf.780191.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.184
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.018
+Applying transformer: Skolemize Transformer... 0.122
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.442
+Applying transformer: Quantifier Expansion Transformer (-, -)... 43.607
+Applying transformer: Range Formula Transformer... 0.572
+Applying transformer: Simplify Transformer... 75.549
+Applying transformer: Domain Elimination Transformer... 31.550
+Total transformation time: 152.075
+Invoking solver strategy...
+Converting to solver format: 127.905
+Z3 solver time: 6.378
+Done. Result was Unsat.
+TOTAL time: 286.362
+Unsat
+
+Python time: 4m 47.663s
+------
+
+RUN NO. 15,4 scope=7
+./sledgehammer/QEpres/uf.780191.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v3 --rawdata ../UF/./sledgehammer/QEpres/uf.780191.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.194
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.016
+Applying transformer: Skolemize Transformer... 0.118
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 2.673
+Applying transformer: Quantifier Expansion Transformer (-, -)... 43.270
+Applying transformer: Range Formula Transformer... 4.231
+Applying transformer: Simplify Transformer... 75.475
+Applying transformer: Domain Elimination Transformer... 32.016
+Total transformation time: 158.031
+Invoking solver strategy...
+Converting to solver format: 128.414
+Z3 solver time: 6.704
+Done. Result was Unsat.
+TOTAL time: 293.154
+Unsat
+
+Python time: 4m 54.432s
+------
+
+RUN NO. 15,5 scope=7
+./sledgehammer/QEpres/uf.780191.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.780191.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.184
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.025
+Applying transformer: Skolemize Transformer... 0.173
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 11.018
+Applying transformer: Quantifier Expansion Transformer (-, -)... 43.773
+Applying transformer: Range Formula Transformer... 5.272
+Applying transformer: Simplify Transformer... 72.200
+Applying transformer: Domain Elimination Transformer... 29.986
+Total transformation time: 162.665
+Invoking solver strategy...
+Converting to solver format: 127.630
+Z3 solver time: 6.678
+Done. Result was Unsat.
+TOTAL time: 296.978
+Unsat
+
+Python time: 4m 58.237s
+------
+
+RUN NO. 16,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2
+TIMEOUT
+Need to kill: 30408 z3
+Need to kill: 30321 java
+Need to kill: 30320 sh
+Trying to kill: 30408 z3
+killed: z3
+Trying to kill: 30321 java
+killed: java
+Trying to kill: 30320 sh
+killed: sh
+------
+
+RUN NO. 16,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.041
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.010
+Applying transformer: Skolemize Transformer... 0.060
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.063
+Applying transformer: Quantifier Expansion Transformer (-, -)... 3.612
+Applying transformer: Range Formula Transformer... 0.097
+Applying transformer: Simplify Transformer... 3.099
+Applying transformer: Domain Elimination Transformer... 2.084
+Total transformation time: 9.095
+Invoking solver strategy...
+Converting to solver format: 8.122
+Z3 solver time: 175.625
+Done. Result was Unsat.
+TOTAL time: 192.846
+Unsat
+
+Python time: 3m 13.767s
+------
+
+RUN NO. 16,3 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.044
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.009
+Applying transformer: Skolemize Transformer... 0.058
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.197
+Applying transformer: Quantifier Expansion Transformer (-, -)... 3.641
+Applying transformer: Range Formula Transformer... 0.174
+Applying transformer: Simplify Transformer... 3.076
+Applying transformer: Domain Elimination Transformer... 2.195
+Total transformation time: 9.424
+Invoking solver strategy...
+Converting to solver format: 8.178
+Z3 solver time: 138.198
+Done. Result was Unsat.
+TOTAL time: 155.804
+Unsat
+
+Python time: 2m 36.724s
+------
+
+RUN NO. 16,4 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.046
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.010
+Applying transformer: Skolemize Transformer... 0.059
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.889
+Applying transformer: Quantifier Expansion Transformer (-, -)... 3.584
+Applying transformer: Range Formula Transformer... 0.270
+Applying transformer: Simplify Transformer... 3.024
+Applying transformer: Domain Elimination Transformer... 2.173
+Total transformation time: 10.084
+Invoking solver strategy...
+Converting to solver format: 8.699
+Z3 solver time: 141.290
+Done. Result was Unsat.
+TOTAL time: 160.076
+Unsat
+
+Python time: 2m 41.026s
+------
+
+RUN NO. 17,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_49_53_139_990879.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_49_53_139_990879.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.064
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.120
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.164
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3690)
+	at scala.collection.immutable.VectorBuilder.result(Vector.scala:1567)
+	at scala.collection.immutable.VectorBuilder.result(Vector.scala:1288)
+	at scala.collection.immutable.Range.map(Range.scala:59)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:45)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:27)
+	at scala.collection.immutable.List.prependedAll(List.scala:156)
+	at scala.collection.immutable.List$.from(List.scala:651)
+	at scala.collection.immutable.List$.from(List.scala:648)
+	at scala.collection.SeqFactory$Delegate.from(Factory.scala:306)
+	at scala.collection.immutable.Seq$.from(Seq.scala:42)
+	at scala.collection.IterableOnceOps.toSeq(IterableOnce.scala:1270)
+	at scala.collection.IterableOnceOps.toSeq$(IterableOnce.scala:1270)
+	at fortress.data.CartesianSeqProduct.toSeq(CartesianSeqProduct.scala:19)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:63)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+	at fortress.transformers.QuantifierExpansionTransformer.$anonfun$apply$6(QuantifierExpansionTransformer.scala:41)
+	at fortress.transformers.QuantifierExpansionTransformer$$Lambda$342/0x0000000800d59840.apply(Unknown Source)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:99)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:86)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:34)
+	at fortress.transformers.QuantifierExpansionTransformer.apply(QuantifierExpansionTransformer.scala:41)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$4(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$209/0x0000000800cd4c40.apply(Unknown Source)
+	at fortress.util.Control$.measureTime(Control.scala:8)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$2(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$207/0x0000000800cd5040.apply(Unknown Source)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:168)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:164)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+
+Python time: 11m 56.711s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 17,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_49_53_139_990879.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_49_53_139_990879.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.064
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.143
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.191
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.ref.WeakReference.<init>(WeakReference.scala:23)
+	at scala.ref.WeakReference.<init>(WeakReference.scala:21)
+	at scala.ref.WeakReference$.apply(WeakReference.scala:30)
+	at fortress.data.Caching.create(Factory.scala:23)
+	at fortress.data.Caching.create$(Factory.scala:18)
+	at fortress.msfol.App$.create(Term.scala:213)
+	at fortress.msfol.App$.apply(Term.scala:216)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$354/0x0000000800d6a840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$353/0x0000000800d69840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.apply(Substitution.scala:131)
+	at fortress.operations.TermOps.fastSubstitute(TermOps.scala:39)
+	at fortress.operations.QuantifierExpander$.$anonfun$apply$8(QuantifierExpander.scala:71)
+	at fortress.operations.QuantifierExpander$$$Lambda$349/0x0000000800d5e840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:64)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+	at fortress.transformers.QuantifierExpansionTransformer.$anonfun$apply$6(QuantifierExpansionTransformer.scala:41)
+	at fortress.transformers.QuantifierExpansionTransformer$$Lambda$341/0x0000000800d58840.apply(Unknown Source)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:99)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:86)
+
+Python time: 16m 23.725s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 17,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_49_53_139_990879.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_49_53_139_990879.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.075
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.130
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.174
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.collection.immutable.VectorBuilder.<init>(Vector.scala:1295)
+	at scala.collection.immutable.Vector$.newBuilder(Vector.scala:63)
+	at scala.collection.immutable.Vector$.newBuilder(Vector.scala:34)
+	at scala.collection.SeqFactory$Delegate.newBuilder(Factory.scala:307)
+	at scala.collection.immutable.Range.map(Range.scala:152)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:45)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:27)
+	at scala.collection.immutable.List.prependedAll(List.scala:156)
+	at scala.collection.immutable.List$.from(List.scala:651)
+	at scala.collection.immutable.List$.from(List.scala:648)
+	at scala.collection.SeqFactory$Delegate.from(Factory.scala:306)
+	at scala.collection.immutable.Seq$.from(Seq.scala:42)
+	at scala.collection.IterableOnceOps.toSeq(IterableOnce.scala:1270)
+	at scala.collection.IterableOnceOps.toSeq$(IterableOnce.scala:1270)
+	at fortress.data.CartesianSeqProduct.toSeq(CartesianSeqProduct.scala:19)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:63)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+	at fortress.transformers.QuantifierExpansionTransformer.$anonfun$apply$6(QuantifierExpansionTransformer.scala:41)
+	at fortress.transformers.QuantifierExpansionTransformer$$Lambda$341/0x0000000800d58840.apply(Unknown Source)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:99)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:86)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:34)
+	at fortress.transformers.QuantifierExpansionTransformer.apply(QuantifierExpansionTransformer.scala:41)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$4(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$209/0x0000000800cd4c40.apply(Unknown Source)
+	at fortress.util.Control$.measureTime(Control.scala:8)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$2(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$207/0x0000000800cd5040.apply(Unknown Source)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:168)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:164)
+
+Python time: 12m 52.891s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 17,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_49_53_139_990879.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_49_53_139_990879.smt_in.smt2
+TIMEOUT
+Need to kill: 31295 z3
+Need to kill: 31201 java
+Need to kill: 31200 sh
+Trying to kill: 31295 z3
+killed: z3
+Trying to kill: 31201 java
+killed: java
+Trying to kill: 31200 sh
+killed: sh
+------
+
+RUN NO. 18,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_55_24_583_1544777.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_55_24_583_1544777.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.112
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.014
+Applying transformer: Skolemize Transformer... 0.120
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.180
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at fortress.msfol.App$.apply(Term.scala:216)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$15(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$$$Lambda$346/0x0000000800d65040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$345/0x0000000800d64040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$345/0x0000000800d64040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$348/0x0000000800d66840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$345/0x0000000800d64040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.apply(Substitution.scala:131)
+	at fortress.operations.TermOps.fastSubstitute(TermOps.scala:39)
+	at fortress.operations.QuantifierExpander$.$anonfun$apply$8(QuantifierExpander.scala:71)
+	at fortress.operations.QuantifierExpander$$$Lambda$344/0x0000000800d63840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+
+Python time: 18m 35.52s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 18,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_55_24_583_1544777.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_55_24_583_1544777.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.127
+Applying transformer: Enum Elimination Transformer... 0.015
+Applying transformer: Negation Normal Form Transformer... 0.014
+Applying transformer: Skolemize Transformer... 0.099
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.146
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.collection.immutable.VectorBuilder.<init>(Vector.scala:1295)
+	at scala.collection.immutable.Vector$.newBuilder(Vector.scala:63)
+	at scala.collection.immutable.Vector$.newBuilder(Vector.scala:34)
+	at scala.collection.SeqFactory$Delegate.newBuilder(Factory.scala:307)
+	at scala.collection.immutable.Range.map(Range.scala:152)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:45)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:27)
+	at scala.collection.immutable.List.prependedAll(List.scala:156)
+	at scala.collection.immutable.List$.from(List.scala:651)
+	at scala.collection.immutable.List$.from(List.scala:648)
+	at scala.collection.SeqFactory$Delegate.from(Factory.scala:306)
+	at scala.collection.immutable.Seq$.from(Seq.scala:42)
+	at scala.collection.IterableOnceOps.toSeq(IterableOnce.scala:1270)
+	at scala.collection.IterableOnceOps.toSeq$(IterableOnce.scala:1270)
+	at fortress.data.CartesianSeqProduct.toSeq(CartesianSeqProduct.scala:19)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:63)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+	at fortress.transformers.QuantifierExpansionTransformer.$anonfun$apply$6(QuantifierExpansionTransformer.scala:41)
+	at fortress.transformers.QuantifierExpansionTransformer$$Lambda$334/0x0000000800d5c040.apply(Unknown Source)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:99)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:86)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:34)
+	at fortress.transformers.QuantifierExpansionTransformer.apply(QuantifierExpansionTransformer.scala:41)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$4(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$205/0x0000000800cd4c40.apply(Unknown Source)
+	at fortress.util.Control$.measureTime(Control.scala:8)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$2(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$203/0x0000000800cd5040.apply(Unknown Source)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:168)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:164)
+
+Python time: 13m 50.124s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 18,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_55_24_583_1544777.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_55_24_583_1544777.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.110
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.109
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.152
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.collection.immutable.Map$.from(Map.scala:218)
+	at scala.collection.IterableOnceOps.toMap(IterableOnce.scala:1263)
+	at scala.collection.IterableOnceOps.toMap$(IterableOnce.scala:1262)
+	at scala.collection.AbstractIterable.toMap(Iterable.scala:920)
+	at fortress.operations.QuantifierExpander$.$anonfun$apply$8(QuantifierExpander.scala:67)
+	at fortress.operations.QuantifierExpander$$$Lambda$343/0x0000000800d62840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:64)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+	at fortress.transformers.QuantifierExpansionTransformer.$anonfun$apply$6(QuantifierExpansionTransformer.scala:41)
+	at fortress.transformers.QuantifierExpansionTransformer$$Lambda$334/0x0000000800d5c040.apply(Unknown Source)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:99)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:86)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:34)
+	at fortress.transformers.QuantifierExpansionTransformer.apply(QuantifierExpansionTransformer.scala:41)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$4(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$205/0x0000000800cd4c40.apply(Unknown Source)
+	at fortress.util.Control$.measureTime(Control.scala:8)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$2(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$203/0x0000000800cd5040.apply(Unknown Source)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:168)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:164)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$1(LogicCompiler.scala:27)
+	at fortress.compiler.LogicCompiler$$Lambda$202/0x0000000800cd5840.apply(Unknown Source)
+	at fortress.util.Control$.withCountdown(Control.scala:22)
+	at fortress.compiler.LogicCompiler.compile(LogicCompiler.scala:26)
+	at fortress.compiler.LogicCompiler.compile$(LogicCompiler.scala:18)
+	at fortress.compiler.BaseFortressCompiler.compile(FortressCompilers.scala:14)
+
+Python time: 17m 47.269s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 18,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_55_24_583_1544777.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_55_24_583_1544777.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.126
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.014
+Applying transformer: Skolemize Transformer... 0.112
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.153
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3690)
+	at scala.collection.immutable.VectorBuilder.result(Vector.scala:1567)
+	at scala.collection.immutable.VectorBuilder.result(Vector.scala:1288)
+	at scala.collection.immutable.Range.map(Range.scala:59)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:45)
+	at fortress.data.CartesianSeqProduct$ProductIterator.next(CartesianSeqProduct.scala:27)
+	at scala.collection.immutable.List.prependedAll(List.scala:156)
+	at scala.collection.immutable.List$.from(List.scala:651)
+	at scala.collection.immutable.List$.from(List.scala:648)
+	at scala.collection.SeqFactory$Delegate.from(Factory.scala:306)
+	at scala.collection.immutable.Seq$.from(Seq.scala:42)
+	at scala.collection.IterableOnceOps.toSeq(IterableOnce.scala:1270)
+	at scala.collection.IterableOnceOps.toSeq$(IterableOnce.scala:1270)
+	at fortress.data.CartesianSeqProduct.toSeq(CartesianSeqProduct.scala:19)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:63)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+	at fortress.transformers.QuantifierExpansionTransformer.$anonfun$apply$6(QuantifierExpansionTransformer.scala:41)
+	at fortress.transformers.QuantifierExpansionTransformer$$Lambda$334/0x0000000800d5c040.apply(Unknown Source)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:99)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:86)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:34)
+	at fortress.transformers.QuantifierExpansionTransformer.apply(QuantifierExpansionTransformer.scala:41)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$4(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$205/0x0000000800cd4c40.apply(Unknown Source)
+	at fortress.util.Control$.measureTime(Control.scala:8)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$2(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$203/0x0000000800cd5040.apply(Unknown Source)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:168)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:164)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+
+Python time: 12m 23.386s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 19,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.078
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.075
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.151
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 14m 37.466s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 19,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.076
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.081
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.106
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.Option$.apply(Option.scala:29)
+	at scala.ref.WeakReference$.unapply(WeakReference.scala:33)
+	at fortress.data.Caching.create(Factory.scala:20)
+	at fortress.data.Caching.create$(Factory.scala:18)
+	at fortress.msfol.App$.create(Term.scala:213)
+	at fortress.msfol.App$.apply(Term.scala:216)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$15(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$$$Lambda$354/0x0000000800d6a840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:102)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$352/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$352/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$352/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$352/0x0000000800d69040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+
+Python time: 8m 53.444s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 19,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.077
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.088
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.121
+Applying transformer: Quantifier Expansion Transformer (-, -)... 18.045
+Applying transformer: Range Formula Transformer... 0.145
+Applying transformer: Simplify Transformer... 6.707
+Applying transformer: Domain Elimination Transformer... 0.770
+Total transformation time: 25.997
+Invoking solver strategy...
+Converting to solver format: 3.919
+Z3 solver time: 37.503
+Done. Result was Unsat.
+TOTAL time: 67.423
+Unsat
+
+Python time: 1m 8.429s
+------
+
+RUN NO. 19,4 scope=9
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.049
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.085
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.116
+Applying transformer: Quantifier Expansion Transformer (-, -)... 100.242
+Applying transformer: Range Formula Transformer... 0.293
+Applying transformer: Simplify Transformer... 36.336
+Applying transformer: Domain Elimination Transformer... 2.460
+Total transformation time: 139.624
+Invoking solver strategy...
+Converting to solver format: 11.868
+Z3 solver time: 746.350
+Done. Result was Unsat.
+TOTAL time: 897.846
+Unsat
+
+Python time: 14m 59.097s
+------
+
+RUN NO. 19,5 scope=9
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.070
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.080
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.240
+Applying transformer: Quantifier Expansion Transformer (-, -)... 99.785
+Applying transformer: Range Formula Transformer... 0.442
+Applying transformer: Simplify Transformer... 36.223
+Applying transformer: Domain Elimination Transformer... 2.191
+Total transformation time: 139.073
+Invoking solver strategy...
+Converting to solver format: 12.894
+Z3 solver time: 600.798
+Done. Result was Unsat.
+TOTAL time: 752.770
+Unsat
+
+Python time: 12m 34.016s
+------
+
+RUN NO. 19,6 scope=9
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.078
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.076
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 1.356
+Applying transformer: Quantifier Expansion Transformer (-, -)... 104.811
+Applying transformer: Range Formula Transformer... 0.714
+Applying transformer: Simplify Transformer... 36.121
+Applying transformer: Domain Elimination Transformer... 3.012
+Total transformation time: 146.209
+Invoking solver strategy...
+Converting to solver format: 11.449
+Z3 solver time: 566.965
+Done. Result was Unsat.
+TOTAL time: 724.628
+Unsat
+
+Python time: 12m 5.865s
+------
+
+RUN NO. 20,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.113
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.099
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.133
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.collection.immutable.HashMapBuilder.insertValue(HashMap.scala:2204)
+	at scala.collection.immutable.HashMapBuilder.update(HashMap.scala:2253)
+	at scala.collection.immutable.HashMapBuilder.addOne(HashMap.scala:2298)
+	at scala.collection.immutable.Map$Map4.buildTo(Map.scala:595)
+	at scala.collection.immutable.MapBuilderImpl.addOne(Map.scala:668)
+	at scala.collection.immutable.MapBuilderImpl.addOne(Map.scala:676)
+	at scala.collection.immutable.MapBuilderImpl.addOne(Map.scala:634)
+	at scala.collection.mutable.Growable.addAll(Growable.scala:62)
+	at scala.collection.mutable.Growable.addAll$(Growable.scala:59)
+	at scala.collection.immutable.MapBuilderImpl.addAll(Map.scala:683)
+	at scala.collection.immutable.Map$.from(Map.scala:634)
+	at scala.collection.IterableOnceOps.toMap(IterableOnce.scala:1263)
+	at scala.collection.IterableOnceOps.toMap$(IterableOnce.scala:1262)
+	at scala.collection.AbstractIterable.toMap(Iterable.scala:920)
+	at fortress.operations.QuantifierExpander$.$anonfun$apply$8(QuantifierExpander.scala:67)
+	at fortress.operations.QuantifierExpander$$$Lambda$344/0x0000000800d5b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.QuantifierExpander$.simpleQuantifiers$1(QuantifierExpander.scala:64)
+	at fortress.operations.QuantifierExpander$.instantiate$1(QuantifierExpander.scala:34)
+	at fortress.operations.QuantifierExpander$.apply(QuantifierExpander.scala:76)
+	at fortress.operations.TermOps.expandQuantifiers(TermOps.scala:57)
+	at fortress.transformers.QuantifierExpansionTransformer.$anonfun$apply$6(QuantifierExpansionTransformer.scala:41)
+	at fortress.transformers.QuantifierExpansionTransformer$$Lambda$334/0x0000000800d53840.apply(Unknown Source)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:99)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:86)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:34)
+	at fortress.transformers.QuantifierExpansionTransformer.apply(QuantifierExpansionTransformer.scala:41)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$4(LogicCompiler.scala:32)
+	at fortress.compiler.LogicCompiler$$Lambda$209/0x0000000800cd4c40.apply(Unknown Source)
+	at fortress.util.Control$.measureTime(Control.scala:8)
+	at fortress.compiler.LogicCompiler.$anonfun$compile$2(LogicCompiler.scala:32)
+
+Python time: 17m 41.529s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 20,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.103
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.089
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.113
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 14m 36.847s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 20,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+TIMEOUT
+Need to kill: 562 z3
+Need to kill: 470 java
+Need to kill: 469 sh
+Trying to kill: 562 z3
+killed: z3
+Trying to kill: 470 java
+killed: java
+Trying to kill: 469 sh
+killed: sh
+------
+
+RUN NO. 20,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.106
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.093
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.108
+Applying transformer: Quantifier Expansion Transformer (-, -)... 3.814
+Applying transformer: Range Formula Transformer... 0.128
+Applying transformer: Simplify Transformer... 2.498
+Applying transformer: Domain Elimination Transformer... 1.766
+Total transformation time: 8.555
+Invoking solver strategy...
+Converting to solver format: 9.223
+Z3 solver time: 44.737
+Done. Result was Unsat.
+TOTAL time: 62.518
+Unsat
+
+Python time: 1m 3.482s
+------
+
+RUN NO. 20,5 scope=6
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.074
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.087
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.099
+Applying transformer: Quantifier Expansion Transformer (-, -)... 10.581
+Applying transformer: Range Formula Transformer... 0.169
+Applying transformer: Simplify Transformer... 7.065
+Applying transformer: Domain Elimination Transformer... 4.838
+Total transformation time: 22.952
+Invoking solver strategy...
+Converting to solver format: 25.426
+Z3 solver time: 292.853
+Done. Result was Unsat.
+TOTAL time: 341.236
+Unsat
+
+Python time: 5m 42.233s
+------
+
+RUN NO. 20,6 scope=6
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.082
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.089
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.483
+Applying transformer: Quantifier Expansion Transformer (-, -)... 10.656
+Applying transformer: Range Formula Transformer... 0.667
+Applying transformer: Simplify Transformer... 7.011
+Applying transformer: Domain Elimination Transformer... 5.083
+Total transformation time: 24.113
+Invoking solver strategy...
+Converting to solver format: 25.407
+Z3 solver time: 478.622
+Done. Result was Unsat.
+TOTAL time: 528.145
+Unsat
+
+Python time: 8m 49.131s
+------
+
+RUN NO. 20,7 scope=6
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.093
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.093
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 2.901
+Applying transformer: Quantifier Expansion Transformer (-, -)... 10.473
+Applying transformer: Range Formula Transformer... 0.890
+Applying transformer: Simplify Transformer... 7.071
+Applying transformer: Domain Elimination Transformer... 4.932
+Total transformation time: 26.496
+Invoking solver strategy...
+Converting to solver format: 25.865
+Z3 solver time: 178.961
+Done. Result was Unsat.
+TOTAL time: 231.326
+Unsat
+
+Python time: 3m 52.344s
+------
+
+RUN NO. 21,1 scope=18
+./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+TIMEOUT
+Need to kill: 1168 z3
+Need to kill: 1077 java
+Need to kill: 1076 sh
+Trying to kill: 1168 z3
+killed: z3
+Trying to kill: 1077 java
+killed: java
+Trying to kill: 1076 sh
+killed: sh
+------
+
+RUN NO. 21,2 scope=11
+./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+TIMEOUT
+Need to kill: 1298 z3
+Need to kill: 1214 java
+Need to kill: 1213 sh
+Trying to kill: 1298 z3
+killed: z3
+Trying to kill: 1214 java
+killed: java
+Trying to kill: 1213 sh
+killed: sh
+------
+
+RUN NO. 21,3 scope=7
+./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.041
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.052
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.077
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.324
+Applying transformer: Range Formula Transformer... 0.017
+Applying transformer: Simplify Transformer... 0.262
+Applying transformer: Domain Elimination Transformer... 0.185
+Total transformation time: 0.996
+Invoking solver strategy...
+Converting to solver format: 0.570
+Z3 solver time: 14.688
+Done. Result was Unsat.
+TOTAL time: 16.258
+Unsat
+
+Python time: 0m 17.151s
+------
+
+RUN NO. 21,4 scope=9
+./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.048
+Applying transformer: Enum Elimination Transformer... 0.010
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.057
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.073
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.715
+Applying transformer: Range Formula Transformer... 0.027
+Applying transformer: Simplify Transformer... 0.648
+Applying transformer: Domain Elimination Transformer... 0.387
+Total transformation time: 1.995
+Invoking solver strategy...
+Converting to solver format: 1.216
+Z3 solver time: 33.483
+Done. Result was Unsat.
+TOTAL time: 36.700
+Unsat
+
+Python time: 0m 37.621s
+------
+
+RUN NO. 21,5 scope=10
+./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.046
+Applying transformer: Enum Elimination Transformer... 0.010
+Applying transformer: Negation Normal Form Transformer... 0.010
+Applying transformer: Skolemize Transformer... 0.053
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.084
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.096
+Applying transformer: Range Formula Transformer... 0.029
+Applying transformer: Simplify Transformer... 0.916
+Applying transformer: Domain Elimination Transformer... 0.566
+Total transformation time: 2.828
+Invoking solver strategy...
+Converting to solver format: 1.828
+Z3 solver time: 2.730
+Done. Result was Unsat.
+TOTAL time: 7.391
+Unsat
+
+Python time: 0m 8.33s
+------
+
+RUN NO. 22,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_53_48_623_1355897.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_53_48_623_1355897.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.073
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.077
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.130
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 15.333s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 22,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_53_48_623_1355897.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_53_48_623_1355897.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.082
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.077
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.132
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 27.134s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 22,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_53_48_623_1355897.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_53_48_623_1355897.smt_in.smt2
+TIMEOUT
+Need to kill: 2149 java
+Need to kill: 2148 sh
+Trying to kill: 2149 java
+killed: java
+Trying to kill: 2148 sh
+killed: sh
+------
+
+RUN NO. 22,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_53_48_623_1355897.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_53_48_623_1355897.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.123
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.082
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.102
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 15m 3.242s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 23,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.040
+Applying transformer: Enum Elimination Transformer... 0.014
+Applying transformer: Negation Normal Form Transformer... 0.009
+Applying transformer: Skolemize Transformer... 0.066
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.067
+Applying transformer: Quantifier Expansion Transformer (-, -)... 115.402
+Applying transformer: Range Formula Transformer... 2.846
+Applying transformer: Simplify Transformer... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at fortress.msfol.OrList$.apply(Term.scala:113)
+	at fortress.operations.Simplifier$.simplifyFull$1(Simplification.scala:11)
+	at fortress.operations.Simplifier$.$anonfun$simplify$1(Simplification.scala:10)
+	at fortress.operations.Simplifier$$$Lambda$371/0x0000000800d77040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.Simplifier$.simplifyFull$1(Simplification.scala:10)
+	at fortress.operations.Simplifier$.$anonfun$simplify$1(Simplification.scala:10)
+	at fortress.operations.Simplifier$$$Lambda$371/0x0000000800d77040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.Simplifier$.simplifyFull$1(Simplification.scala:10)
+	at fortress.operations.Simplifier$.$anonfun$simplify$2(Simplification.scala:11)
+	at fortress.operations.Simplifier$$$Lambda$369/0x0000000800d75840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.Simplifier$.simplifyFull$1(Simplification.scala:11)
+	at fortress.operations.Simplifier$.$anonfun$simplify$1(Simplification.scala:10)
+	at fortress.operations.Simplifier$$$Lambda$371/0x0000000800d77040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.Simplifier$.simplifyFull$1(Simplification.scala:10)
+	at fortress.operations.Simplifier$.simplify(Simplification.scala:28)
+	at fortress.operations.TermOps.simplify(TermOps.scala:62)
+	at fortress.transformers.SimplifyTransformer.$anonfun$apply$1(SimplifyTransformer.scala:11)
+	at fortress.transformers.SimplifyTransformer$$Lambda$368/0x0000000800d75040.apply(Unknown Source)
+	at scala.collection.StrictOptimizedIterableOps.map(StrictOptimizedIterableOps.scala:99)
+	at scala.collection.StrictOptimizedIterableOps.map$(StrictOptimizedIterableOps.scala:86)
+	at scala.collection.immutable.HashSet.map(HashSet.scala:34)
+	at fortress.operations.TheoryOps.mapAxioms(TheoryOps.scala:14)
+	at fortress.transformers.SimplifyTransformer.apply(SimplifyTransformer.scala:11)
+	at fortress.transformers.TheoryTransformer$asPST$1$.apply(TheoryTransformer.scala:21)
+
+Python time: 14m 58.453s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 23,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+TIMEOUT
+Need to kill: 3139 z3
+Need to kill: 3040 java
+Need to kill: 3039 sh
+Trying to kill: 3139 z3
+killed: z3
+Trying to kill: 3040 java
+killed: java
+Trying to kill: 3039 sh
+killed: sh
+------
+
+RUN NO. 23,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.031
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.009
+Applying transformer: Skolemize Transformer... 0.058
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.045
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.055
+Applying transformer: Range Formula Transformer... 0.060
+Applying transformer: Simplify Transformer... 0.976
+Applying transformer: Domain Elimination Transformer... 0.502
+Total transformation time: 2.766
+Invoking solver strategy...
+Converting to solver format: 2.673
+Z3 solver time: 38.581
+Done. Result was Unsat.
+TOTAL time: 44.024
+Unsat
+
+Python time: 0m 44.93s
+------
+
+RUN NO. 23,4 scope=9
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.034
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.009
+Applying transformer: Skolemize Transformer... 0.061
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.047
+Applying transformer: Quantifier Expansion Transformer (-, -)... 3.287
+Applying transformer: Range Formula Transformer... 0.125
+Applying transformer: Simplify Transformer... 3.287
+Applying transformer: Domain Elimination Transformer... 1.624
+Total transformation time: 8.505
+Invoking solver strategy...
+Converting to solver format: 9.206
+Z3 solver time: 768.293
+Done. Result was Unsat.
+TOTAL time: 786.009
+Unsat
+
+Python time: 13m 6.937s
+------
+
+RUN NO. 23,5 scope=9
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.032
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.009
+Applying transformer: Skolemize Transformer... 0.057
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.087
+Applying transformer: Quantifier Expansion Transformer (-, -)... 3.372
+Applying transformer: Range Formula Transformer... 0.159
+Applying transformer: Simplify Transformer... 3.212
+Applying transformer: Domain Elimination Transformer... 1.588
+Total transformation time: 8.546
+Invoking solver strategy...
+Converting to solver format: 9.217
+Z3 solver time: 827.748
+Done. Result was Unsat.
+TOTAL time: 845.515
+Unsat
+
+Python time: 14m 6.465s
+------
+
+RUN NO. 23,6 scope=9
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.036
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.008
+Applying transformer: Skolemize Transformer... 0.068
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.477
+Applying transformer: Quantifier Expansion Transformer (-, -)... 3.324
+Applying transformer: Range Formula Transformer... 0.209
+Applying transformer: Simplify Transformer... 3.233
+Applying transformer: Domain Elimination Transformer... 1.713
+Total transformation time: 9.100
+Invoking solver strategy...
+Converting to solver format: 9.218
+Z3 solver time: 497.048
+Done. Result was Unsat.
+TOTAL time: 515.370
+Unsat
+
+Python time: 8m 36.3s
+------
+
+RUN NO. 24,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.083
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.130
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.206
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 16m 32.188s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 24,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.051
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.117
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.185
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space: failed reallocation of scalar replaced objects
+
+Python time: 9m 38.446s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 24,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.079
+Applying transformer: Enum Elimination Transformer... 0.015
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.157
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.157
+Applying transformer: Quantifier Expansion Transformer (-, -)... 55.052
+Applying transformer: Range Formula Transformer... 0.393
+Applying transformer: Simplify Transformer... 116.836
+Applying transformer: Domain Elimination Transformer... 35.516
+Total transformation time: 208.239
+Invoking solver strategy...
+Converting to solver format: 225.162
+Z3 solver time: 79.066
+Done. Result was Unsat.
+TOTAL time: 512.471
+Unsat
+
+Python time: 8m 33.718s
+------
+
+RUN NO. 24,4 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.088
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.011
+Applying transformer: Skolemize Transformer... 0.137
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.306
+Applying transformer: Quantifier Expansion Transformer (-, -)... 55.522
+Applying transformer: Range Formula Transformer... 0.776
+Applying transformer: Simplify Transformer... 117.919
+Applying transformer: Domain Elimination Transformer... 35.394
+Total transformation time: 210.185
+Invoking solver strategy...
+Converting to solver format: 220.928
+Z3 solver time: 79.324
+Done. Result was Unsat.
+TOTAL time: 510.442
+Unsat
+
+Python time: 8m 31.731s
+------
+
+RUN NO. 24,5 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.083
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.114
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 2.088
+Applying transformer: Quantifier Expansion Transformer (-, -)... 55.212
+Applying transformer: Range Formula Transformer... 0.837
+Applying transformer: Simplify Transformer... 118.234
+Applying transformer: Domain Elimination Transformer... 35.629
+Total transformation time: 212.239
+Invoking solver strategy...
+Converting to solver format: 221.534
+Z3 solver time: 82.093
+Done. Result was Unsat.
+TOTAL time: 515.871
+Unsat
+
+Python time: 8m 37.15s
+------
+
+RUN NO. 25,1 scope=18
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+TIMEOUT
+Need to kill: 8044 z3
+Need to kill: 7822 java
+Need to kill: 7821 sh
+Trying to kill: 8044 z3
+killed: z3
+Trying to kill: 7822 java
+killed: java
+Trying to kill: 7821 sh
+killed: sh
+------
+
+RUN NO. 25,2 scope=11
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+TIMEOUT
+Need to kill: 8723 z3
+Need to kill: 8619 java
+Need to kill: 8618 sh
+Trying to kill: 8723 z3
+killed: z3
+Trying to kill: 8619 java
+killed: java
+Trying to kill: 8618 sh
+killed: sh
+------
+
+RUN NO. 25,3 scope=7
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.049
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.014
+Applying transformer: Skolemize Transformer... 0.117
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.081
+Applying transformer: Quantifier Expansion Transformer (-, -)... 2.335
+Applying transformer: Range Formula Transformer... 0.034
+Applying transformer: Simplify Transformer... 2.088
+Applying transformer: Domain Elimination Transformer... 1.286
+Total transformation time: 6.035
+Invoking solver strategy...
+Converting to solver format: 4.488
+Z3 solver time: 32.267
+Done. Result was Unsat.
+TOTAL time: 42.795
+Unsat
+
+Python time: 0m 43.794s
+------
+
+RUN NO. 25,4 scope=9
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v1 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.045
+Applying transformer: Enum Elimination Transformer... 0.011
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.118
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.088
+Applying transformer: Quantifier Expansion Transformer (-, -)... 6.126
+Applying transformer: Range Formula Transformer... 0.057
+Applying transformer: Simplify Transformer... 5.175
+Applying transformer: Domain Elimination Transformer... 3.392
+Total transformation time: 15.044
+Invoking solver strategy...
+Converting to solver format: 12.171
+Z3 solver time: 550.183
+Done. Result was Unsat.
+TOTAL time: 577.403
+Unsat
+
+Python time: 9m 38.404s
+------
+
+RUN NO. 25,5 scope=9
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3 --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.045
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.090
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.154
+Applying transformer: Quantifier Expansion Transformer (-, -)... 6.117
+Applying transformer: Range Formula Transformer... 0.073
+Applying transformer: Simplify Transformer... 5.189
+Applying transformer: Domain Elimination Transformer... 3.498
+Total transformation time: 15.211
+Invoking solver strategy...
+Converting to solver format: 11.830
+Z3 solver time: 74.468
+Done. Result was Unsat.
+TOTAL time: 101.513
+Unsat
+
+Python time: 1m 42.542s
+------
+
+RUN NO. 25,6 scope=9
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.048
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.014
+Applying transformer: Skolemize Transformer... 0.091
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 1.228
+Applying transformer: Quantifier Expansion Transformer (-, -)... 5.937
+Applying transformer: Range Formula Transformer... 0.076
+Applying transformer: Simplify Transformer... 5.095
+Applying transformer: Domain Elimination Transformer... 3.297
+Total transformation time: 15.817
+Invoking solver strategy...
+Converting to solver format: 12.130
+Z3 solver time: 74.580
+Done. Result was Unsat.
+TOTAL time: 102.531
+Unsat
+
+Python time: 1m 43.589s
+------
+
+RUN NO. 26,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.051
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.108
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.088
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at scala.Option$.apply(Option.scala:29)
+	at scala.ref.WeakReference$.unapply(WeakReference.scala:33)
+	at fortress.data.Caching.create(Factory.scala:20)
+	at fortress.data.Caching.create$(Factory.scala:18)
+	at fortress.msfol.App$.create(Term.scala:213)
+	at fortress.msfol.App$.apply(Term.scala:216)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:109)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:108)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:102)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$354/0x0000000800d6a840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$355/0x0000000800d6b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$355/0x0000000800d6b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$355/0x0000000800d6b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$355/0x0000000800d6b040.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+
+Python time: 14m 5.046s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 26,2 scope=11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 11 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.060
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.117
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.101
+Applying transformer: Quantifier Expansion Transformer (-, -)... Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at fortress.msfol.Eq$.apply(Term.scala:190)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:108)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:102)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$353/0x0000000800d69840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$13(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$$$Lambda$353/0x0000000800d69840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:104)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$354/0x0000000800d6a840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$354/0x0000000800d6a840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$354/0x0000000800d6a840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+	at fortress.operations.FastSubstituter$.sub$2(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$.$anonfun$apply$12(Substitution.scala:103)
+	at fortress.operations.FastSubstituter$$$Lambda$354/0x0000000800d6a840.apply(Unknown Source)
+	at scala.collection.immutable.List.map(List.scala:250)
+	at scala.collection.immutable.List.map(List.scala:79)
+
+Python time: 15m 52.434s
+
+***output: JavaOutOfMemoryError
+------
+
+RUN NO. 26,3 scope=7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 7 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+TIMEOUT
+Need to kill: 11566 z3
+Need to kill: 11469 java
+Need to kill: 11468 sh
+Trying to kill: 11566 z3
+killed: z3
+Trying to kill: 11469 java
+killed: java
+Trying to kill: 11468 sh
+killed: sh
+------
+
+RUN NO. 26,4 scope=5
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.061
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.127
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.103
+Applying transformer: Quantifier Expansion Transformer (-, -)... 3.295
+Applying transformer: Range Formula Transformer... 0.043
+Applying transformer: Simplify Transformer... 5.828
+Applying transformer: Domain Elimination Transformer... 1.852
+Total transformation time: 11.352
+Invoking solver strategy...
+Converting to solver format: 10.965
+Z3 solver time: 17.494
+Done. Result was Unsat.
+TOTAL time: 39.815
+Unsat
+
+Python time: 0m 40.766s
+------
+
+RUN NO. 26,5 scope=6
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.041
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.104
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.114
+Applying transformer: Quantifier Expansion Transformer (-, -)... 10.422
+Applying transformer: Range Formula Transformer... 0.086
+Applying transformer: Simplify Transformer... 20.761
+Applying transformer: Domain Elimination Transformer... 5.914
+Total transformation time: 37.485
+Invoking solver strategy...
+Converting to solver format: 37.745
+Z3 solver time: 158.717
+Done. Result was Unsat.
+TOTAL time: 233.951
+Unsat
+
+Python time: 3m 54.938s
+------
+
+RUN NO. 26,6 scope=6
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.042
+Applying transformer: Enum Elimination Transformer... 0.015
+Applying transformer: Negation Normal Form Transformer... 0.012
+Applying transformer: Skolemize Transformer... 0.115
+Applying transformer: Symmetry Breaking Transformer (Mono First, then Functions, then Predicates)... 0.190
+Applying transformer: Quantifier Expansion Transformer (-, -)... 10.544
+Applying transformer: Range Formula Transformer... 0.097
+Applying transformer: Simplify Transformer... 20.956
+Applying transformer: Domain Elimination Transformer... 5.898
+Total transformation time: 37.887
+Invoking solver strategy...
+Converting to solver format: 37.839
+Z3 solver time: 176.624
+Done. Result was Unsat.
+TOTAL time: 252.354
+Unsat
+
+Python time: 4m 13.393s
+------
+
+RUN NO. 26,7 scope=6
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.065
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.013
+Applying transformer: Skolemize Transformer... 0.144
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 1.203
+Applying transformer: Quantifier Expansion Transformer (-, -)... 9.572
+Applying transformer: Range Formula Transformer... 0.192
+Applying transformer: Simplify Transformer... 20.654
+Applying transformer: Domain Elimination Transformer... 5.851
+Total transformation time: 37.727
+Invoking solver strategy...
+Converting to solver format: 37.870
+Z3 solver time: 245.120
+Done. Result was Unsat.
+TOTAL time: 320.721
+Unsat
+
+Python time: 5m 21.783s
+------
+
+RUN NO. 27,1 scope=18
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v1 --rawdata ../UF/./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.092
+Applying transformer: Enum Elimination Transformer... 0.013
+Applying transformer: Negation Normal Form Transformer... 0.009
+Applying transformer: Skolemize Transformer... 0.058
+Applying transformer: Symmetry Breaking Transformer (Mono Only, Any Order)... 0.469
+Applying transformer: Quantifier Expansion Transformer (-, -)... Killed
+
+Python time: 18m 8.295s

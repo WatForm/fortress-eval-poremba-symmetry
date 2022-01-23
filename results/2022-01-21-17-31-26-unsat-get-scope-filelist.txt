@@ -1,0 +1,16 @@
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2, unsat, 11
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2, unsat, 9
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6

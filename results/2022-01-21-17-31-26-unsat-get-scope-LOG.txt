@@ -1,0 +1,26 @@
+1, ./sledgehammer/TypeSafe/smtlib.1201697.smt2, no scope finishes in time range for all versions, 0
+2, ./grasshopper/uninstantiated/dl_dispose_invariant_17_2.smt2, no scope finishes in time range for all versions, 0
+3, ./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11
+4, ./sledgehammer/TypeSafe/uf.1190212.smt2, no scope finishes in time range for all versions, 0
+5, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6
+6, ./grasshopper/instantiated/create_check_heap_access_49_4.smt2, no scope finishes in time range for all versions, 0
+7, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7
+8, ./sledgehammer/QEpres/uf.867345.smt2, unsat, 7
+9, ./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2, unsat, 11
+10, ./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5
+11, ./20170428-Barrett/cdt-cade2015/nada/distro/process/x2015_09_10_16_46_13_720_1027456.smt_in.smt2, no scope finishes in time range for all versions, 0
+12, ./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11
+13, ./sledgehammer/FFT/uf.549548.smt2, no scope finishes in time range for all versions, 0
+14, ./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5
+15, ./sledgehammer/QEpres/uf.780191.smt2, unsat, 7
+16, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11
+17, ./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_49_53_139_990879.smt_in.smt2, no scope finishes in time range for all versions, 0
+18, ./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_55_24_583_1544777.smt_in.smt2, no scope finishes in time range for all versions, 0
+19, ./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9
+20, ./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6
+21, ./sledgehammer/Fundamental_Theorem_Algebra/uf.901381.smt2, no scope finishes in time range for all versions, 0
+22, ./20170428-Barrett/cdt-cade2015/nada/distro/rbt_impl/x2015_09_10_16_53_48_623_1355897.smt_in.smt2, no scope finishes in time range for all versions, 0
+23, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9
+24, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7
+25, ./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2, unsat, 9
+26, ./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6
