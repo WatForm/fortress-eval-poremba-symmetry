@@ -2,6 +2,11 @@
     Use a bisection algorithm to determine a scope that completes
     within the time bounds on all versions
 
+    Outputs
+    -filelist - just goal files, and their scope
+    -LOG   - all files and one line about them
+    -LONG-LOG - everything
+    -time-data - goal files, scope, all versions & times (collects some data for initial perf comparisons)
 """
 
 import re
@@ -35,6 +40,7 @@ inputfilelist = thisdirprefix + "results/2022-01-13-"+goal+"-random-order-fileli
 longlogfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-LONG-LOG.txt"
 logfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-LOG.txt"
 outfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-filelist.txt"
+timedata = thisdirprefix + "results/"+dt_string+"-"+goal+"-get-scope-time-data.txt"
 
 # range is 5-30 determined after some trial and error
 minscope = 4 # have to start 1 lower and 1 higher so can stop 
@@ -62,6 +68,7 @@ def long(n):
 
 def get_scope_bisection_with_versions(name, cnt):
     global fortresstimeout, lowertimethreshold, uppertimethreshold, longlogf,minscope,maxscope
+    global timedataf, ver_time
     global originalfilescope
 
     # non-recursive
@@ -80,6 +87,7 @@ def get_scope_bisection_with_versions(name, cnt):
     else:
         sc = math.ceil(mean([fmin, fmax]))
     ver0_scopes_tried = [] 
+    ver_time = {}
     j = 0 # tests on this file
     ver = 0  # index into versions on versions list
     while minscope < sc and sc < maxscope and not(ver == 0 and sc in ver0_scopes_tried) and ver < len(versions):
@@ -112,13 +120,18 @@ def get_scope_bisection_with_versions(name, cnt):
             fmin = sc
             sc = math.ceil(mean([sc, fmax]))
         else:
+            # got one!
+            ver_time[ver] = time
             ver += 1
 
     # end of loop
     if not(minscope < sc and sc < maxscope) or (ver == 0 and sc in ver0_scopes_tried):
         return 0, "no scope finishes in time range for all versions"
     else: 
-        # we'd have to go to the logs to find out the times for these
+        # useful info for preliminary checks on performance
+        for i in range(0,len(versions)):
+            timedataf.write(name + ", " + goal + ", " + str(sc) +", "+ versions[i] +", " + str(ver_time[i])+"\n")
+            timedataf.flush()
         return sc, goal
 
 # main
@@ -132,6 +145,8 @@ logf = open(logfile, "w")
 
 # output file list to use
 outf = open(outfile, "w")
+
+timedataf = open(timedata,"w")
 
 # read in the randomized list of files for this process
 filelist = []
@@ -166,4 +181,6 @@ while goalcounter < goaltotal and filecounter <= len(filelist):
 outf.close()
 logf.close()
 longlogf.close()
+timedataf.close()
+
 print("Completed!")
