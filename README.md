@@ -5,7 +5,6 @@ This is how the fortress evaluation of Poremba and Day's symmetry breaking schem
 ## TL;DR
 ```
 git clone https://github.com/WatForm/fortress-eval-poremba-symmetry.git
-git clone https://github.com/WatForm/fortress.git
 git clone https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
 git clone https://github.com/WatForm/fortress.git
 cd fortress-eval-poremba-symmetry.git
