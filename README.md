@@ -16,9 +16,12 @@ python3 python/run-tests.py &
 python3 python/run-tests.py &
 ```
 
-The results (after many days!) will be data:
+The results (after many days!) will be data in:
+
 results/date-time-sat-run-tests.txt
+
 results/date-time-unsat-run-tests.txt
+
 With the run times for every tested version on those files.
 
 ## Complete Experiment Instructions
