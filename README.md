@@ -10,9 +10,9 @@ git clone https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
 git clone https://github.com/WatForm/fortress.git
 cd fortress-eval-poremba-symmetry.git
 ./install_fortress.sh
-<set options for sat in python run-tests.py>
+<set options for sat in python/run-tests.py>
 python3 python/run-tests.py &
-<set options for unsat in python run-tests.py>
+<set options for unsat in python/run-tests.py>
 python3 python/run-tests.py &
 ```
 
