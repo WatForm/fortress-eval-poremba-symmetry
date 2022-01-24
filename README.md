@@ -1,9 +1,6 @@
 # README
 
-Last updated: 2022-01-23
-
 This is how the fortress evaluation of Poremba and Day's symmetry breaking schemes was completed.
-
 
 ## TL;DR
 ```
