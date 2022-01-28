@@ -3,8 +3,7 @@
     Tally as we go
 
     Outputs
-    -filelist - just goal files, and their scope
-    -LOG   - all files and one line about them
+    -file-scope- list - just goal files, and their scope
     -LONG-LOG - everything
     -time-data - goal files, scope, all versions & times (collects some data for initial perf comparisons)
 """
@@ -17,10 +16,11 @@ from datetime import datetime
 import util
 from defs import *
 
-versions = ["v1","v3","v3si"]
-num_tries = 1
+# do v3si later once figured out NO_NEW_SORTS
+versions = ["v1","v3"]
+num_tries = 3
 
-# for finding at files
+# for finding sat files
 goal = "sat"
 
 # for finding unsat files
@@ -39,6 +39,7 @@ longlogfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-run-tests-LONG-LOG
 timedatafile = thisdirprefix + "results/"+dt_string+"-"+goal+"-run-tests-time-data.txt"
 
 # 3-20 min
+# not really needed this time
 lowertimethreshold = 3 * 60  # seconds
 uppertimethreshold = 20 * 60  # seconds
 fortresstimeout = (uppertimethreshold + 600) * 1000  # ms; always way bigger
@@ -46,8 +47,6 @@ fortresstimeout = (uppertimethreshold + 600) * 1000  # ms; always way bigger
 fortressbin = thisdirprefix + 'libs/fortressdebug-0.1.0/bin/fortressdebug'
 stacksize = '-Xss8m'  # fortress JVM Stack size set to 8 MB
 toobig_outputcodes = ["TIMEOUT", "JavaStackOverflowError", "JavaOutOfMemoryError"]
-
-totaltimes = {}
 
 def satisfiability_of_output(output):
     if re.search('Unsat', output):
@@ -76,8 +75,6 @@ with open(inputfilelist) as f:
         filescope[filename] = sc
 
 cnt = 1
-for i in range(len(versions)):
-    totaltimes[i] = 0
 for name in filescope.keys():
     sc = filescope[name]
     for i in range(num_tries):
@@ -90,9 +87,8 @@ for name in filescope.keys():
             longlogf.flush()
             (time, output, exitcode) = util.runprocess(fortressbin + fortressargs, longlogf, uppertimethreshold)
             status = satisfiability_of_output(output)
-            totaltimes[v] += time
             # there is a 30sec delay after the process is finished to make sure Z3 is dead
-            if exitcode == 0:
+            if exitcode == 0 and goal == satisfiability_of_output(output):
                 timedataf.write(\
                     name + ", " + \
                     status + ", " + \
@@ -102,13 +98,11 @@ for name in filescope.keys():
             else:
                 timedataf.write(\
                     name + ", " + \
+                    status + ", " + \
+                    str(sc) + ", " + \
+                    versions[v] + ", " + \
                     'non-zero exit code' +'\n')
             timedataf.flush()
-        longlogf.write("totals so far:  ")
-        for v in range(0,len(versions)):
-            longlogf.write(versions[v]+" "+str(round(totaltimes[v],2))+"   ")
-        longlogf.write("\n======\n")
-        longlogf.flush()
     cnt += 1
 
 timedataf.close()
