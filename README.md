@@ -1,26 +1,36 @@
 # README
 
-Last updated: 2022-01-11
-
 This is how the fortress evaluation of Poremba and Day's symmetry breaking schemes was completed.
-
-Below replace THISDIR with the location of this directory.
 
 ## TL;DR
 ```
 git clone https://github.com/WatForm/fortress-eval-poremba-symmetry.git
-git clone https://github.com/WatForm/fortress.git
+git clone https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
 git clone https://github.com/WatForm/fortress.git
 cd fortress-eval-poremba-symmetry.git
 ./install_fortress.sh
+<set options for sat in python/run-tests.py>
+python3 python/run-tests.py &
+<set options for unsat in python/run-tests.py>
+python3 python/run-tests.py &
 ```
+
+The results (after many days!) will be data in:
+
+results/date-time-sat-run-tests.txt
+
+results/date-time-unsat-run-tests.txt
+
+With the run times for every tested version on those files.
 
 ## Complete Experiment Instructions
 
-* Fortress evaluation scripts (this repo)
+Below replace THISDIR with the location of this directory.
+
+* Get the fortress evaluation scripts (this repo)
 	- git clone https://github.com/WatForm/fortress-eval-poremba-symmetry.git
 	
-* install Fortress
+* Install Fortress
 	- requirements:
 	 	+ Java 10 or higher
 		+ sbt 
@@ -40,9 +50,9 @@ cd fortress-eval-poremba-symmetry.git
     	+ Z3 version 4.8.10 - 64 bit    
 	
 * Get the benchmark files
-	- c
+	- git clone https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
 	- on 2022-01-11
-	- Commit: dd1c268beb61a2c583caf414b32248decdff0d0a
+	- Commit: dd1c268beb61a2c583caf414b32248decdff0d0a (master branch)
 
 * Generate randomly ordered list of smt2 files that are known to be unsat/sat problems
 	- these filelists are included in this repo because if you redo this step, you may get a different order and therefore may not get the same results
