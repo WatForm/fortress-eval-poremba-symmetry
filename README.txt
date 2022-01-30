@@ -14,3 +14,9 @@ started looking for unsat files
 
 2022-01-22 15:17
 restarted at 27 (collected 16 already) for recording timing data also
+
+2022-01-28 
+100 unsat files
+
+run 3* sats for v1, v3
+
