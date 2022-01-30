@@ -20,3 +20,7 @@ restarted at 27 (collected 16 already) for recording timing data also
 
 run 3* sats for v1, v3
 
+2022-01-30
+completed 3* sat for v1 v3
+
+started 3* unsat for v1,v3

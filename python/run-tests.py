@@ -34,7 +34,7 @@ goalcounter = 0 # need to reset this if change filecounter!!!
 now = datetime.now()
 dt_string = now.strftime("%Y-%m-%d-%H-%M-%S")
 
-inputfilelist = thisdirprefix + "results/2022-01-15-"+goal+"-file-scope-list.txt"
+inputfilelist = thisdirprefix + "results/2022-01-28-"+goal+"-file-scope-list.txt"
 longlogfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-run-tests-LONG-LOG.txt"
 timedatafile = thisdirprefix + "results/"+dt_string+"-"+goal+"-run-tests-time-data.txt"
 
