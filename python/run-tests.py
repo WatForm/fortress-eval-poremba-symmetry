@@ -21,10 +21,10 @@ versions = ["v1","v3"]
 num_tries = 3
 
 # for finding sat files
-goal = "sat"
+#goal = "sat"
 
 # for finding unsat files
-#goal = "unsat"
+goal = "unsat"
 
 
 filecounter = 1  # start at first line of files; counting starts at 1
@@ -105,7 +105,10 @@ for name in filescope.keys():
             timedataf.flush()
     cnt += 1
 
+longlogf.write("Completed!\n")
+longlog.flush()
+
 timedataf.close()
 longlogf.close()
 
-print("Completed!")
+
