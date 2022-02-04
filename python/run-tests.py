@@ -17,8 +17,8 @@ import util
 from defs import *
 
 # do v3si later once figured out NO_NEW_SORTS
-versions = ["v1","v3"]
-num_tries = 3
+versions = ["v3si"]
+num_tries = 1
 
 # for finding sat files
 #goal = "sat"
@@ -53,6 +53,8 @@ def satisfiability_of_output(output):
         return 'unsat'
     elif re.search('Sat', output):
         return 'sat'
+    elif re.search(r'No new sorts', output):
+        return 'No_new_sorts'
     return output
 
 def long(n):
@@ -79,8 +81,11 @@ for name in filescope.keys():
     sc = filescope[name]
     for i in range(num_tries):
         for v in range(len(versions)):
-            fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
+#            fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
                 ' --mode decision --scope ' + str(sc) + ' --version ' + versions[v] + \
+                " --rawdata" + " " + long(name)
+            fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
+                ' --mode checkfornewsorts  --version v3si' + \
                 " --rawdata" + " " + long(name)
             longlogf.write("\nRUN NO. " + str(cnt) + "  "+ versions[v] + "  "+ name + " scope=" + str(sc) +  '\n')
             longlogf.write(fortressbin + fortressargs + '\n')
