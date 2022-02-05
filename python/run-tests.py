@@ -16,15 +16,16 @@ from datetime import datetime
 import util
 from defs import *
 
-# do v3si later once figured out NO_NEW_SORTS
 versions = ["v3si"]
-num_tries = 1
+num_tries = 3
 
-# for finding sat files
-#goal = "sat"
+# for 50 sat files
+goal = "sat"
+inputfilelist = thisdirprefix + "results/2022-01-15-"+goal+"-file-scope-list.txt"
 
-# for finding unsat files
-goal = "unsat"
+# for 100 unsat files
+#goal = "unsat"
+#inputfilelist = thisdirprefix + "results/2022-01-28-"+goal+"-file-scope-list.txt"
 
 
 filecounter = 1  # start at first line of files; counting starts at 1
@@ -34,7 +35,7 @@ goalcounter = 0 # need to reset this if change filecounter!!!
 now = datetime.now()
 dt_string = now.strftime("%Y-%m-%d-%H-%M-%S")
 
-inputfilelist = thisdirprefix + "results/2022-01-28-"+goal+"-file-scope-list.txt"
+
 longlogfile = thisdirprefix + "results/"+dt_string+"-"+goal+"-run-tests-LONG-LOG.txt"
 timedatafile = thisdirprefix + "results/"+dt_string+"-"+goal+"-run-tests-time-data.txt"
 
@@ -81,13 +82,30 @@ for name in filescope.keys():
     sc = filescope[name]
     for i in range(num_tries):
         for v in range(len(versions)):
-#            fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
+            longlogf.write("\nRUN NO. " + str(cnt) + "  "+ versions[v] + "  "+ name + " scope=" + str(sc) +  '\n')
+            new_sorts = False
+            if versions[v] == "v3si" or versions[v] == "v2si":
+                # check for new scopes first 
+                fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
+                    ' --mode checkfornewsorts --scope ' + str(sc) + ' --version ' + versions[v] + \
+                    " --rawdata" + " " + long(name)
+                longlogf.write(fortressbin + fortressargs + '\n')
+                longlogf.flush()
+                (time, output, exitcode) = util.runprocess(fortressbin + fortressargs, longlogf, uppertimethreshold)
+                status = satisfiability_of_output(output)
+                if status == 'No_new_sorts':
+                    longlogf.write("NO NEW SORTS\n")
+                    longlogf.flush()
+                    break
+                else:
+                    # just one line is returned
+                    x = [int(s) for s in re.findall(r'\d+',output)]
+                    new_sorts = True
+                    old_num_sorts = x[0]
+                    new_num_sorts = x[1]
+            fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
                 ' --mode decision --scope ' + str(sc) + ' --version ' + versions[v] + \
                 " --rawdata" + " " + long(name)
-            fortressargs = ' -J' + stacksize + ' --timeout ' + str(fortresstimeout) + \
-                ' --mode checkfornewsorts  --version v3si' + \
-                " --rawdata" + " " + long(name)
-            longlogf.write("\nRUN NO. " + str(cnt) + "  "+ versions[v] + "  "+ name + " scope=" + str(sc) +  '\n')
             longlogf.write(fortressbin + fortressargs + '\n')
             longlogf.flush()
             (time, output, exitcode) = util.runprocess(fortressbin + fortressargs, longlogf, uppertimethreshold)
@@ -99,7 +117,10 @@ for name in filescope.keys():
                     status + ", " + \
                     str(sc) + ", " + \
                     versions[v] + ", " + \
-                    str(time) +'\n')
+                    str(time))
+                if new_sorts:
+                    timedataf.write(", "+str(old_num_sorts)+", "+str(new_num_sorts))
+                timedataf.write('\n')
             else:
                 timedataf.write(\
                     name + ", " + \
