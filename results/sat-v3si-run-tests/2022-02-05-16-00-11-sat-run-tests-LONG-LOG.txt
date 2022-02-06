@@ -1,0 +1,2512 @@
+
+RUN NO. 1  v3si  ./sledgehammer/FFT/uf.557456.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.557456.smt2
+New sorts inferred, original number= 31 new number= 33
+
+Python time: 0m 0.665s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 8 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.557456.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.021
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.245
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.130
+Applying transformer: Range Formula Transformer... 0.029
+Applying transformer: Simplify Transformer... 0.037
+Applying transformer: Domain Elimination Transformer... 0.069
+Total transformation time: 0.574
+Invoking solver strategy...
+Converting to solver format: 0.150
+Z3 solver time: 401.152
+Done. Result was Sat.
+TOTAL time: 401.879
+Sat
+
+Python time: 6m 42.681s
+------
+
+RUN NO. 1  v3si  ./sledgehammer/FFT/uf.557456.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.557456.smt2
+New sorts inferred, original number= 31 new number= 33
+
+Python time: 0m 0.681s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 8 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.557456.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.022
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.224
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.106
+Applying transformer: Range Formula Transformer... 0.038
+Applying transformer: Simplify Transformer... 0.045
+Applying transformer: Domain Elimination Transformer... 0.063
+Total transformation time: 0.542
+Invoking solver strategy...
+Converting to solver format: 0.135
+Z3 solver time: 402.582
+Done. Result was Sat.
+TOTAL time: 403.263
+Sat
+
+Python time: 6m 44.074s
+------
+
+RUN NO. 1  v3si  ./sledgehammer/FFT/uf.557456.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.557456.smt2
+New sorts inferred, original number= 31 new number= 33
+
+Python time: 0m 0.662s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 8 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.557456.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.021
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.255
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.112
+Applying transformer: Range Formula Transformer... 0.036
+Applying transformer: Simplify Transformer... 0.045
+Applying transformer: Domain Elimination Transformer... 0.071
+Total transformation time: 0.583
+Invoking solver strategy...
+Converting to solver format: 0.130
+Z3 solver time: 407.604
+Done. Result was Sat.
+TOTAL time: 408.321
+Sat
+
+Python time: 6m 49.126s
+------
+
+RUN NO. 2  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2 scope=6
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2
+New sorts inferred, original number= 52 new number= 53
+
+Python time: 0m 0.737s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.019
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.031
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.302
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.079
+Applying transformer: Range Formula Transformer... 0.026
+Applying transformer: Simplify Transformer... 0.041
+Applying transformer: Domain Elimination Transformer... 0.055
+Total transformation time: 0.582
+Invoking solver strategy...
+Converting to solver format: 0.118
+Z3 solver time: 363.427
+Done. Result was Sat.
+TOTAL time: 364.131
+Sat
+
+Python time: 6m 4.977s
+------
+
+RUN NO. 2  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2 scope=6
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2
+New sorts inferred, original number= 52 new number= 53
+
+Python time: 0m 0.723s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.019
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.029
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.298
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.076
+Applying transformer: Range Formula Transformer... 0.024
+Applying transformer: Simplify Transformer... 0.042
+Applying transformer: Domain Elimination Transformer... 0.053
+Total transformation time: 0.570
+Invoking solver strategy...
+Converting to solver format: 0.134
+Z3 solver time: 373.163
+Done. Result was Sat.
+TOTAL time: 373.871
+Sat
+
+Python time: 6m 14.708s
+------
+
+RUN NO. 2  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2 scope=6
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2
+New sorts inferred, original number= 52 new number= 53
+
+Python time: 0m 0.721s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1225355.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.019
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.030
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.281
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.075
+Applying transformer: Range Formula Transformer... 0.025
+Applying transformer: Simplify Transformer... 0.043
+Applying transformer: Domain Elimination Transformer... 0.053
+Total transformation time: 0.554
+Invoking solver strategy...
+Converting to solver format: 0.129
+Z3 solver time: 376.710
+Done. Result was Sat.
+TOTAL time: 377.396
+Sat
+
+Python time: 6m 18.23s
+------
+
+RUN NO. 3  v3si  ./sledgehammer/FFT/uf.745291.smt2 scope=7
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 7 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.745291.smt2
+No new sorts inferred
+
+Python time: 0m 0.721s
+------
+NO NEW SORTS
+
+RUN NO. 3  v3si  ./sledgehammer/FFT/uf.745291.smt2 scope=7
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 7 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.745291.smt2
+No new sorts inferred
+
+Python time: 0m 0.744s
+------
+NO NEW SORTS
+
+RUN NO. 3  v3si  ./sledgehammer/FFT/uf.745291.smt2 scope=7
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 7 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.745291.smt2
+No new sorts inferred
+
+Python time: 0m 0.712s
+------
+NO NEW SORTS
+
+RUN NO. 4  v3si  ./sledgehammer/QEpres/uf.804859.smt2 scope=28
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 28 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.804859.smt2
+New sorts inferred, original number= 13 new number= 17
+
+Python time: 0m 0.552s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 28 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.804859.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.020
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.406
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.203
+Applying transformer: Range Formula Transformer... 0.102
+Applying transformer: Simplify Transformer... 0.258
+Applying transformer: Domain Elimination Transformer... 0.198
+Total transformation time: 1.223
+Invoking solver strategy...
+Converting to solver format: 0.850
+Z3 solver time: 261.164
+Done. Result was Sat.
+TOTAL time: 263.240
+Sat
+
+Python time: 4m 24.033s
+------
+
+RUN NO. 4  v3si  ./sledgehammer/QEpres/uf.804859.smt2 scope=28
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 28 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.804859.smt2
+New sorts inferred, original number= 13 new number= 17
+
+Python time: 0m 0.551s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 28 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.804859.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.020
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.339
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.210
+Applying transformer: Range Formula Transformer... 0.102
+Applying transformer: Simplify Transformer... 0.263
+Applying transformer: Domain Elimination Transformer... 0.198
+Total transformation time: 1.166
+Invoking solver strategy...
+Converting to solver format: 0.859
+Z3 solver time: 261.544
+Done. Result was Sat.
+TOTAL time: 263.573
+Sat
+
+Python time: 4m 24.368s
+------
+
+RUN NO. 4  v3si  ./sledgehammer/QEpres/uf.804859.smt2 scope=28
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 28 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.804859.smt2
+New sorts inferred, original number= 13 new number= 17
+
+Python time: 0m 0.526s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 28 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.804859.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.019
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.348
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.202
+Applying transformer: Range Formula Transformer... 0.104
+Applying transformer: Simplify Transformer... 0.278
+Applying transformer: Domain Elimination Transformer... 0.233
+Total transformation time: 1.220
+Invoking solver strategy...
+Converting to solver format: 0.856
+Z3 solver time: 261.368
+Done. Result was Sat.
+TOTAL time: 263.448
+Sat
+
+Python time: 4m 24.253s
+------
+
+RUN NO. 5  v3si  ./sledgehammer/TwoSquares/uf.812258.smt2 scope=30
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 30 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.812258.smt2
+No new sorts inferred
+
+Python time: 0m 0.602s
+------
+NO NEW SORTS
+
+RUN NO. 5  v3si  ./sledgehammer/TwoSquares/uf.812258.smt2 scope=30
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 30 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.812258.smt2
+No new sorts inferred
+
+Python time: 0m 0.599s
+------
+NO NEW SORTS
+
+RUN NO. 5  v3si  ./sledgehammer/TwoSquares/uf.812258.smt2 scope=30
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 30 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.812258.smt2
+No new sorts inferred
+
+Python time: 0m 0.591s
+------
+NO NEW SORTS
+
+RUN NO. 6  v3si  ./sledgehammer/FFT/uf.638714.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.638714.smt2
+New sorts inferred, original number= 17 new number= 18
+
+Python time: 0m 0.647s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.638714.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.022
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.198
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.207
+Applying transformer: Range Formula Transformer... 0.028
+Applying transformer: Simplify Transformer... 0.160
+Applying transformer: Domain Elimination Transformer... 0.095
+Total transformation time: 0.752
+Invoking solver strategy...
+Converting to solver format: 0.273
+Z3 solver time: 54.170
+Done. Result was Sat.
+TOTAL time: 55.199
+Sat
+
+Python time: 0m 56.012s
+------
+
+RUN NO. 6  v3si  ./sledgehammer/FFT/uf.638714.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.638714.smt2
+New sorts inferred, original number= 17 new number= 18
+
+Python time: 0m 0.641s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.638714.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.022
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.181
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.254
+Applying transformer: Range Formula Transformer... 0.021
+Applying transformer: Simplify Transformer... 0.157
+Applying transformer: Domain Elimination Transformer... 0.100
+Total transformation time: 0.776
+Invoking solver strategy...
+Converting to solver format: 0.282
+Z3 solver time: 54.861
+Done. Result was Sat.
+TOTAL time: 55.924
+Sat
+
+Python time: 0m 56.742s
+------
+
+RUN NO. 6  v3si  ./sledgehammer/FFT/uf.638714.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.638714.smt2
+New sorts inferred, original number= 17 new number= 18
+
+Python time: 0m 0.635s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.638714.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.022
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.181
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.180
+Applying transformer: Range Formula Transformer... 0.021
+Applying transformer: Simplify Transformer... 0.153
+Applying transformer: Domain Elimination Transformer... 0.100
+Total transformation time: 0.700
+Invoking solver strategy...
+Converting to solver format: 0.276
+Z3 solver time: 54.380
+Done. Result was Sat.
+TOTAL time: 55.360
+Sat
+
+Python time: 0m 56.187s
+------
+
+RUN NO. 7  v3si  ./sledgehammer/TwoSquares/uf.614718.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.614718.smt2
+No new sorts inferred
+
+Python time: 0m 0.544s
+------
+NO NEW SORTS
+
+RUN NO. 7  v3si  ./sledgehammer/TwoSquares/uf.614718.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.614718.smt2
+No new sorts inferred
+
+Python time: 0m 0.575s
+------
+NO NEW SORTS
+
+RUN NO. 7  v3si  ./sledgehammer/TwoSquares/uf.614718.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.614718.smt2
+No new sorts inferred
+
+Python time: 0m 0.655s
+------
+NO NEW SORTS
+
+RUN NO. 8  v3si  ./sledgehammer/QEpres/uf.1021012.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1021012.smt2
+New sorts inferred, original number= 27 new number= 31
+
+Python time: 0m 0.666s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1021012.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.282
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.285
+Applying transformer: Range Formula Transformer... 0.099
+Applying transformer: Simplify Transformer... 0.261
+Applying transformer: Domain Elimination Transformer... 0.186
+Total transformation time: 1.180
+Invoking solver strategy...
+Converting to solver format: 0.780
+Z3 solver time: 403.693
+Done. Result was Sat.
+TOTAL time: 405.657
+Sat
+
+Python time: 6m 46.533s
+------
+
+RUN NO. 8  v3si  ./sledgehammer/QEpres/uf.1021012.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1021012.smt2
+New sorts inferred, original number= 27 new number= 31
+
+Python time: 0m 0.685s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1021012.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.276
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.293
+Applying transformer: Range Formula Transformer... 0.098
+Applying transformer: Simplify Transformer... 0.243
+Applying transformer: Domain Elimination Transformer... 0.189
+Total transformation time: 1.167
+Invoking solver strategy...
+Converting to solver format: 0.683
+Z3 solver time: 403.048
+Done. Result was Sat.
+TOTAL time: 404.902
+Sat
+
+Python time: 6m 45.717s
+------
+
+RUN NO. 8  v3si  ./sledgehammer/QEpres/uf.1021012.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1021012.smt2
+New sorts inferred, original number= 27 new number= 31
+
+Python time: 0m 0.667s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1021012.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.263
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.271
+Applying transformer: Range Formula Transformer... 0.094
+Applying transformer: Simplify Transformer... 0.255
+Applying transformer: Domain Elimination Transformer... 0.184
+Total transformation time: 1.135
+Invoking solver strategy...
+Converting to solver format: 0.749
+Z3 solver time: 406.404
+Done. Result was Sat.
+TOTAL time: 408.292
+Sat
+
+Python time: 6m 49.124s
+------
+
+RUN NO. 9  v3si  ./sledgehammer/QEpres/uf.982274.smt2 scope=14
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 14 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.982274.smt2
+New sorts inferred, original number= 27 new number= 31
+
+Python time: 0m 0.721s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 14 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.982274.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.271
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.211
+Applying transformer: Range Formula Transformer... 0.082
+Applying transformer: Simplify Transformer... 0.204
+Applying transformer: Domain Elimination Transformer... 0.145
+Total transformation time: 0.982
+Invoking solver strategy...
+Converting to solver format: 0.540
+Z3 solver time: 244.552
+Done. Result was Sat.
+TOTAL time: 246.077
+Sat
+
+Python time: 4m 6.922s
+------
+
+RUN NO. 9  v3si  ./sledgehammer/QEpres/uf.982274.smt2 scope=14
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 14 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.982274.smt2
+New sorts inferred, original number= 27 new number= 31
+
+Python time: 0m 0.683s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 14 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.982274.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.022
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.264
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.197
+Applying transformer: Range Formula Transformer... 0.083
+Applying transformer: Simplify Transformer... 0.194
+Applying transformer: Domain Elimination Transformer... 0.145
+Total transformation time: 0.948
+Invoking solver strategy...
+Converting to solver format: 0.566
+Z3 solver time: 244.847
+Done. Result was Sat.
+TOTAL time: 246.365
+Sat
+
+Python time: 4m 7.179s
+------
+
+RUN NO. 9  v3si  ./sledgehammer/QEpres/uf.982274.smt2 scope=14
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 14 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.982274.smt2
+New sorts inferred, original number= 27 new number= 31
+
+Python time: 0m 0.689s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 14 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.982274.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.264
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.208
+Applying transformer: Range Formula Transformer... 0.082
+Applying transformer: Simplify Transformer... 0.198
+Applying transformer: Domain Elimination Transformer... 0.145
+Total transformation time: 0.964
+Invoking solver strategy...
+Converting to solver format: 0.518
+Z3 solver time: 246.308
+Done. Result was Sat.
+TOTAL time: 247.794
+Sat
+
+Python time: 4m 8.625s
+------
+
+RUN NO. 10  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.774257.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.774257.smt2
+No new sorts inferred
+
+Python time: 0m 0.655s
+------
+NO NEW SORTS
+
+RUN NO. 10  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.774257.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.774257.smt2
+No new sorts inferred
+
+Python time: 0m 0.655s
+------
+NO NEW SORTS
+
+RUN NO. 10  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.774257.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.774257.smt2
+No new sorts inferred
+
+Python time: 0m 0.64s
+------
+NO NEW SORTS
+
+RUN NO. 11  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.624259.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.624259.smt2
+No new sorts inferred
+
+Python time: 0m 0.509s
+------
+NO NEW SORTS
+
+RUN NO. 11  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.624259.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.624259.smt2
+No new sorts inferred
+
+Python time: 0m 0.496s
+------
+NO NEW SORTS
+
+RUN NO. 11  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.624259.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.624259.smt2
+No new sorts inferred
+
+Python time: 0m 0.49s
+------
+NO NEW SORTS
+
+RUN NO. 12  v3si  ./sledgehammer/FFT/uf.796970.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.796970.smt2
+New sorts inferred, original number= 24 new number= 25
+
+Python time: 0m 0.817s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.796970.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.021
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.021
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.256
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.761
+Applying transformer: Range Formula Transformer... 0.038
+Applying transformer: Simplify Transformer... 0.261
+Applying transformer: Domain Elimination Transformer... 0.480
+Total transformation time: 1.868
+Invoking solver strategy...
+Converting to solver format: 0.921
+Z3 solver time: 217.298
+Done. Result was Sat.
+TOTAL time: 220.091
+Sat
+
+Python time: 3m 40.958s
+------
+
+RUN NO. 12  v3si  ./sledgehammer/FFT/uf.796970.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.796970.smt2
+New sorts inferred, original number= 24 new number= 25
+
+Python time: 0m 0.774s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.796970.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.020
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.022
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.258
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.762
+Applying transformer: Range Formula Transformer... 0.026
+Applying transformer: Simplify Transformer... 0.257
+Applying transformer: Domain Elimination Transformer... 0.475
+Total transformation time: 1.850
+Invoking solver strategy...
+Converting to solver format: 0.894
+Z3 solver time: 217.797
+Done. Result was Sat.
+TOTAL time: 220.544
+Sat
+
+Python time: 3m 41.42s
+------
+
+RUN NO. 12  v3si  ./sledgehammer/FFT/uf.796970.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.796970.smt2
+New sorts inferred, original number= 24 new number= 25
+
+Python time: 0m 0.731s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.796970.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.021
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.022
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.263
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.745
+Applying transformer: Range Formula Transformer... 0.026
+Applying transformer: Simplify Transformer... 0.266
+Applying transformer: Domain Elimination Transformer... 0.489
+Total transformation time: 1.863
+Invoking solver strategy...
+Converting to solver format: 0.890
+Z3 solver time: 217.484
+Done. Result was Sat.
+TOTAL time: 220.241
+Sat
+
+Python time: 3m 41.12s
+------
+
+RUN NO. 13  v3si  ./sledgehammer/QEpres/uf.847784.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.847784.smt2
+New sorts inferred, original number= 23 new number= 31
+
+Python time: 0m 0.665s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.847784.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.013
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.026
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.296
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.176
+Applying transformer: Range Formula Transformer... 0.140
+Applying transformer: Simplify Transformer... 0.198
+Applying transformer: Domain Elimination Transformer... 0.175
+Total transformation time: 1.053
+Invoking solver strategy...
+Converting to solver format: 0.800
+Z3 solver time: 272.653
+Done. Result was Sat.
+TOTAL time: 274.509
+Sat
+
+Python time: 4m 35.31s
+------
+
+RUN NO. 13  v3si  ./sledgehammer/QEpres/uf.847784.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.847784.smt2
+New sorts inferred, original number= 23 new number= 31
+
+Python time: 0m 0.645s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.847784.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.029
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.290
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.172
+Applying transformer: Range Formula Transformer... 0.152
+Applying transformer: Simplify Transformer... 0.218
+Applying transformer: Domain Elimination Transformer... 0.171
+Total transformation time: 1.074
+Invoking solver strategy...
+Converting to solver format: 0.815
+Z3 solver time: 272.637
+Done. Result was Sat.
+TOTAL time: 274.530
+Sat
+
+Python time: 4m 35.359s
+------
+
+RUN NO. 13  v3si  ./sledgehammer/QEpres/uf.847784.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.847784.smt2
+New sorts inferred, original number= 23 new number= 31
+
+Python time: 0m 0.631s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 18 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.847784.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.014
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.029
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.299
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.174
+Applying transformer: Range Formula Transformer... 0.165
+Applying transformer: Simplify Transformer... 0.218
+Applying transformer: Domain Elimination Transformer... 0.176
+Total transformation time: 1.103
+Invoking solver strategy...
+Converting to solver format: 0.811
+Z3 solver time: 273.765
+Done. Result was Sat.
+TOTAL time: 275.683
+Sat
+
+Python time: 4m 36.484s
+------
+
+RUN NO. 14  v3si  ./sledgehammer/TwoSquares/uf.715927.smt2 scope=11
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 11 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.715927.smt2
+No new sorts inferred
+
+Python time: 0m 0.633s
+------
+NO NEW SORTS
+
+RUN NO. 14  v3si  ./sledgehammer/TwoSquares/uf.715927.smt2 scope=11
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 11 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.715927.smt2
+No new sorts inferred
+
+Python time: 0m 0.574s
+------
+NO NEW SORTS
+
+RUN NO. 14  v3si  ./sledgehammer/TwoSquares/uf.715927.smt2 scope=11
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 11 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.715927.smt2
+No new sorts inferred
+
+Python time: 0m 0.564s
+------
+NO NEW SORTS
+
+RUN NO. 15  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.762413.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.762413.smt2
+No new sorts inferred
+
+Python time: 0m 0.664s
+------
+NO NEW SORTS
+
+RUN NO. 15  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.762413.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.762413.smt2
+No new sorts inferred
+
+Python time: 0m 0.645s
+------
+NO NEW SORTS
+
+RUN NO. 15  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.762413.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.762413.smt2
+No new sorts inferred
+
+Python time: 0m 0.65s
+------
+NO NEW SORTS
+
+RUN NO. 16  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2
+New sorts inferred, original number= 68 new number= 69
+
+Python time: 0m 1.0s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.037
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.037
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.449
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.038
+Applying transformer: Range Formula Transformer... 0.041
+Applying transformer: Simplify Transformer... 0.351
+Applying transformer: Domain Elimination Transformer... 0.757
+Total transformation time: 2.743
+Invoking solver strategy...
+Converting to solver format: 1.348
+Z3 solver time: 426.637
+Done. Result was Sat.
+TOTAL time: 430.731
+Sat
+
+Python time: 7m 11.633s
+------
+
+RUN NO. 16  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2
+New sorts inferred, original number= 68 new number= 69
+
+Python time: 0m 0.989s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.045
+Applying transformer: Enum Elimination Transformer... 0.012
+Applying transformer: Negation Normal Form Transformer... 0.009
+Applying transformer: Skolemize Transformer... 0.043
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.465
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.042
+Applying transformer: Range Formula Transformer... 0.061
+Applying transformer: Simplify Transformer... 0.353
+Applying transformer: Domain Elimination Transformer... 0.740
+Total transformation time: 2.790
+Invoking solver strategy...
+Converting to solver format: 1.311
+Z3 solver time: 429.645
+Done. Result was Sat.
+TOTAL time: 433.750
+Sat
+
+Python time: 7m 14.733s
+------
+
+RUN NO. 16  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2
+New sorts inferred, original number= 68 new number= 69
+
+Python time: 0m 1.011s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1140203.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.042
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.007
+Applying transformer: Skolemize Transformer... 0.037
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.446
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.041
+Applying transformer: Range Formula Transformer... 0.042
+Applying transformer: Simplify Transformer... 0.360
+Applying transformer: Domain Elimination Transformer... 0.760
+Total transformation time: 2.764
+Invoking solver strategy...
+Converting to solver format: 1.316
+Z3 solver time: 431.051
+Done. Result was Sat.
+TOTAL time: 435.134
+Sat
+
+Python time: 7m 16.06s
+------
+
+RUN NO. 17  v3si  ./sledgehammer/FFT/uf.679490.smt2 scope=11
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 11 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.679490.smt2
+No new sorts inferred
+
+Python time: 0m 0.628s
+------
+NO NEW SORTS
+
+RUN NO. 17  v3si  ./sledgehammer/FFT/uf.679490.smt2 scope=11
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 11 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.679490.smt2
+No new sorts inferred
+
+Python time: 0m 0.63s
+------
+NO NEW SORTS
+
+RUN NO. 17  v3si  ./sledgehammer/FFT/uf.679490.smt2 scope=11
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 11 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.679490.smt2
+No new sorts inferred
+
+Python time: 0m 0.614s
+------
+NO NEW SORTS
+
+RUN NO. 18  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.563103.smt2 scope=22
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 22 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.563103.smt2
+No new sorts inferred
+
+Python time: 0m 0.592s
+------
+NO NEW SORTS
+
+RUN NO. 18  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.563103.smt2 scope=22
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 22 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.563103.smt2
+No new sorts inferred
+
+Python time: 0m 0.602s
+------
+NO NEW SORTS
+
+RUN NO. 18  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.563103.smt2 scope=22
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 22 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.563103.smt2
+No new sorts inferred
+
+Python time: 0m 0.646s
+------
+NO NEW SORTS
+
+RUN NO. 19  v3si  ./sledgehammer/QEpres/uf.581004.smt2 scope=14
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 14 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.581004.smt2
+No new sorts inferred
+
+Python time: 0m 0.574s
+------
+NO NEW SORTS
+
+RUN NO. 19  v3si  ./sledgehammer/QEpres/uf.581004.smt2 scope=14
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 14 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.581004.smt2
+No new sorts inferred
+
+Python time: 0m 0.566s
+------
+NO NEW SORTS
+
+RUN NO. 19  v3si  ./sledgehammer/QEpres/uf.581004.smt2 scope=14
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 14 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.581004.smt2
+No new sorts inferred
+
+Python time: 0m 0.581s
+------
+NO NEW SORTS
+
+RUN NO. 20  v3si  ./sledgehammer/TwoSquares/uf.596948.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.596948.smt2
+No new sorts inferred
+
+Python time: 0m 0.554s
+------
+NO NEW SORTS
+
+RUN NO. 20  v3si  ./sledgehammer/TwoSquares/uf.596948.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.596948.smt2
+No new sorts inferred
+
+Python time: 0m 0.58s
+------
+NO NEW SORTS
+
+RUN NO. 20  v3si  ./sledgehammer/TwoSquares/uf.596948.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.596948.smt2
+No new sorts inferred
+
+Python time: 0m 0.604s
+------
+NO NEW SORTS
+
+RUN NO. 21  v3si  ./sledgehammer/TypeSafe/uf.621156.smt2 scope=5
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 5 --version v3si --rawdata ../UF/./sledgehammer/TypeSafe/uf.621156.smt2
+New sorts inferred, original number= 25 new number= 28
+
+Python time: 0m 0.681s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v3si --rawdata ../UF/./sledgehammer/TypeSafe/uf.621156.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.007
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.031
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.221
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.358
+Applying transformer: Range Formula Transformer... 0.063
+Applying transformer: Simplify Transformer... 0.327
+Applying transformer: Domain Elimination Transformer... 0.201
+Total transformation time: 1.244
+Invoking solver strategy...
+Converting to solver format: 0.813
+Z3 solver time: 110.837
+Done. Result was Sat.
+TOTAL time: 112.898
+Sat
+
+Python time: 1m 53.734s
+------
+
+RUN NO. 21  v3si  ./sledgehammer/TypeSafe/uf.621156.smt2 scope=5
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 5 --version v3si --rawdata ../UF/./sledgehammer/TypeSafe/uf.621156.smt2
+New sorts inferred, original number= 25 new number= 28
+
+Python time: 0m 0.679s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v3si --rawdata ../UF/./sledgehammer/TypeSafe/uf.621156.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.032
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.234
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.368
+Applying transformer: Range Formula Transformer... 0.064
+Applying transformer: Simplify Transformer... 0.295
+Applying transformer: Domain Elimination Transformer... 0.189
+Total transformation time: 1.225
+Invoking solver strategy...
+Converting to solver format: 0.821
+Z3 solver time: 110.361
+Done. Result was Sat.
+TOTAL time: 112.412
+Sat
+
+Python time: 1m 53.243s
+------
+
+RUN NO. 21  v3si  ./sledgehammer/TypeSafe/uf.621156.smt2 scope=5
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 5 --version v3si --rawdata ../UF/./sledgehammer/TypeSafe/uf.621156.smt2
+New sorts inferred, original number= 25 new number= 28
+
+Python time: 0m 0.699s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 5 --version v3si --rawdata ../UF/./sledgehammer/TypeSafe/uf.621156.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.032
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.220
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.358
+Applying transformer: Range Formula Transformer... 0.067
+Applying transformer: Simplify Transformer... 0.309
+Applying transformer: Domain Elimination Transformer... 0.193
+Total transformation time: 1.222
+Invoking solver strategy...
+Converting to solver format: 0.823
+Z3 solver time: 109.620
+Done. Result was Sat.
+TOTAL time: 111.668
+Sat
+
+Python time: 1m 52.502s
+------
+
+RUN NO. 22  v3si  ./sledgehammer/NS_Shared/smtlib.631475.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.631475.smt2
+No new sorts inferred
+
+Python time: 0m 0.696s
+------
+NO NEW SORTS
+
+RUN NO. 22  v3si  ./sledgehammer/NS_Shared/smtlib.631475.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.631475.smt2
+No new sorts inferred
+
+Python time: 0m 0.707s
+------
+NO NEW SORTS
+
+RUN NO. 22  v3si  ./sledgehammer/NS_Shared/smtlib.631475.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/NS_Shared/smtlib.631475.smt2
+No new sorts inferred
+
+Python time: 0m 0.691s
+------
+NO NEW SORTS
+
+RUN NO. 23  v3si  ./sledgehammer/TwoSquares/uf.663784.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.663784.smt2
+No new sorts inferred
+
+Python time: 0m 0.693s
+------
+NO NEW SORTS
+
+RUN NO. 23  v3si  ./sledgehammer/TwoSquares/uf.663784.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.663784.smt2
+No new sorts inferred
+
+Python time: 0m 0.691s
+------
+NO NEW SORTS
+
+RUN NO. 23  v3si  ./sledgehammer/TwoSquares/uf.663784.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.663784.smt2
+No new sorts inferred
+
+Python time: 0m 0.726s
+------
+NO NEW SORTS
+
+RUN NO. 24  v3si  ./sledgehammer/FFT/uf.656241.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.656241.smt2
+New sorts inferred, original number= 17 new number= 18
+
+Python time: 0m 0.64s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.656241.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.014
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.020
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.201
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.115
+Applying transformer: Range Formula Transformer... 0.039
+Applying transformer: Simplify Transformer... 0.098
+Applying transformer: Domain Elimination Transformer... 0.094
+Total transformation time: 0.607
+Invoking solver strategy...
+Converting to solver format: 0.299
+Z3 solver time: 65.591
+Done. Result was Sat.
+TOTAL time: 66.501
+Sat
+
+Python time: 1m 7.34s
+------
+
+RUN NO. 24  v3si  ./sledgehammer/FFT/uf.656241.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.656241.smt2
+New sorts inferred, original number= 17 new number= 18
+
+Python time: 0m 0.624s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.656241.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.015
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.020
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.212
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.137
+Applying transformer: Range Formula Transformer... 0.044
+Applying transformer: Simplify Transformer... 0.094
+Applying transformer: Domain Elimination Transformer... 0.091
+Total transformation time: 0.638
+Invoking solver strategy...
+Converting to solver format: 0.263
+Z3 solver time: 65.659
+Done. Result was Sat.
+TOTAL time: 66.564
+Sat
+
+Python time: 1m 7.379s
+------
+
+RUN NO. 24  v3si  ./sledgehammer/FFT/uf.656241.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.656241.smt2
+New sorts inferred, original number= 17 new number= 18
+
+Python time: 0m 0.631s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.656241.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.014
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.020
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.207
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.131
+Applying transformer: Range Formula Transformer... 0.046
+Applying transformer: Simplify Transformer... 0.099
+Applying transformer: Domain Elimination Transformer... 0.097
+Total transformation time: 0.641
+Invoking solver strategy...
+Converting to solver format: 0.288
+Z3 solver time: 65.206
+Done. Result was Sat.
+TOTAL time: 66.139
+Sat
+
+Python time: 1m 6.95s
+------
+
+RUN NO. 25  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.727624.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.727624.smt2
+No new sorts inferred
+
+Python time: 0m 0.641s
+------
+NO NEW SORTS
+
+RUN NO. 25  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.727624.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.727624.smt2
+No new sorts inferred
+
+Python time: 0m 0.616s
+------
+NO NEW SORTS
+
+RUN NO. 25  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.727624.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.727624.smt2
+No new sorts inferred
+
+Python time: 0m 0.64s
+------
+NO NEW SORTS
+
+RUN NO. 26  v3si  ./sledgehammer/TwoSquares/uf.655988.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.655988.smt2
+No new sorts inferred
+
+Python time: 0m 0.634s
+------
+NO NEW SORTS
+
+RUN NO. 26  v3si  ./sledgehammer/TwoSquares/uf.655988.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.655988.smt2
+No new sorts inferred
+
+Python time: 0m 0.627s
+------
+NO NEW SORTS
+
+RUN NO. 26  v3si  ./sledgehammer/TwoSquares/uf.655988.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.655988.smt2
+No new sorts inferred
+
+Python time: 0m 0.691s
+------
+NO NEW SORTS
+
+RUN NO. 27  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.620472.smt2 scope=13
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 13 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.620472.smt2
+No new sorts inferred
+
+Python time: 0m 0.644s
+------
+NO NEW SORTS
+
+RUN NO. 27  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.620472.smt2 scope=13
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 13 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.620472.smt2
+No new sorts inferred
+
+Python time: 0m 0.619s
+------
+NO NEW SORTS
+
+RUN NO. 27  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.620472.smt2 scope=13
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 13 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.620472.smt2
+No new sorts inferred
+
+Python time: 0m 0.613s
+------
+NO NEW SORTS
+
+RUN NO. 28  v3si  ./sledgehammer/QEpres/uf.1123092.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+New sorts inferred, original number= 29 new number= 35
+
+Python time: 0m 0.672s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.312
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.240
+Applying transformer: Range Formula Transformer... 0.112
+Applying transformer: Simplify Transformer... 0.279
+Applying transformer: Domain Elimination Transformer... 0.212
+Total transformation time: 1.224
+Invoking solver strategy...
+Converting to solver format: 0.724
+Z3 solver time: 737.864
+Done. Result was Sat.
+TOTAL time: 739.816
+Sat
+
+Python time: 12m 20.661s
+------
+
+RUN NO. 28  v3si  ./sledgehammer/QEpres/uf.1123092.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+New sorts inferred, original number= 29 new number= 35
+
+Python time: 0m 0.673s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.024
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.311
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.235
+Applying transformer: Range Formula Transformer... 0.103
+Applying transformer: Simplify Transformer... 0.266
+Applying transformer: Domain Elimination Transformer... 0.193
+Total transformation time: 1.179
+Invoking solver strategy...
+Converting to solver format: 0.737
+Z3 solver time: 737.910
+Done. Result was Sat.
+TOTAL time: 739.829
+Sat
+
+Python time: 12m 20.65s
+------
+
+RUN NO. 28  v3si  ./sledgehammer/QEpres/uf.1123092.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+New sorts inferred, original number= 29 new number= 35
+
+Python time: 0m 0.694s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.1123092.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.311
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.236
+Applying transformer: Range Formula Transformer... 0.105
+Applying transformer: Simplify Transformer... 0.296
+Applying transformer: Domain Elimination Transformer... 0.194
+Total transformation time: 1.209
+Invoking solver strategy...
+Converting to solver format: 0.723
+Z3 solver time: 735.630
+Done. Result was Sat.
+TOTAL time: 737.566
+Sat
+
+Python time: 12m 18.408s
+------
+
+RUN NO. 29  v3si  ./sledgehammer/Hoare/z3.721436.smt2 scope=21
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 21 --version v3si --rawdata ../UF/./sledgehammer/Hoare/z3.721436.smt2
+New sorts inferred, original number= 15 new number= 18
+
+Python time: 0m 0.591s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 21 --version v3si --rawdata ../UF/./sledgehammer/Hoare/z3.721436.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.011
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.268
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.254
+Applying transformer: Range Formula Transformer... 0.077
+Applying transformer: Simplify Transformer... 0.167
+Applying transformer: Domain Elimination Transformer... 0.146
+Total transformation time: 0.958
+Invoking solver strategy...
+Converting to solver format: 0.523
+Z3 solver time: 780.879
+Done. Result was Sat.
+TOTAL time: 782.363
+Sat
+
+Python time: 13m 3.178s
+------
+
+RUN NO. 29  v3si  ./sledgehammer/Hoare/z3.721436.smt2 scope=21
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 21 --version v3si --rawdata ../UF/./sledgehammer/Hoare/z3.721436.smt2
+New sorts inferred, original number= 15 new number= 18
+
+Python time: 0m 0.574s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 21 --version v3si --rawdata ../UF/./sledgehammer/Hoare/z3.721436.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.011
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.268
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.239
+Applying transformer: Range Formula Transformer... 0.109
+Applying transformer: Simplify Transformer... 0.169
+Applying transformer: Domain Elimination Transformer... 0.151
+Total transformation time: 0.982
+Invoking solver strategy...
+Converting to solver format: 0.526
+Z3 solver time: 784.604
+Done. Result was Sat.
+TOTAL time: 786.116
+Sat
+
+Python time: 13m 6.93s
+------
+
+RUN NO. 29  v3si  ./sledgehammer/Hoare/z3.721436.smt2 scope=21
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 21 --version v3si --rawdata ../UF/./sledgehammer/Hoare/z3.721436.smt2
+New sorts inferred, original number= 15 new number= 18
+
+Python time: 0m 0.553s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 21 --version v3si --rawdata ../UF/./sledgehammer/Hoare/z3.721436.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.011
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.285
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.206
+Applying transformer: Range Formula Transformer... 0.086
+Applying transformer: Simplify Transformer... 0.178
+Applying transformer: Domain Elimination Transformer... 0.164
+Total transformation time: 0.966
+Invoking solver strategy...
+Converting to solver format: 0.521
+Z3 solver time: 780.656
+Done. Result was Sat.
+TOTAL time: 782.146
+Sat
+
+Python time: 13m 3.042s
+------
+
+RUN NO. 30  v3si  ./sledgehammer/Hoare/uf.1020827.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.1020827.smt2
+No new sorts inferred
+
+Python time: 0m 0.552s
+------
+NO NEW SORTS
+
+RUN NO. 30  v3si  ./sledgehammer/Hoare/uf.1020827.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.1020827.smt2
+No new sorts inferred
+
+Python time: 0m 0.693s
+------
+NO NEW SORTS
+
+RUN NO. 30  v3si  ./sledgehammer/Hoare/uf.1020827.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.1020827.smt2
+No new sorts inferred
+
+Python time: 0m 0.557s
+------
+NO NEW SORTS
+
+RUN NO. 31  v3si  ./sledgehammer/QEpres/uf.987659.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.987659.smt2
+New sorts inferred, original number= 27 new number= 31
+
+Python time: 0m 0.657s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.987659.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.024
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.275
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.255
+Applying transformer: Range Formula Transformer... 0.100
+Applying transformer: Simplify Transformer... 0.247
+Applying transformer: Domain Elimination Transformer... 0.180
+Total transformation time: 1.127
+Invoking solver strategy...
+Converting to solver format: 0.685
+Z3 solver time: 378.296
+Done. Result was Sat.
+TOTAL time: 380.111
+Sat
+
+Python time: 6m 20.93s
+------
+
+RUN NO. 31  v3si  ./sledgehammer/QEpres/uf.987659.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.987659.smt2
+New sorts inferred, original number= 27 new number= 31
+
+Python time: 0m 0.671s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.987659.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.024
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.264
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.260
+Applying transformer: Range Formula Transformer... 0.100
+Applying transformer: Simplify Transformer... 0.229
+Applying transformer: Domain Elimination Transformer... 0.191
+Total transformation time: 1.114
+Invoking solver strategy...
+Converting to solver format: 0.675
+Z3 solver time: 376.516
+Done. Result was Sat.
+TOTAL time: 378.309
+Sat
+
+Python time: 6m 19.137s
+------
+
+RUN NO. 31  v3si  ./sledgehammer/QEpres/uf.987659.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.987659.smt2
+New sorts inferred, original number= 27 new number= 31
+
+Python time: 0m 0.677s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.987659.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.023
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.269
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.251
+Applying transformer: Range Formula Transformer... 0.101
+Applying transformer: Simplify Transformer... 0.234
+Applying transformer: Domain Elimination Transformer... 0.182
+Total transformation time: 1.104
+Invoking solver strategy...
+Converting to solver format: 0.769
+Z3 solver time: 373.773
+Done. Result was Sat.
+TOTAL time: 375.650
+Sat
+
+Python time: 6m 16.515s
+------
+
+RUN NO. 32  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768411.smt2 scope=23
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 23 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768411.smt2
+No new sorts inferred
+
+Python time: 0m 0.522s
+------
+NO NEW SORTS
+
+RUN NO. 32  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768411.smt2 scope=23
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 23 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768411.smt2
+No new sorts inferred
+
+Python time: 0m 0.521s
+------
+NO NEW SORTS
+
+RUN NO. 32  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768411.smt2 scope=23
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 23 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768411.smt2
+No new sorts inferred
+
+Python time: 0m 0.518s
+------
+NO NEW SORTS
+
+RUN NO. 33  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2
+New sorts inferred, original number= 23 new number= 24
+
+Python time: 0m 0.665s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.239
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.399
+Applying transformer: Range Formula Transformer... 0.063
+Applying transformer: Simplify Transformer... 0.377
+Applying transformer: Domain Elimination Transformer... 0.256
+Total transformation time: 1.404
+Invoking solver strategy...
+Converting to solver format: 0.861
+Z3 solver time: 113.991
+Done. Result was Sat.
+TOTAL time: 116.260
+Sat
+
+Python time: 1m 57.089s
+------
+
+RUN NO. 33  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2
+New sorts inferred, original number= 23 new number= 24
+
+Python time: 0m 0.673s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.261
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.402
+Applying transformer: Range Formula Transformer... 0.062
+Applying transformer: Simplify Transformer... 0.393
+Applying transformer: Domain Elimination Transformer... 0.253
+Total transformation time: 1.442
+Invoking solver strategy...
+Converting to solver format: 0.806
+Z3 solver time: 114.071
+Done. Result was Sat.
+TOTAL time: 116.323
+Sat
+
+Python time: 1m 57.16s
+------
+
+RUN NO. 33  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2
+New sorts inferred, original number= 23 new number= 24
+
+Python time: 0m 0.666s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 15 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1298359.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.259
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.410
+Applying transformer: Range Formula Transformer... 0.062
+Applying transformer: Simplify Transformer... 0.371
+Applying transformer: Domain Elimination Transformer... 0.250
+Total transformation time: 1.420
+Invoking solver strategy...
+Converting to solver format: 0.846
+Z3 solver time: 114.998
+Done. Result was Sat.
+TOTAL time: 117.268
+Sat
+
+Python time: 1m 58.118s
+------
+
+RUN NO. 34  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2 scope=13
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 13 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2
+New sorts inferred, original number= 69 new number= 71
+
+Python time: 0m 0.773s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 13 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.021
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.034
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.461
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.052
+Applying transformer: Range Formula Transformer... 0.160
+Applying transformer: Simplify Transformer... 0.101
+Applying transformer: Domain Elimination Transformer... 0.093
+Total transformation time: 0.953
+Invoking solver strategy...
+Converting to solver format: 0.370
+Z3 solver time: 289.823
+Done. Result was Sat.
+TOTAL time: 291.151
+Sat
+
+Python time: 4m 52.027s
+------
+
+RUN NO. 34  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2 scope=13
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 13 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2
+New sorts inferred, original number= 69 new number= 71
+
+Python time: 0m 0.732s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 13 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.020
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.034
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.424
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.049
+Applying transformer: Range Formula Transformer... 0.155
+Applying transformer: Simplify Transformer... 0.095
+Applying transformer: Domain Elimination Transformer... 0.109
+Total transformation time: 0.917
+Invoking solver strategy...
+Converting to solver format: 0.394
+Z3 solver time: 288.047
+Done. Result was Sat.
+TOTAL time: 289.361
+Sat
+
+Python time: 4m 50.226s
+------
+
+RUN NO. 34  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2 scope=13
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 13 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2
+New sorts inferred, original number= 69 new number= 71
+
+Python time: 0m 0.742s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 13 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1317183.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.021
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.035
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.380
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.052
+Applying transformer: Range Formula Transformer... 0.157
+Applying transformer: Simplify Transformer... 0.101
+Applying transformer: Domain Elimination Transformer... 0.091
+Total transformation time: 0.869
+Invoking solver strategy...
+Converting to solver format: 0.369
+Z3 solver time: 289.118
+Done. Result was Sat.
+TOTAL time: 290.360
+Sat
+
+Python time: 4m 51.188s
+------
+
+RUN NO. 35  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2
+New sorts inferred, original number= 44 new number= 48
+
+Python time: 0m 0.739s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.020
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.028
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.257
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.112
+Applying transformer: Range Formula Transformer... 0.042
+Applying transformer: Simplify Transformer... 0.096
+Applying transformer: Domain Elimination Transformer... 0.086
+Total transformation time: 0.670
+Invoking solver strategy...
+Converting to solver format: 0.188
+Z3 solver time: 543.521
+Done. Result was Sat.
+TOTAL time: 544.385
+Sat
+
+Python time: 9m 5.248s
+------
+
+RUN NO. 35  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2
+New sorts inferred, original number= 44 new number= 48
+
+Python time: 0m 0.738s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.020
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.030
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.304
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.115
+Applying transformer: Range Formula Transformer... 0.038
+Applying transformer: Simplify Transformer... 0.093
+Applying transformer: Domain Elimination Transformer... 0.081
+Total transformation time: 0.710
+Invoking solver strategy...
+Converting to solver format: 0.189
+Z3 solver time: 545.382
+Done. Result was Sat.
+TOTAL time: 546.285
+Sat
+
+Python time: 9m 7.137s
+------
+
+RUN NO. 35  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2
+New sorts inferred, original number= 44 new number= 48
+
+Python time: 0m 0.83s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 8 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.918244.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.020
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.004
+Applying transformer: Skolemize Transformer... 0.029
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.252
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.105
+Applying transformer: Range Formula Transformer... 0.042
+Applying transformer: Simplify Transformer... 0.096
+Applying transformer: Domain Elimination Transformer... 0.086
+Total transformation time: 0.659
+Invoking solver strategy...
+Converting to solver format: 0.235
+Z3 solver time: 544.236
+Done. Result was Sat.
+TOTAL time: 545.133
+Sat
+
+Python time: 9m 5.974s
+------
+
+RUN NO. 36  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2 scope=6
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+New sorts inferred, original number= 87 new number= 102
+
+Python time: 0m 0.985s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.040
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.007
+Applying transformer: Skolemize Transformer... 0.039
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.519
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.276
+Applying transformer: Range Formula Transformer... 0.036
+Applying transformer: Simplify Transformer... 0.235
+Applying transformer: Domain Elimination Transformer... 0.171
+Total transformation time: 1.350
+Invoking solver strategy...
+Converting to solver format: 0.505
+Z3 solver time: 625.392
+Done. Result was Sat.
+TOTAL time: 627.251
+Sat
+
+Python time: 10m 28.138s
+------
+
+RUN NO. 36  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2 scope=6
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+New sorts inferred, original number= 87 new number= 102
+
+Python time: 0m 1.003s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.038
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.007
+Applying transformer: Skolemize Transformer... 0.044
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.519
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.261
+Applying transformer: Range Formula Transformer... 0.038
+Applying transformer: Simplify Transformer... 0.215
+Applying transformer: Domain Elimination Transformer... 0.160
+Total transformation time: 1.309
+Invoking solver strategy...
+Converting to solver format: 0.514
+Z3 solver time: 625.602
+Done. Result was Sat.
+TOTAL time: 627.429
+Sat
+
+Python time: 10m 28.323s
+------
+
+RUN NO. 36  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2 scope=6
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+New sorts inferred, original number= 87 new number= 102
+
+Python time: 0m 1.001s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 6 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1355379.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.042
+Applying transformer: Enum Elimination Transformer... 0.009
+Applying transformer: Negation Normal Form Transformer... 0.007
+Applying transformer: Skolemize Transformer... 0.044
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.494
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.309
+Applying transformer: Range Formula Transformer... 0.037
+Applying transformer: Simplify Transformer... 0.198
+Applying transformer: Domain Elimination Transformer... 0.169
+Total transformation time: 1.327
+Invoking solver strategy...
+Converting to solver format: 0.507
+Z3 solver time: 624.266
+Done. Result was Sat.
+TOTAL time: 626.104
+Sat
+
+Python time: 10m 26.987s
+------
+
+RUN NO. 37  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768393.smt2 scope=21
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 21 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768393.smt2
+No new sorts inferred
+
+Python time: 0m 0.518s
+------
+NO NEW SORTS
+
+RUN NO. 37  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768393.smt2 scope=21
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 21 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768393.smt2
+No new sorts inferred
+
+Python time: 0m 0.511s
+------
+NO NEW SORTS
+
+RUN NO. 37  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768393.smt2 scope=21
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 21 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/smtlib.768393.smt2
+No new sorts inferred
+
+Python time: 0m 0.508s
+------
+NO NEW SORTS
+
+RUN NO. 38  v3si  ./sledgehammer/FFT/uf.915721.smt2 scope=25
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 25 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.915721.smt2
+New sorts inferred, original number= 8 new number= 17
+
+Python time: 0m 0.571s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 25 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.915721.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.011
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.011
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.315
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.019
+Applying transformer: Range Formula Transformer... 0.359
+Applying transformer: Simplify Transformer... 0.331
+Applying transformer: Domain Elimination Transformer... 0.367
+Total transformation time: 1.437
+Invoking solver strategy...
+Converting to solver format: 2.703
+Z3 solver time: 172.618
+Done. Result was Sat.
+TOTAL time: 176.761
+Sat
+
+Python time: 2m 57.63s
+------
+
+RUN NO. 38  v3si  ./sledgehammer/FFT/uf.915721.smt2 scope=25
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 25 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.915721.smt2
+New sorts inferred, original number= 8 new number= 17
+
+Python time: 0m 0.62s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 25 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.915721.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.011
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.354
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.020
+Applying transformer: Range Formula Transformer... 0.404
+Applying transformer: Simplify Transformer... 0.327
+Applying transformer: Domain Elimination Transformer... 0.399
+Total transformation time: 1.549
+Invoking solver strategy...
+Converting to solver format: 2.691
+Z3 solver time: 172.008
+Done. Result was Sat.
+TOTAL time: 176.289
+Sat
+
+Python time: 2m 57.141s
+------
+
+RUN NO. 38  v3si  ./sledgehammer/FFT/uf.915721.smt2 scope=25
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 25 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.915721.smt2
+New sorts inferred, original number= 8 new number= 17
+
+Python time: 0m 0.561s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 25 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.915721.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.010
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.358
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.022
+Applying transformer: Range Formula Transformer... 0.367
+Applying transformer: Simplify Transformer... 0.344
+Applying transformer: Domain Elimination Transformer... 0.450
+Total transformation time: 1.586
+Invoking solver strategy...
+Converting to solver format: 2.714
+Z3 solver time: 174.446
+Done. Result was Sat.
+TOTAL time: 178.750
+Sat
+
+Python time: 2m 59.576s
+------
+
+RUN NO. 39  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+New sorts inferred, original number= 31 new number= 37
+
+Python time: 0m 0.696s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.301
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.237
+Applying transformer: Range Formula Transformer... 0.046
+Applying transformer: Simplify Transformer... 0.230
+Applying transformer: Domain Elimination Transformer... 0.152
+Total transformation time: 1.039
+Invoking solver strategy...
+Converting to solver format: 0.378
+Z3 solver time: 131.937
+Done. Result was Sat.
+TOTAL time: 133.359
+Sat
+
+Python time: 2m 14.203s
+------
+
+RUN NO. 39  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+New sorts inferred, original number= 31 new number= 37
+
+Python time: 0m 0.715s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.017
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.026
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.289
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.235
+Applying transformer: Range Formula Transformer... 0.047
+Applying transformer: Simplify Transformer... 0.237
+Applying transformer: Domain Elimination Transformer... 0.145
+Total transformation time: 1.026
+Invoking solver strategy...
+Converting to solver format: 0.385
+Z3 solver time: 131.084
+Done. Result was Sat.
+TOTAL time: 132.500
+Sat
+
+Python time: 2m 13.335s
+------
+
+RUN NO. 39  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+New sorts inferred, original number= 31 new number= 37
+
+Python time: 0m 0.77s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.1334106.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.016
+Applying transformer: Enum Elimination Transformer... 0.006
+Applying transformer: Negation Normal Form Transformer... 0.005
+Applying transformer: Skolemize Transformer... 0.025
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.257
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.239
+Applying transformer: Range Formula Transformer... 0.045
+Applying transformer: Simplify Transformer... 0.188
+Applying transformer: Domain Elimination Transformer... 0.143
+Total transformation time: 0.942
+Invoking solver strategy...
+Converting to solver format: 0.381
+Z3 solver time: 131.373
+Done. Result was Sat.
+TOTAL time: 132.701
+Sat
+
+Python time: 2m 13.564s
+------
+
+RUN NO. 40  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.735289.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.735289.smt2
+No new sorts inferred
+
+Python time: 0m 0.599s
+------
+NO NEW SORTS
+
+RUN NO. 40  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.735289.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.735289.smt2
+No new sorts inferred
+
+Python time: 0m 0.596s
+------
+NO NEW SORTS
+
+RUN NO. 40  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.735289.smt2 scope=15
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 15 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.735289.smt2
+No new sorts inferred
+
+Python time: 0m 0.603s
+------
+NO NEW SORTS
+
+RUN NO. 41  v3si  ./sledgehammer/QEpres/uf.658047.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.658047.smt2
+New sorts inferred, original number= 27 new number= 28
+
+Python time: 0m 0.809s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.658047.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.024
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.035
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.279
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.367
+Applying transformer: Range Formula Transformer... 0.032
+Applying transformer: Simplify Transformer... 0.394
+Applying transformer: Domain Elimination Transformer... 0.201
+Total transformation time: 1.366
+Invoking solver strategy...
+Converting to solver format: 0.776
+Z3 solver time: 400.365
+Done. Result was Sat.
+TOTAL time: 402.511
+Sat
+
+Python time: 6m 43.393s
+------
+
+RUN NO. 41  v3si  ./sledgehammer/QEpres/uf.658047.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.658047.smt2
+New sorts inferred, original number= 27 new number= 28
+
+Python time: 0m 0.829s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.658047.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.023
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.032
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.264
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.396
+Applying transformer: Range Formula Transformer... 0.031
+Applying transformer: Simplify Transformer... 0.441
+Applying transformer: Domain Elimination Transformer... 0.201
+Total transformation time: 1.422
+Invoking solver strategy...
+Converting to solver format: 0.768
+Z3 solver time: 402.287
+Done. Result was Sat.
+TOTAL time: 404.481
+Sat
+
+Python time: 6m 45.392s
+------
+
+RUN NO. 41  v3si  ./sledgehammer/QEpres/uf.658047.smt2 scope=9
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 9 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.658047.smt2
+New sorts inferred, original number= 27 new number= 28
+
+Python time: 0m 0.794s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 9 --version v3si --rawdata ../UF/./sledgehammer/QEpres/uf.658047.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.023
+Applying transformer: Enum Elimination Transformer... 0.008
+Applying transformer: Negation Normal Form Transformer... 0.006
+Applying transformer: Skolemize Transformer... 0.034
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.276
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.375
+Applying transformer: Range Formula Transformer... 0.035
+Applying transformer: Simplify Transformer... 0.413
+Applying transformer: Domain Elimination Transformer... 0.205
+Total transformation time: 1.394
+Invoking solver strategy...
+Converting to solver format: 0.773
+Z3 solver time: 401.279
+Done. Result was Sat.
+TOTAL time: 403.449
+Sat
+
+Python time: 6m 44.334s
+------
+
+RUN NO. 42  v3si  ./sledgehammer/FFT/uf.892719.smt2 scope=26
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 26 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.892719.smt2
+New sorts inferred, original number= 8 new number= 15
+
+Python time: 0m 0.57s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 26 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.892719.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.010
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.320
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.020
+Applying transformer: Range Formula Transformer... 0.416
+Applying transformer: Simplify Transformer... 0.377
+Applying transformer: Domain Elimination Transformer... 0.440
+Total transformation time: 1.618
+Invoking solver strategy...
+Converting to solver format: 3.144
+Z3 solver time: 248.127
+Done. Result was Sat.
+TOTAL time: 252.892
+Sat
+
+Python time: 4m 13.716s
+------
+
+RUN NO. 42  v3si  ./sledgehammer/FFT/uf.892719.smt2 scope=26
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 26 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.892719.smt2
+New sorts inferred, original number= 8 new number= 15
+
+Python time: 0m 0.57s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 26 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.892719.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.011
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.328
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.018
+Applying transformer: Range Formula Transformer... 0.334
+Applying transformer: Simplify Transformer... 0.368
+Applying transformer: Domain Elimination Transformer... 0.341
+Total transformation time: 1.434
+Invoking solver strategy...
+Converting to solver format: 3.150
+Z3 solver time: 247.541
+Done. Result was Sat.
+TOTAL time: 252.128
+Sat
+
+Python time: 4m 12.953s
+------
+
+RUN NO. 42  v3si  ./sledgehammer/FFT/uf.892719.smt2 scope=26
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 26 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.892719.smt2
+New sorts inferred, original number= 8 new number= 15
+
+Python time: 0m 0.569s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 26 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.892719.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.005
+Applying transformer: Negation Normal Form Transformer... 0.002
+Applying transformer: Skolemize Transformer... 0.010
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.327
+Applying transformer: Quantifier Expansion Transformer (-, -)... 0.020
+Applying transformer: Range Formula Transformer... 0.395
+Applying transformer: Simplify Transformer... 0.377
+Applying transformer: Domain Elimination Transformer... 0.441
+Total transformation time: 1.605
+Invoking solver strategy...
+Converting to solver format: 3.140
+Z3 solver time: 245.440
+Done. Result was Sat.
+TOTAL time: 250.188
+Sat
+
+Python time: 4m 11.007s
+------
+
+RUN NO. 43  v3si  ./sledgehammer/FFT/uf.911849.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.911849.smt2
+No new sorts inferred
+
+Python time: 0m 0.684s
+------
+NO NEW SORTS
+
+RUN NO. 43  v3si  ./sledgehammer/FFT/uf.911849.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.911849.smt2
+No new sorts inferred
+
+Python time: 0m 0.578s
+------
+NO NEW SORTS
+
+RUN NO. 43  v3si  ./sledgehammer/FFT/uf.911849.smt2 scope=18
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 18 --version v3si --rawdata ../UF/./sledgehammer/FFT/uf.911849.smt2
+No new sorts inferred
+
+Python time: 0m 0.604s
+------
+NO NEW SORTS
+
+RUN NO. 44  v3si  ./sledgehammer/Arrow_Order/z3.726701.smt2 scope=30
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 30 --version v3si --rawdata ../UF/./sledgehammer/Arrow_Order/z3.726701.smt2
+No new sorts inferred
+
+Python time: 0m 0.513s
+------
+NO NEW SORTS
+
+RUN NO. 44  v3si  ./sledgehammer/Arrow_Order/z3.726701.smt2 scope=30
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 30 --version v3si --rawdata ../UF/./sledgehammer/Arrow_Order/z3.726701.smt2
+No new sorts inferred
+
+Python time: 0m 0.516s
+------
+NO NEW SORTS
+
+RUN NO. 44  v3si  ./sledgehammer/Arrow_Order/z3.726701.smt2 scope=30
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 30 --version v3si --rawdata ../UF/./sledgehammer/Arrow_Order/z3.726701.smt2
+No new sorts inferred
+
+Python time: 0m 0.511s
+------
+NO NEW SORTS
+
+RUN NO. 45  v3si  ./sledgehammer/TwoSquares/uf.810457.smt2 scope=25
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 25 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.810457.smt2
+No new sorts inferred
+
+Python time: 0m 0.552s
+------
+NO NEW SORTS
+
+RUN NO. 45  v3si  ./sledgehammer/TwoSquares/uf.810457.smt2 scope=25
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 25 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.810457.smt2
+No new sorts inferred
+
+Python time: 0m 0.55s
+------
+NO NEW SORTS
+
+RUN NO. 45  v3si  ./sledgehammer/TwoSquares/uf.810457.smt2 scope=25
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 25 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.810457.smt2
+No new sorts inferred
+
+Python time: 0m 0.546s
+------
+NO NEW SORTS
+
+RUN NO. 46  v3si  ./sledgehammer/Hoare/uf.574997.smt2 scope=5
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 5 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+No new sorts inferred
+
+Python time: 0m 0.509s
+------
+NO NEW SORTS
+
+RUN NO. 46  v3si  ./sledgehammer/Hoare/uf.574997.smt2 scope=5
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 5 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+No new sorts inferred
+
+Python time: 0m 0.51s
+------
+NO NEW SORTS
+
+RUN NO. 46  v3si  ./sledgehammer/Hoare/uf.574997.smt2 scope=5
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 5 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.574997.smt2
+No new sorts inferred
+
+Python time: 0m 0.502s
+------
+NO NEW SORTS
+
+RUN NO. 47  v3si  ./sledgehammer/Hoare/uf.575069.smt2 scope=5
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 5 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.575069.smt2
+No new sorts inferred
+
+Python time: 0m 0.497s
+------
+NO NEW SORTS
+
+RUN NO. 47  v3si  ./sledgehammer/Hoare/uf.575069.smt2 scope=5
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 5 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.575069.smt2
+No new sorts inferred
+
+Python time: 0m 0.509s
+------
+NO NEW SORTS
+
+RUN NO. 47  v3si  ./sledgehammer/Hoare/uf.575069.smt2 scope=5
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 5 --version v3si --rawdata ../UF/./sledgehammer/Hoare/uf.575069.smt2
+No new sorts inferred
+
+Python time: 0m 0.512s
+------
+NO NEW SORTS
+
+RUN NO. 48  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.731832.smt2 scope=11
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 11 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.731832.smt2
+No new sorts inferred
+
+Python time: 0m 0.626s
+------
+NO NEW SORTS
+
+RUN NO. 48  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.731832.smt2 scope=11
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 11 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.731832.smt2
+No new sorts inferred
+
+Python time: 0m 0.63s
+------
+NO NEW SORTS
+
+RUN NO. 48  v3si  ./sledgehammer/Fundamental_Theorem_Algebra/uf.731832.smt2 scope=11
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 11 --version v3si --rawdata ../UF/./sledgehammer/Fundamental_Theorem_Algebra/uf.731832.smt2
+No new sorts inferred
+
+Python time: 0m 0.613s
+------
+NO NEW SORTS
+
+RUN NO. 49  v3si  ./sledgehammer/TwoSquares/uf.663922.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.663922.smt2
+No new sorts inferred
+
+Python time: 0m 0.587s
+------
+NO NEW SORTS
+
+RUN NO. 49  v3si  ./sledgehammer/TwoSquares/uf.663922.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.663922.smt2
+No new sorts inferred
+
+Python time: 0m 0.589s
+------
+NO NEW SORTS
+
+RUN NO. 49  v3si  ./sledgehammer/TwoSquares/uf.663922.smt2 scope=8
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 8 --version v3si --rawdata ../UF/./sledgehammer/TwoSquares/uf.663922.smt2
+No new sorts inferred
+
+Python time: 0m 0.604s
+------
+NO NEW SORTS
+
+RUN NO. 50  v3si  ./sledgehammer/Hoare/smtlib.1113599.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Hoare/smtlib.1113599.smt2
+New sorts inferred, original number= 15 new number= 16
+
+Python time: 0m 0.549s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Hoare/smtlib.1113599.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.009
+Applying transformer: Enum Elimination Transformer... 0.004
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.017
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.150
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.261
+Applying transformer: Range Formula Transformer... 0.026
+Applying transformer: Simplify Transformer... 1.019
+Applying transformer: Domain Elimination Transformer... 0.771
+Total transformation time: 3.278
+Invoking solver strategy...
+Converting to solver format: 2.232
+Z3 solver time: 478.910
+Done. Result was Sat.
+TOTAL time: 484.424
+Sat
+
+Python time: 8m 5.239s
+------
+
+RUN NO. 50  v3si  ./sledgehammer/Hoare/smtlib.1113599.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Hoare/smtlib.1113599.smt2
+New sorts inferred, original number= 15 new number= 16
+
+Python time: 0m 0.566s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Hoare/smtlib.1113599.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.010
+Applying transformer: Enum Elimination Transformer... 0.004
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.017
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.150
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.284
+Applying transformer: Range Formula Transformer... 0.026
+Applying transformer: Simplify Transformer... 1.032
+Applying transformer: Domain Elimination Transformer... 0.772
+Total transformation time: 3.315
+Invoking solver strategy...
+Converting to solver format: 2.251
+Z3 solver time: 477.588
+Done. Result was Sat.
+TOTAL time: 483.157
+Sat
+
+Python time: 8m 3.998s
+------
+
+RUN NO. 50  v3si  ./sledgehammer/Hoare/smtlib.1113599.smt2 scope=10
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode checkfornewsorts --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Hoare/smtlib.1113599.smt2
+New sorts inferred, original number= 15 new number= 16
+
+Python time: 0m 0.558s
+------
+./libs/fortressdebug-0.1.0/bin/fortressdebug -J-Xss8m --timeout 1800000 --mode decision --scope 10 --version v3si --rawdata ../UF/./sledgehammer/Hoare/smtlib.1113599.smt2
+Applying transformer: Typecheck & Sanitize Transformer... 0.009
+Applying transformer: Enum Elimination Transformer... 0.004
+Applying transformer: Negation Normal Form Transformer... 0.003
+Applying transformer: Skolemize Transformer... 0.017
+Applying transformer: Symmetry Breaking Transformer SI (Mono First, then Functions, then Predicates)... 0.151
+Applying transformer: Quantifier Expansion Transformer (-, -)... 1.290
+Applying transformer: Range Formula Transformer... 0.025
+Applying transformer: Simplify Transformer... 1.069
+Applying transformer: Domain Elimination Transformer... 0.779
+Total transformation time: 3.365
+Invoking solver strategy...
+Converting to solver format: 2.263
+Z3 solver time: 477.198
+Done. Result was Sat.
+TOTAL time: 482.829
+Sat
+
+Python time: 8m 3.636s
+------
+Completed!

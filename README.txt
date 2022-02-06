@@ -24,3 +24,7 @@ run 3* sats for v1, v3
 completed 3* sat for v1 v3
 
 started 3* unsat for v1,v3
+
+2022-02-05
+started 3* for v3si also collecting info on number of new sorts
+
