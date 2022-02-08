@@ -3,9 +3,8 @@
 
 import csv
 
-goal = "unsat"
-
-inputfilename = "results/unsat-v1-v3-time-data.txt"
+goal = "sat"
+inputfilename = "results/sat-v1-v3-v3si-time-data.txt"
 
 v1_v3_tex_name = goal+"-fortress-vs-fortress+.tex"
 v3_v3si_tex_name = goal+"-fortress+-vs-fortress+SI.tex"
@@ -238,9 +237,9 @@ compare("v1","v3")
 #make_scatterplot(tex_location+v1_v3_tex_name, "v1","v3")
 print("")
 
-#print('-----')
-#print('Compare Fortress+ with Fortress+SI\n')
-#compare("v3","v3si")
+print('-----')
+print('Compare Fortress+ with Fortress+SI\n')
+compare("v3","v3si")
 #make_scatterplot(tex_location+v3_v3si_tex_name, "v3", "v3si")
 
 #print('-----')
