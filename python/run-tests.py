@@ -20,12 +20,12 @@ versions = ["v3si"]
 num_tries = 3
 
 # for 50 sat files
-goal = "sat"
-inputfilelist = thisdirprefix + "results/2022-01-15-"+goal+"-file-scope-list.txt"
+# goal = "sat"
+# inputfilelist = thisdirprefix + "results/2022-01-15-"+goal+"-file-scope-list.txt"
 
 # for 100 unsat files
-#goal = "unsat"
-#inputfilelist = thisdirprefix + "results/2022-01-28-"+goal+"-file-scope-list.txt"
+goal = "unsat"
+inputfilelist = thisdirprefix + "results/2022-01-28-"+goal+"-file-scope-list.txt"
 
 
 filecounter = 1  # start at first line of files; counting starts at 1
