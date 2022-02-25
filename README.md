@@ -1,6 +1,6 @@
 # README
 
-This is how the fortress evaluation of Poremba and Day's symmetry breaking schemes was completed.
+This is how the evaluation of Poremba and Day's symmetry breaking schemes was completed.
 
 ## TL;DR
 ```
@@ -21,7 +21,7 @@ results/date-time-sat-run-tests.txt
 
 results/date-time-unsat-run-tests.txt
 
-With the run times for every tested version on those files.
+With the run times for every tested version record in the above files.
 
 ## Complete Experiment Instructions
 
@@ -77,12 +77,19 @@ Below replace THISDIR with the location of this directory.
 	- for files of the same name, we started the bisection algorithm with the good scope  from 1st submission (but ran the bisection algorithm on it to make sure that scope fit in the time window for all versions)
 
 * Performance testing
+        - change settings in python/run-tests.py to run the sat files or the unsat files
 	- within THISDIR run: 
-	- this runs each file at the designated scope 5x on the three versions of fortress
+	```
+	python3 python/run-tests.py
+	```
+	This script runs each file at the three times on the three versions of fortress.
 
 * Tally results
+        - change settings in python/tally-results.py to tally the sat files or the unsat results
 	- within THISDIR run:
-	- determines the average of the 5 runs for each file and sums the totals for 
-	- generates the tables for the paper in latex
-	- generates the plots for the paper in latex
+	```
+	python3 python/tally-results.py
+	```
+	This script determines the average of th3 3 runs for each file and sums the totals for each version and prints summary data to the terminal.  It also directly creates the tables and plots that appear in the paper.
+
 
