@@ -13,6 +13,7 @@ cd fortress-eval-poremba-symmetry.git
 python3 python/run-tests.py &
 <set options for unsat in python/run-tests.py>
 python3 python/run-tests.py &
+python3 python/tally-results.py &
 ```
 
 The results (after many days!) will be data in:
@@ -85,11 +86,10 @@ Below replace THISDIR with the location of this directory.
 	This script runs each file at the three times on the three versions of fortress.
 
 * Tally results
-        - change settings in python/tally-results.py to tally the sat files or the unsat results
 	- within THISDIR run:
 	```
 	python3 python/tally-results.py
 	```
-	This script determines the average of th3 3 runs for each file and sums the totals for each version and prints summary data to the terminal.  It also directly creates the tables and plots that appear in the paper.
+	This script determines the average of the 3 runs for each file and sums the totals for each version and prints summary data to the terminal.  It also directly creates the tables and plots that appear in the paper.
 
 
