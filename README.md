@@ -22,7 +22,7 @@ results/date-time-sat-run-tests.txt
 
 results/date-time-unsat-run-tests.txt
 
-With the run times for every tested version recorded in the above files.
+with the run times for every tested version recorded in the above files.
 
 ## Complete Experiment Instructions
 
@@ -40,11 +40,11 @@ Below replace THISDIR with the location of this directory.
     			- If using MacOS, we recommend using Homebrew: `brew install z3`.
     			- If on `Ubuntu`, do not use `apt-get`, since its version of Z3 is out of date.
 	- in a sister directory: git clone https://github.com/WatForm/fortress.git
-		+ master branch (release ...)
+		+ master branch (release v-poremba-symmetry-eval-1)
     	- within fortress-eval-poremba-symmetry, run the script to build fortress 
 		+ ./install_fortress.sh
 		+ this script copies the necessary parts of fortress into THISDIR/libs
-    - we use (tumbo.cs):
+    - we use (on tumbo.cs):
     	+ sbt 1.6.1
     	+ java 13.0.2 2020-01-14
 	  Java(TM) SE Runtime Environment (build 13.0.2+8)
@@ -71,10 +71,10 @@ Below replace THISDIR with the location of this directory.
 			- unsat problems are generally harder
 			- known SAT problems might not end up SAT at a specific/finite scope so harder to find these problems
 		+ scope of 5 to 30 (range of scopes determined after some trial and error) -- all timing is done by the python script not fortress
-		+ v1 time within 3-20min; v3,v3si times < 30min (to have reasonable size problems with no timeouts)
+		+ v1 (Fortress) time within 3-20min; v3 (Fortress+),v3si (Fortress+SI) times < 30min (to have reasonable size problems with no timeouts)
 	- within THISDIR run: 
 	 ```python3 python/bisection-multi-fortress-versions.py```	
-	- some files are not parseable b/c our smt parser does not support everything in smt-lib
+	- some files are not parseable because our smt parser does not support everything in smt-lib
 	- for files of the same name, we started the bisection algorithm with the good scope  from 1st submission (but ran the bisection algorithm on it to make sure that scope fit in the time window for all versions)
 
 * Performance testing
