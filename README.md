@@ -22,7 +22,7 @@ results/date-time-sat-run-tests.txt
 
 results/date-time-unsat-run-tests.txt
 
-With the run times for every tested version record in the above files.
+With the run times for every tested version recorded in the above files.
 
 ## Complete Experiment Instructions
 
@@ -40,6 +40,7 @@ Below replace THISDIR with the location of this directory.
     			- If using MacOS, we recommend using Homebrew: `brew install z3`.
     			- If on `Ubuntu`, do not use `apt-get`, since its version of Z3 is out of date.
 	- in a sister directory: git clone https://github.com/WatForm/fortress.git
+		+ master branch (release ...)
     	- within fortress-eval-poremba-symmetry, run the script to build fortress 
 		+ ./install_fortress.sh
 		+ this script copies the necessary parts of fortress into THISDIR/libs
@@ -52,7 +53,6 @@ Below replace THISDIR with the location of this directory.
 	
 * Get the benchmark files
 	- git clone https://clc-gitlab.cs.uiowa.edu:2443/SMT-LIB-benchmarks/UF.git
-	- on 2022-01-11
 	- Commit: dd1c268beb61a2c583caf414b32248decdff0d0a (master branch)
 
 * Generate randomly ordered list of smt2 files that are known to be unsat/sat problems
