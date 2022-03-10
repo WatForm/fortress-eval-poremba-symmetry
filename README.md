@@ -76,14 +76,21 @@ Below replace THISDIR with the location of this directory.
 	 ```python3 python/bisection-multi-fortress-versions.py```	
 	- some files are not parseable because our smt parser does not support everything in smt-lib
 	- for files of the same name, we started the bisection algorithm with the good scope  from 1st submission (but ran the bisection algorithm on it to make sure that scope fit in the time window for all versions)
-
+	- results are in:  
+	results/2022-01-15-sat-file-scope-list.txt  
+	results/2022-01-28-unsat-file-scope-list.txt
+	
 * Performance testing
         - change settings in python/run-tests.py to run the sat files or the unsat files
 	- within THISDIR run: 
 	```
 	python3 python/run-tests.py
 	```
-	This script runs each file at the three times on the three versions of fortress.
+	This script runs each file three times on the three versions of fortress.
+
+	Resulting data is in:  
+	results/sat-v1-v3-v3si-time-data.txt
+	results/unsat-v1-v3-v3si-time-data.txt
 
 * Tally results
 	- within THISDIR run:

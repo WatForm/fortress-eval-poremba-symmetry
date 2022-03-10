@@ -1,0 +1,819 @@
+./sledgehammer/Hoare/uf.692423.smt2, unsat, 6, v1, 750.5933686606586
+./sledgehammer/Hoare/uf.692423.smt2, unsat, 6, v3, 687.7684092745185
+./sledgehammer/Hoare/uf.692423.smt2, unsat, 6, v1, 748.5988998562098
+./sledgehammer/Hoare/uf.692423.smt2, unsat, 6, v3, 690.2156809866428
+./sledgehammer/Hoare/uf.692423.smt2, unsat, 6, v1, 755.8073796853423
+./sledgehammer/Hoare/uf.692423.smt2, unsat, 6, v3, 681.3209452182055
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_33_263_2707193.smt_in.smt2, unsat, 7, v1, 202.13761057704687
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_33_263_2707193.smt_in.smt2, unsat, 7, v3, 270.82487404718995
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_33_263_2707193.smt_in.smt2, unsat, 7, v1, 202.70773719996214
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_33_263_2707193.smt_in.smt2, unsat, 7, v3, 269.09538408368826
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_33_263_2707193.smt_in.smt2, unsat, 7, v1, 201.97068326547742
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_33_263_2707193.smt_in.smt2, unsat, 7, v3, 269.35157535225153
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1398696.smt2, unsat, 18, v1, 414.37747268751264
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1398696.smt2, unsat, 18, v3, 361.4040565788746
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1398696.smt2, unsat, 18, v1, 414.227247774601
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1398696.smt2, unsat, 18, v3, 362.38841611519456
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1398696.smt2, unsat, 18, v1, 414.3901741951704
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1398696.smt2, unsat, 18, v3, 361.4429146870971
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_16_613_1356619.smt_in.smt2, unsat, 6, v1, 576.7550069727004
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_16_613_1356619.smt_in.smt2, unsat, 6, v3, 301.3366087861359
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_16_613_1356619.smt_in.smt2, unsat, 6, v1, 568.3503931686282
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_16_613_1356619.smt_in.smt2, unsat, 6, v3, 300.9739862419665
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_16_613_1356619.smt_in.smt2, unsat, 6, v1, 577.2085128501058
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_16_613_1356619.smt_in.smt2, unsat, 6, v3, 301.04344392567873
+./sledgehammer/Arrow_Order/uf.806754.smt2, unsat, 6, v1, 1000.4217413887382
+./sledgehammer/Arrow_Order/uf.806754.smt2, unsat, 6, v3, 962.9743318371475
+./sledgehammer/Arrow_Order/uf.806754.smt2, unsat, 6, v1, 999.3382013216615
+./sledgehammer/Arrow_Order/uf.806754.smt2, unsat, 6, v3, 964.874510243535
+./sledgehammer/Arrow_Order/uf.806754.smt2, unsat, 6, v1, 1002.8894774317741
+./sledgehammer/Arrow_Order/uf.806754.smt2, unsat, 6, v3, 959.6952461004257
+./sledgehammer/Fundamental_Theorem_Algebra/uf.580248.smt2, unsat, 9, v1, 206.91710943356156
+./sledgehammer/Fundamental_Theorem_Algebra/uf.580248.smt2, unsat, 9, v3, 107.98203244805336
+./sledgehammer/Fundamental_Theorem_Algebra/uf.580248.smt2, unsat, 9, v1, 206.62706695124507
+./sledgehammer/Fundamental_Theorem_Algebra/uf.580248.smt2, unsat, 9, v3, 108.58095017448068
+./sledgehammer/Fundamental_Theorem_Algebra/uf.580248.smt2, unsat, 9, v1, 207.6892614364624
+./sledgehammer/Fundamental_Theorem_Algebra/uf.580248.smt2, unsat, 9, v3, 108.43339344114065
+./grasshopper/instantiated/filter_loop_check_heap_access_29_8.smt2, unsat, 26, v1, 361.7412696890533
+./grasshopper/instantiated/filter_loop_check_heap_access_29_8.smt2, unsat, 26, v3, 361.2211842313409
+./grasshopper/instantiated/filter_loop_check_heap_access_29_8.smt2, unsat, 26, v1, 362.18577571585774
+./grasshopper/instantiated/filter_loop_check_heap_access_29_8.smt2, unsat, 26, v3, 359.604359716177
+./grasshopper/instantiated/filter_loop_check_heap_access_29_8.smt2, unsat, 26, v1, 362.23767307028174
+./grasshopper/instantiated/filter_loop_check_heap_access_29_8.smt2, unsat, 26, v3, 361.0622204840183
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6, v1, 387.2291984334588
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6, v3, 543.1584824807942
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6, v1, 385.6280996724963
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6, v3, 545.9749863334
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6, v1, 388.02592477202415
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6, v3, 543.948400259018
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7, v1, 516.3312690854073
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7, v3, 515.5273439735174
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7, v1, 514.1933582723141
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7, v3, 521.017865087837
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7, v1, 510.35320096090436
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7, v3, 519.7892467342317
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_52_015_2717538.smt_in.smt2, unsat, 7, v1, 341.8274534083903
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_52_015_2717538.smt_in.smt2, unsat, 7, v3, 491.6241607815027
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_52_015_2717538.smt_in.smt2, unsat, 7, v1, 340.31522311642766
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_52_015_2717538.smt_in.smt2, unsat, 7, v3, 491.8610296100378
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_52_015_2717538.smt_in.smt2, unsat, 7, v1, 343.08321706205606
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_52_015_2717538.smt_in.smt2, unsat, 7, v3, 492.4556761160493
+./grasshopper/uninstantiated/rec_reverse_loop_check_heap_access_20_4.smt2, unsat, 15, v1, 1144.4930623583496
+./grasshopper/uninstantiated/rec_reverse_loop_check_heap_access_20_4.smt2, unsat, 15, v3, 1167.8133835829794
+./grasshopper/uninstantiated/rec_reverse_loop_check_heap_access_20_4.smt2, unsat, 15, v1, 1146.5568092800677
+./grasshopper/uninstantiated/rec_reverse_loop_check_heap_access_20_4.smt2, unsat, 15, v3, 1169.9044439271092
+./grasshopper/uninstantiated/rec_reverse_loop_check_heap_access_20_4.smt2, unsat, 15, v1, 1152.5090022943914
+./grasshopper/uninstantiated/rec_reverse_loop_check_heap_access_20_4.smt2, unsat, 15, v3, 1169.5983024127781
+./grasshopper/uninstantiated/dl_insert_check_heap_access_16_4.smt2, unsat, 7, v1, 821.5344307310879
+./grasshopper/uninstantiated/dl_insert_check_heap_access_16_4.smt2, unsat, 7, v3, 196.93291729688644
+./grasshopper/uninstantiated/dl_insert_check_heap_access_16_4.smt2, unsat, 7, v1, 825.0583083666861
+./grasshopper/uninstantiated/dl_insert_check_heap_access_16_4.smt2, unsat, 7, v3, 197.03704516217113
+./grasshopper/uninstantiated/dl_insert_check_heap_access_16_4.smt2, unsat, 7, v1, 823.6069163009524
+./grasshopper/uninstantiated/dl_insert_check_heap_access_16_4.smt2, unsat, 7, v3, 196.42444260045886
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_18_305_1444907.smt_in.smt2, unsat, 7, v1, 741.9288082458079
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_18_305_1444907.smt_in.smt2, unsat, 7, v3, 554.6748588122427
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_18_305_1444907.smt_in.smt2, unsat, 7, v1, 743.8727971352637
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_18_305_1444907.smt_in.smt2, unsat, 7, v3, 553.379590306431
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_18_305_1444907.smt_in.smt2, unsat, 7, v1, 742.8867927789688
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_18_305_1444907.smt_in.smt2, unsat, 7, v3, 551.8638538755476
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_49_14_041_1152954.smt_in.smt2, unsat, 9, v1, 293.8377339541912
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_49_14_041_1152954.smt_in.smt2, unsat, 9, v3, 292.0336226709187
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_49_14_041_1152954.smt_in.smt2, unsat, 9, v1, 295.9148670248687
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_49_14_041_1152954.smt_in.smt2, unsat, 9, v3, 291.19755978137255
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_49_14_041_1152954.smt_in.smt2, unsat, 9, v1, 297.29736031219363
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_49_14_041_1152954.smt_in.smt2, unsat, 9, v3, 290.1421121843159
+./grasshopper/instantiated/split_invariant_73_2.smt2, unsat, 26, v1, 337.574989259243
+./grasshopper/instantiated/split_invariant_73_2.smt2, unsat, 26, v3, 337.57778108492494
+./grasshopper/instantiated/split_invariant_73_2.smt2, unsat, 26, v1, 336.720123462379
+./grasshopper/instantiated/split_invariant_73_2.smt2, unsat, 26, v3, 339.03291124105453
+./grasshopper/instantiated/split_invariant_73_2.smt2, unsat, 26, v1, 339.0244776532054
+./grasshopper/instantiated/split_invariant_73_2.smt2, unsat, 26, v3, 337.55134289339185
+./20170428-Barrett/cdt-cade2015/nada/afp/sorted_list_operations/x2015_09_10_16_47_48_233_1073860.smt_in.smt2, unsat, 9, v1, 407.0719653740525
+./20170428-Barrett/cdt-cade2015/nada/afp/sorted_list_operations/x2015_09_10_16_47_48_233_1073860.smt_in.smt2, unsat, 9, v3, 405.6962090693414
+./20170428-Barrett/cdt-cade2015/nada/afp/sorted_list_operations/x2015_09_10_16_47_48_233_1073860.smt_in.smt2, unsat, 9, v1, 406.6497496664524
+./20170428-Barrett/cdt-cade2015/nada/afp/sorted_list_operations/x2015_09_10_16_47_48_233_1073860.smt_in.smt2, unsat, 9, v3, 405.497530259192
+./20170428-Barrett/cdt-cade2015/nada/afp/sorted_list_operations/x2015_09_10_16_47_48_233_1073860.smt_in.smt2, unsat, 9, v1, 406.62991916015744
+./20170428-Barrett/cdt-cade2015/nada/afp/sorted_list_operations/x2015_09_10_16_47_48_233_1073860.smt_in.smt2, unsat, 9, v3, 406.1611904874444
+./sledgehammer/StrongNorm/uf.793193.smt2, unsat, 5, v1, 690.7585361264646
+./sledgehammer/StrongNorm/uf.793193.smt2, unsat, 5, v3, 781.1237559728324
+./sledgehammer/StrongNorm/uf.793193.smt2, unsat, 5, v1, 693.1734712719917
+./sledgehammer/StrongNorm/uf.793193.smt2, unsat, 5, v3, 778.3676646873355
+./sledgehammer/StrongNorm/uf.793193.smt2, unsat, 5, v1, 687.019535087049
+./sledgehammer/StrongNorm/uf.793193.smt2, unsat, 5, v3, 779.8178559578955
+./grasshopper/instantiated/dl_remove_loop_invariant_35_5.smt2, unsat, 8, v1, 450.1182198598981
+./grasshopper/instantiated/dl_remove_loop_invariant_35_5.smt2, unsat, 8, v3, 449.76079173386097
+./grasshopper/instantiated/dl_remove_loop_invariant_35_5.smt2, unsat, 8, v1, 450.60034422948956
+./grasshopper/instantiated/dl_remove_loop_invariant_35_5.smt2, unsat, 8, v3, 449.4485865831375
+./grasshopper/instantiated/dl_remove_loop_invariant_35_5.smt2, unsat, 8, v1, 451.0027665309608
+./grasshopper/instantiated/dl_remove_loop_invariant_35_5.smt2, unsat, 8, v3, 453.1260040141642
+./sledgehammer/TypeSafe/smtlib.1267524.smt2, unsat, 5, v1, 278.5283027999103
+./sledgehammer/TypeSafe/smtlib.1267524.smt2, unsat, 5, v3, 105.58641625195742
+./sledgehammer/TypeSafe/smtlib.1267524.smt2, unsat, 5, v1, 278.2727259285748
+./sledgehammer/TypeSafe/smtlib.1267524.smt2, unsat, 5, v3, 105.76603391766548
+./sledgehammer/TypeSafe/smtlib.1267524.smt2, unsat, 5, v1, 278.750101480633
+./sledgehammer/TypeSafe/smtlib.1267524.smt2, unsat, 5, v3, 106.37426443397999
+./sledgehammer/Hoare/uf.968765.smt2, unsat, 6, v1, 605.7129762917757
+./sledgehammer/Hoare/uf.968765.smt2, unsat, 6, v3, 221.08231347054243
+./sledgehammer/Hoare/uf.968765.smt2, unsat, 6, v1, 604.7741535715759
+./sledgehammer/Hoare/uf.968765.smt2, unsat, 6, v3, 219.15295225009322
+./sledgehammer/Hoare/uf.968765.smt2, unsat, 6, v1, 613.1356641501188
+./sledgehammer/Hoare/uf.968765.smt2, unsat, 6, v3, 220.21342420578003
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_36_942_2250532.smt_in.smt2, unsat, 6, v1, 458.51686346530914
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_36_942_2250532.smt_in.smt2, unsat, 6, v3, 462.3592803813517
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_36_942_2250532.smt_in.smt2, unsat, 6, v1, 457.4940949715674
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_36_942_2250532.smt_in.smt2, unsat, 6, v3, 465.48691472411156
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_36_942_2250532.smt_in.smt2, unsat, 6, v1, 456.7077841386199
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_36_942_2250532.smt_in.smt2, unsat, 6, v3, 464.7873986624181
+./sledgehammer/Hoare/uf.775979.smt2, unsat, 8, v1, 573.114815864712
+./sledgehammer/Hoare/uf.775979.smt2, unsat, 8, v3, 273.9022983536124
+./sledgehammer/Hoare/uf.775979.smt2, unsat, 8, v1, 580.0890864133835
+./sledgehammer/Hoare/uf.775979.smt2, unsat, 8, v3, 279.71955947205424
+./sledgehammer/Hoare/uf.775979.smt2, unsat, 8, v1, 577.7360204979777
+./sledgehammer/Hoare/uf.775979.smt2, unsat, 8, v3, 277.7471989803016
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1288658.smt2, unsat, 18, v1, 238.8505140952766
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1288658.smt2, unsat, 18, v3, 187.42188557237387
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1288658.smt2, unsat, 18, v1, 239.35378032177687
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1288658.smt2, unsat, 18, v3, 187.49621465802193
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1288658.smt2, unsat, 18, v1, 238.64693731442094
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1288658.smt2, unsat, 18, v3, 187.04670295864344
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2, unsat, 11, v1, 487.333624497056
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2, unsat, 11, v3, 491.58684841543436
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2, unsat, 11, v1, 492.5439828559756
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2, unsat, 11, v3, 489.1084768176079
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2, unsat, 11, v1, 486.84678699076176
+./grasshopper/uninstantiated/insert_check_heap_access_25_4.smt2, unsat, 11, v3, 487.37851106002927
+./20170428-Barrett/cdt-cade2015/nada/afp/bindag/x2015_09_10_16_54_00_148_1099230.smt_in.smt2, unsat, 6, v1, 289.25466276332736
+./20170428-Barrett/cdt-cade2015/nada/afp/bindag/x2015_09_10_16_54_00_148_1099230.smt_in.smt2, unsat, 6, v3, 288.3405363596976
+./20170428-Barrett/cdt-cade2015/nada/afp/bindag/x2015_09_10_16_54_00_148_1099230.smt_in.smt2, unsat, 6, v1, 288.5480593070388
+./20170428-Barrett/cdt-cade2015/nada/afp/bindag/x2015_09_10_16_54_00_148_1099230.smt_in.smt2, unsat, 6, v3, 289.01955887675285
+./20170428-Barrett/cdt-cade2015/nada/afp/bindag/x2015_09_10_16_54_00_148_1099230.smt_in.smt2, unsat, 6, v1, 289.2915046811104
+./20170428-Barrett/cdt-cade2015/nada/afp/bindag/x2015_09_10_16_54_00_148_1099230.smt_in.smt2, unsat, 6, v3, 289.31217120960355
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1445231.smt2, unsat, 9, v1, 212.5661340430379
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1445231.smt2, unsat, 9, v3, 213.59954019263387
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1445231.smt2, unsat, 9, v1, 212.19389022514224
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1445231.smt2, unsat, 9, v3, 211.68123717978597
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1445231.smt2, unsat, 9, v1, 212.33931466564536
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1445231.smt2, unsat, 9, v3, 212.0106792077422
+./20170428-Barrett/cdt-cade2015/nada/distro/koenig/x2015_09_10_16_44_54_854_992098.smt_in.smt2, unsat, 5, v1, 225.74058442935348
+./20170428-Barrett/cdt-cade2015/nada/distro/koenig/x2015_09_10_16_44_54_854_992098.smt_in.smt2, unsat, 5, v3, 258.4365845657885
+./20170428-Barrett/cdt-cade2015/nada/distro/koenig/x2015_09_10_16_44_54_854_992098.smt_in.smt2, unsat, 5, v1, 226.20567270740867
+./20170428-Barrett/cdt-cade2015/nada/distro/koenig/x2015_09_10_16_44_54_854_992098.smt_in.smt2, unsat, 5, v3, 257.48553493618965
+./20170428-Barrett/cdt-cade2015/nada/distro/koenig/x2015_09_10_16_44_54_854_992098.smt_in.smt2, unsat, 5, v1, 226.74381936341524
+./20170428-Barrett/cdt-cade2015/nada/distro/koenig/x2015_09_10_16_44_54_854_992098.smt_in.smt2, unsat, 5, v3, 258.6245166659355
+./sledgehammer/TwoSquares/uf.816820.smt2, unsat, 18, v1, 1176.526732236147
+./sledgehammer/TwoSquares/uf.816820.smt2, unsat, 18, v3, 79.21546424925327
+./sledgehammer/TwoSquares/uf.816820.smt2, unsat, 18, v1, 1194.3866693601012
+./sledgehammer/TwoSquares/uf.816820.smt2, unsat, 18, v3, 79.24943529069424
+./sledgehammer/TwoSquares/uf.816820.smt2, unsat, 18, v1, 1176.9421843849123
+./sledgehammer/TwoSquares/uf.816820.smt2, unsat, 18, v3, 78.97828453406692
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_47_308_2265102.smt_in.smt2, unsat, 6, v1, 449.99277326464653
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_47_308_2265102.smt_in.smt2, unsat, 6, v3, 445.74713544920087
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_47_308_2265102.smt_in.smt2, unsat, 6, v1, 445.4333025626838
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_47_308_2265102.smt_in.smt2, unsat, 6, v3, 440.1907869838178
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_47_308_2265102.smt_in.smt2, unsat, 6, v1, 447.6969841644168
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_47_308_2265102.smt_in.smt2, unsat, 6, v3, 440.8793108314276
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6, v1, 342.3282867409289
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6, v3, 535.5759081542492
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6, v1, 342.30690885335207
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6, v3, 529.7408120706677
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6, v1, 342.8560229949653
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6, v3, 536.1576394736767
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7, v1, 797.7352771833539
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7, v3, 819.1391943655908
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7, v1, 799.7190721333027
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7, v3, 816.0988096781075
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7, v1, 800.5529996268451
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7, v3, 816.8086939565837
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_05_525_1072875.smt_in.smt2, unsat, 5, v1, 550.7198803648353
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_05_525_1072875.smt_in.smt2, unsat, 5, v3, 367.0041493177414
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_05_525_1072875.smt_in.smt2, unsat, 5, v1, 550.3295909427106
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_05_525_1072875.smt_in.smt2, unsat, 5, v3, 369.06740095466375
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_05_525_1072875.smt_in.smt2, unsat, 5, v1, 553.4504373446107
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_05_525_1072875.smt_in.smt2, unsat, 5, v3, 367.76360047608614
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1266708.smt2, unsat, 25, v1, 596.6411018110812
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1266708.smt2, unsat, 25, v3, 595.9791279509664
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1266708.smt2, unsat, 25, v1, 592.7444430403411
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1266708.smt2, unsat, 25, v3, 590.6470003575087
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1266708.smt2, unsat, 25, v1, 594.5002648048103
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1266708.smt2, unsat, 25, v3, 604.755514845252
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_47_42_094_1080705.smt_in.smt2, unsat, 9, v1, 228.19323065131903
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_47_42_094_1080705.smt_in.smt2, unsat, 9, v3, 223.0417890585959
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_47_42_094_1080705.smt_in.smt2, unsat, 9, v1, 212.65315145254135
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_47_42_094_1080705.smt_in.smt2, unsat, 9, v3, 213.69512739405036
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_47_42_094_1080705.smt_in.smt2, unsat, 9, v1, 210.3067132011056
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_47_42_094_1080705.smt_in.smt2, unsat, 9, v3, 222.08164174109697
+./sledgehammer/Hoare/uf.1004091.smt2, unsat, 10, v1, 225.46242067962885
+./sledgehammer/Hoare/uf.1004091.smt2, unsat, 10, v3, 157.78536134585738
+./sledgehammer/Hoare/uf.1004091.smt2, unsat, 10, v1, 225.2259741537273
+./sledgehammer/Hoare/uf.1004091.smt2, unsat, 10, v3, 157.47897028177977
+./sledgehammer/Hoare/uf.1004091.smt2, unsat, 10, v1, 223.25756772235036
+./sledgehammer/Hoare/uf.1004091.smt2, unsat, 10, v3, 156.32448027282953
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_08_793_2694000.smt_in.smt2, unsat, 6, v1, 259.2161594480276
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_08_793_2694000.smt_in.smt2, unsat, 6, v3, 343.128302924335
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_08_793_2694000.smt_in.smt2, unsat, 6, v1, 258.66488752886653
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_08_793_2694000.smt_in.smt2, unsat, 6, v3, 341.83829851448536
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_08_793_2694000.smt_in.smt2, unsat, 6, v1, 265.4996962249279
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_08_793_2694000.smt_in.smt2, unsat, 6, v3, 341.16720915585756
+./sledgehammer/FFT/uf.809442.smt2, unsat, 18, v1, 374.241155911237
+./sledgehammer/FFT/uf.809442.smt2, unsat, 18, v3, 391.09540248289704
+./sledgehammer/FFT/uf.809442.smt2, unsat, 18, v1, 371.95530634373426
+./sledgehammer/FFT/uf.809442.smt2, unsat, 18, v3, 388.95196613669395
+./sledgehammer/FFT/uf.809442.smt2, unsat, 18, v1, 372.57032692059875
+./sledgehammer/FFT/uf.809442.smt2, unsat, 18, v3, 391.456191342324
+./sledgehammer/TwoSquares/uf.764813.smt2, unsat, 18, v1, 300.59778978303075
+./sledgehammer/TwoSquares/uf.764813.smt2, unsat, 18, v3, 302.89934197440743
+./sledgehammer/TwoSquares/uf.764813.smt2, unsat, 18, v1, 305.99472691491246
+./sledgehammer/TwoSquares/uf.764813.smt2, unsat, 18, v3, 301.82669726386666
+./sledgehammer/TwoSquares/uf.764813.smt2, unsat, 18, v1, 300.6074307411909
+./sledgehammer/TwoSquares/uf.764813.smt2, unsat, 18, v3, 303.53289849311113
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7, v1, 285.18902533501387
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7, v3, 287.23851142451167
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7, v1, 283.1538590490818
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7, v3, 294.84375746920705
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7, v1, 283.71845218911767
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7, v3, 287.71065425127745
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_55_37_832_1288612.smt_in.smt2, unsat, 9, v1, 281.4226261563599
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_55_37_832_1288612.smt_in.smt2, unsat, 9, v3, 309.9715038202703
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_55_37_832_1288612.smt_in.smt2, unsat, 9, v1, 282.12924958765507
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_55_37_832_1288612.smt_in.smt2, unsat, 9, v3, 309.97082179784775
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_55_37_832_1288612.smt_in.smt2, unsat, 9, v1, 280.59097865223885
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_55_37_832_1288612.smt_in.smt2, unsat, 9, v3, 310.6244747452438
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2, unsat, 5, v1, 188.3910119868815
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2, unsat, 5, v3, 221.0203016474843
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2, unsat, 5, v1, 186.98666322231293
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2, unsat, 5, v3, 222.28410806506872
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2, unsat, 5, v1, 188.47421412169933
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2, unsat, 5, v3, 221.7976937778294
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_53_49_382_1218775.smt_in.smt2, unsat, 8, v1, 209.29244692996144
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_53_49_382_1218775.smt_in.smt2, unsat, 8, v3, 212.52276647090912
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_53_49_382_1218775.smt_in.smt2, unsat, 8, v1, 209.15140626952052
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_53_49_382_1218775.smt_in.smt2, unsat, 8, v3, 212.19880034029484
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_53_49_382_1218775.smt_in.smt2, unsat, 8, v1, 208.59301387146115
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_53_49_382_1218775.smt_in.smt2, unsat, 8, v3, 212.99079556390643
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6, v1, 234.54268572852015
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6, v3, 253.58921060338616
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6, v1, 235.9503305964172
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6, v3, 254.8034787364304
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6, v1, 235.8668291978538
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6, v3, 254.67015857249498
+./20170428-Barrett/cdt-cade2015/nada/afp/koenigslemma/x2015_09_10_16_54_36_939_1175012.smt_in.smt2, unsat, 9, v1, 360.0006451494992
+./20170428-Barrett/cdt-cade2015/nada/afp/koenigslemma/x2015_09_10_16_54_36_939_1175012.smt_in.smt2, unsat, 9, v3, 591.7157552726567
+./20170428-Barrett/cdt-cade2015/nada/afp/koenigslemma/x2015_09_10_16_54_36_939_1175012.smt_in.smt2, unsat, 9, v1, 357.9423178322613
+./20170428-Barrett/cdt-cade2015/nada/afp/koenigslemma/x2015_09_10_16_54_36_939_1175012.smt_in.smt2, unsat, 9, v3, 592.6460111998022
+./20170428-Barrett/cdt-cade2015/nada/afp/koenigslemma/x2015_09_10_16_54_36_939_1175012.smt_in.smt2, unsat, 9, v1, 361.28309842199087
+./20170428-Barrett/cdt-cade2015/nada/afp/koenigslemma/x2015_09_10_16_54_36_939_1175012.smt_in.smt2, unsat, 9, v3, 593.1513313353062
+./grasshopper/instantiated/rec_copy_postcondition_of_rec_copy_53_2.smt2, unsat, 18, v1, 417.3621702939272
+./grasshopper/instantiated/rec_copy_postcondition_of_rec_copy_53_2.smt2, unsat, 18, v3, 419.94771499559283
+./grasshopper/instantiated/rec_copy_postcondition_of_rec_copy_53_2.smt2, unsat, 18, v1, 417.6899293847382
+./grasshopper/instantiated/rec_copy_postcondition_of_rec_copy_53_2.smt2, unsat, 18, v3, 414.5623243264854
+./grasshopper/instantiated/rec_copy_postcondition_of_rec_copy_53_2.smt2, unsat, 18, v1, 418.4594548381865
+./grasshopper/instantiated/rec_copy_postcondition_of_rec_copy_53_2.smt2, unsat, 18, v3, 413.25374238193035
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1281914.smt2, unsat, 15, v1, 625.3358793780208
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1281914.smt2, unsat, 15, v3, 632.9856345131993
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1281914.smt2, unsat, 15, v1, 626.5701052322984
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1281914.smt2, unsat, 15, v3, 631.5111476182938
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1281914.smt2, unsat, 15, v1, 626.4397827647626
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1281914.smt2, unsat, 15, v3, 634.7373027801514
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_50_746_2350536.smt_in.smt2, unsat, 6, v1, 480.90441436320543
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_50_746_2350536.smt_in.smt2, unsat, 6, v3, 371.07276159897447
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_50_746_2350536.smt_in.smt2, unsat, 6, v1, 483.04781933128834
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_50_746_2350536.smt_in.smt2, unsat, 6, v3, 364.89254646375775
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_50_746_2350536.smt_in.smt2, unsat, 6, v1, 475.6610556766391
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_50_746_2350536.smt_in.smt2, unsat, 6, v3, 365.71750013530254
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11, v1, 195.05067801475525
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11, v3, 155.7648269534111
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11, v1, 194.8665915504098
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11, v3, 156.1795732267201
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11, v1, 194.6645640693605
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11, v3, 156.6585030257702
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_30_148_1188795.smt_in.smt2, unsat, 7, v1, 1045.1830987371504
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_30_148_1188795.smt_in.smt2, unsat, 7, v3, 672.9506159015
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_30_148_1188795.smt_in.smt2, unsat, 7, v1, 1035.1501293107867
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_30_148_1188795.smt_in.smt2, unsat, 7, v3, 676.4980336129665
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_30_148_1188795.smt_in.smt2, unsat, 7, v1, 1039.4949483983219
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_30_148_1188795.smt_in.smt2, unsat, 7, v3, 673.3767604678869
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2, unsat, 9, v1, 578.7545854002237
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2, unsat, 9, v3, 103.03424962982535
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2, unsat, 9, v1, 576.8575008623302
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2, unsat, 9, v3, 102.7147243283689
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2, unsat, 9, v1, 577.7575964443386
+./sledgehammer/Fundamental_Theorem_Algebra/uf.912883.smt2, unsat, 9, v3, 102.82746421918273
+./grasshopper/instantiated/find_check_heap_access_17_2.smt2, unsat, 25, v1, 445.07759419456124
+./grasshopper/instantiated/find_check_heap_access_17_2.smt2, unsat, 25, v3, 449.20306446775794
+./grasshopper/instantiated/find_check_heap_access_17_2.smt2, unsat, 25, v1, 447.49927086383104
+./grasshopper/instantiated/find_check_heap_access_17_2.smt2, unsat, 25, v3, 447.025103520602
+./grasshopper/instantiated/find_check_heap_access_17_2.smt2, unsat, 25, v1, 453.1248217597604
+./grasshopper/instantiated/find_check_heap_access_17_2.smt2, unsat, 25, v3, 441.8416105695069
+./sledgehammer/Hoare/uf.1103225.smt2, unsat, 6, v1, 540.3419719897211
+./sledgehammer/Hoare/uf.1103225.smt2, unsat, 6, v3, 961.8032020330429
+./sledgehammer/Hoare/uf.1103225.smt2, unsat, 6, v1, 543.2791198305786
+./sledgehammer/Hoare/uf.1103225.smt2, unsat, 6, v3, 978.5577524267137
+./sledgehammer/Hoare/uf.1103225.smt2, unsat, 6, v1, 543.1272274293005
+./sledgehammer/Hoare/uf.1103225.smt2, unsat, 6, v3, 973.0884550511837
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_47_01_275_1024212.smt_in.smt2, unsat, 8, v1, 450.2685042358935
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_47_01_275_1024212.smt_in.smt2, unsat, 8, v3, 422.9092107415199
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_47_01_275_1024212.smt_in.smt2, unsat, 8, v1, 445.0633999854326
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_47_01_275_1024212.smt_in.smt2, unsat, 8, v3, 416.4220537096262
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_47_01_275_1024212.smt_in.smt2, unsat, 8, v1, 446.19213814660907
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_47_01_275_1024212.smt_in.smt2, unsat, 8, v3, 423.1431260332465
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_12_26_578_2629778.smt_in.smt2, unsat, 7, v1, 373.7505322508514
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_12_26_578_2629778.smt_in.smt2, unsat, 7, v3, 354.75205616652966
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_12_26_578_2629778.smt_in.smt2, unsat, 7, v1, 372.89024261012673
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_12_26_578_2629778.smt_in.smt2, unsat, 7, v3, 354.65148428827524
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_12_26_578_2629778.smt_in.smt2, unsat, 7, v1, 372.99165408313274
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_12_26_578_2629778.smt_in.smt2, unsat, 7, v3, 355.4040196835995
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_11_57_675_2594884.smt_in.smt2, unsat, 8, v1, 538.2258050404489
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_11_57_675_2594884.smt_in.smt2, unsat, 8, v3, 686.6918732151389
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_11_57_675_2594884.smt_in.smt2, unsat, 8, v1, 538.0051719173789
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_11_57_675_2594884.smt_in.smt2, unsat, 8, v3, 681.3345278725028
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_11_57_675_2594884.smt_in.smt2, unsat, 8, v1, 535.405363291502
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_11_57_675_2594884.smt_in.smt2, unsat, 8, v3, 687.7997628264129
+./sledgehammer/Hoare/uf.663973.smt2, unsat, 6, v1, 948.1464645192027
+./sledgehammer/Hoare/uf.663973.smt2, unsat, 6, v3, 746.6086343117058
+./sledgehammer/Hoare/uf.663973.smt2, unsat, 6, v1, 949.0043501779437
+./sledgehammer/Hoare/uf.663973.smt2, unsat, 6, v3, 752.5747363604605
+./sledgehammer/Hoare/uf.663973.smt2, unsat, 6, v1, 948.3010462634265
+./sledgehammer/Hoare/uf.663973.smt2, unsat, 6, v3, 745.4378653466702
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_14_499_1523019.smt_in.smt2, unsat, 7, v1, 311.4353543408215
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_14_499_1523019.smt_in.smt2, unsat, 7, v3, 335.41264088079333
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_14_499_1523019.smt_in.smt2, unsat, 7, v1, 309.5436380133033
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_14_499_1523019.smt_in.smt2, unsat, 7, v3, 334.2366285100579
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_14_499_1523019.smt_in.smt2, unsat, 7, v1, 309.61120142042637
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_14_499_1523019.smt_in.smt2, unsat, 7, v3, 333.96629790216684
+./sledgehammer/Fundamental_Theorem_Algebra/uf.931403.smt2, unsat, 10, v1, 902.355614207685
+./sledgehammer/Fundamental_Theorem_Algebra/uf.931403.smt2, unsat, 10, v3, 824.0766970552504
+./sledgehammer/Fundamental_Theorem_Algebra/uf.931403.smt2, unsat, 10, v1, 907.0784514993429
+./sledgehammer/Fundamental_Theorem_Algebra/uf.931403.smt2, unsat, 10, v3, 822.7937133722007
+./sledgehammer/Fundamental_Theorem_Algebra/uf.931403.smt2, unsat, 10, v1, 910.9250368438661
+./sledgehammer/Fundamental_Theorem_Algebra/uf.931403.smt2, unsat, 10, v3, 832.4287611506879
+./sledgehammer/NS_Shared/uf.781306.smt2, unsat, 8, v1, 1122.9465095028281
+./sledgehammer/NS_Shared/uf.781306.smt2, unsat, 8, v3, 526.0674827359617
+./sledgehammer/NS_Shared/uf.781306.smt2, unsat, 8, v1, 1116.1337601654232
+./sledgehammer/NS_Shared/uf.781306.smt2, unsat, 8, v3, 523.853503856808
+./sledgehammer/NS_Shared/uf.781306.smt2, unsat, 8, v1, 1114.7281955331564
+./sledgehammer/NS_Shared/uf.781306.smt2, unsat, 8, v3, 524.354209151119
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_52_32_239_1240528.smt_in.smt2, unsat, 11, v1, 217.25187523290515
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_52_32_239_1240528.smt_in.smt2, unsat, 11, v3, 213.39015064388514
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_52_32_239_1240528.smt_in.smt2, unsat, 11, v1, 215.4163429364562
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_52_32_239_1240528.smt_in.smt2, unsat, 11, v3, 213.28022450581193
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_52_32_239_1240528.smt_in.smt2, unsat, 11, v1, 212.92095494270325
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_52_32_239_1240528.smt_in.smt2, unsat, 11, v3, 213.6059876382351
+./sledgehammer/TwoSquares/uf.783264.smt2, unsat, 25, v1, 911.991853479296
+./sledgehammer/TwoSquares/uf.783264.smt2, unsat, 25, v3, 908.2469056919217
+./sledgehammer/TwoSquares/uf.783264.smt2, unsat, 25, v1, 943.6156778819859
+./sledgehammer/TwoSquares/uf.783264.smt2, unsat, 25, v3, 915.0717860683799
+./sledgehammer/TwoSquares/uf.783264.smt2, unsat, 25, v1, 925.8259955756366
+./sledgehammer/TwoSquares/uf.783264.smt2, unsat, 25, v3, 906.6233611777425
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1219482.smt2, unsat, 7, v1, 386.0001972466707
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1219482.smt2, unsat, 7, v3, 63.262845389544964
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1219482.smt2, unsat, 7, v1, 383.836677365005
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1219482.smt2, unsat, 7, v3, 63.163077637553215
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1219482.smt2, unsat, 7, v1, 383.84386756271124
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1219482.smt2, unsat, 7, v3, 63.3914555683732
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9, v1, 783.8263393752277
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9, v3, 853.8543501906097
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9, v1, 786.3758042007685
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9, v3, 847.8448852673173
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9, v1, 789.1992927454412
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9, v3, 849.4692449495196
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_20_312_1397321.smt_in.smt2, unsat, 5, v1, 259.2701404988766
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_20_312_1397321.smt_in.smt2, unsat, 5, v3, 289.7555175051093
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_20_312_1397321.smt_in.smt2, unsat, 5, v1, 259.6219926029444
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_20_312_1397321.smt_in.smt2, unsat, 5, v3, 290.38474164158106
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_20_312_1397321.smt_in.smt2, unsat, 5, v1, 258.73883640021086
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_20_312_1397321.smt_in.smt2, unsat, 5, v3, 292.2837408594787
+./grasshopper/uninstantiated/rec_copy_loop_check_heap_access_44_4.smt2, unsat, 11, v1, 360.78494356945157
+./grasshopper/uninstantiated/rec_copy_loop_check_heap_access_44_4.smt2, unsat, 11, v3, 270.7921006269753
+./grasshopper/uninstantiated/rec_copy_loop_check_heap_access_44_4.smt2, unsat, 11, v1, 364.6660627871752
+./grasshopper/uninstantiated/rec_copy_loop_check_heap_access_44_4.smt2, unsat, 11, v3, 267.53000876680017
+./grasshopper/uninstantiated/rec_copy_loop_check_heap_access_44_4.smt2, unsat, 11, v1, 360.277079064399
+./grasshopper/uninstantiated/rec_copy_loop_check_heap_access_44_4.smt2, unsat, 11, v3, 268.845151823014
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_04_46_537_2017783.smt_in.smt2, unsat, 9, v1, 559.7446075230837
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_04_46_537_2017783.smt_in.smt2, unsat, 9, v3, 715.2769885472953
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_04_46_537_2017783.smt_in.smt2, unsat, 9, v1, 557.108147084713
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_04_46_537_2017783.smt_in.smt2, unsat, 9, v3, 704.8741931542754
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_04_46_537_2017783.smt_in.smt2, unsat, 9, v1, 556.0396328642964
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_04_46_537_2017783.smt_in.smt2, unsat, 9, v3, 709.1706819944084
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_51_47_804_1324224.smt_in.smt2, unsat, 8, v1, 314.9127410762012
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_51_47_804_1324224.smt_in.smt2, unsat, 8, v3, 333.60057494044304
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_51_47_804_1324224.smt_in.smt2, unsat, 8, v1, 314.39681025967
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_51_47_804_1324224.smt_in.smt2, unsat, 8, v3, 338.230617094785
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_51_47_804_1324224.smt_in.smt2, unsat, 8, v1, 318.2734592631459
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_51_47_804_1324224.smt_in.smt2, unsat, 8, v3, 334.8113197721541
+./grasshopper/instantiated/find_precondition_of_find_19_11.smt2, unsat, 25, v1, 402.88112146034837
+./grasshopper/instantiated/find_precondition_of_find_19_11.smt2, unsat, 25, v3, 407.968322224915
+./grasshopper/instantiated/find_precondition_of_find_19_11.smt2, unsat, 25, v1, 400.881366096437
+./grasshopper/instantiated/find_precondition_of_find_19_11.smt2, unsat, 25, v3, 401.6439026668668
+./grasshopper/instantiated/find_precondition_of_find_19_11.smt2, unsat, 25, v1, 404.53883818909526
+./grasshopper/instantiated/find_precondition_of_find_19_11.smt2, unsat, 25, v3, 401.80562883242965
+./sledgehammer/Arrow_Order/smtlib.667974.smt2, unsat, 11, v1, 1043.077692616731
+./sledgehammer/Arrow_Order/smtlib.667974.smt2, unsat, 11, v3, 1167.1038842312992
+./sledgehammer/Arrow_Order/smtlib.667974.smt2, unsat, 11, v1, 1048.0453181490302
+./sledgehammer/Arrow_Order/smtlib.667974.smt2, unsat, 11, v3, 1174.5809074118733
+./sledgehammer/Arrow_Order/smtlib.667974.smt2, unsat, 11, v1, 1047.516487043351
+./sledgehammer/Arrow_Order/smtlib.667974.smt2, unsat, 11, v3, 1167.97413707152
+./sledgehammer/Hoare/smtlib.968096.smt2, unsat, 11, v1, 243.82181343063712
+./sledgehammer/Hoare/smtlib.968096.smt2, unsat, 11, v3, 349.51625369489193
+./sledgehammer/Hoare/smtlib.968096.smt2, unsat, 11, v1, 242.0831689685583
+./sledgehammer/Hoare/smtlib.968096.smt2, unsat, 11, v3, 350.1919629573822
+./sledgehammer/Hoare/smtlib.968096.smt2, unsat, 11, v1, 242.9335589595139
+./sledgehammer/Hoare/smtlib.968096.smt2, unsat, 11, v3, 348.14452132210135
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_46_663_1466431.smt_in.smt2, unsat, 6, v1, 495.88231218233705
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_46_663_1466431.smt_in.smt2, unsat, 6, v3, 705.1064059138298
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_46_663_1466431.smt_in.smt2, unsat, 6, v1, 493.1667051874101
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_46_663_1466431.smt_in.smt2, unsat, 6, v3, 712.3915875330567
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_46_663_1466431.smt_in.smt2, unsat, 6, v1, 493.4536171555519
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_46_663_1466431.smt_in.smt2, unsat, 6, v3, 708.9726185724139
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_49_39_837_1199284.smt_in.smt2, unsat, 6, v1, 795.3571833074093
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_49_39_837_1199284.smt_in.smt2, unsat, 6, v3, 65.56914414837956
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_49_39_837_1199284.smt_in.smt2, unsat, 6, v1, 793.9856184236705
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_49_39_837_1199284.smt_in.smt2, unsat, 6, v3, 66.03048546984792
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_49_39_837_1199284.smt_in.smt2, unsat, 6, v1, 799.7580545656383
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_49_39_837_1199284.smt_in.smt2, unsat, 6, v3, 65.6029073111713
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_46_45_961_984148.smt_in.smt2, unsat, 5, v1, 358.47977456077933
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_46_45_961_984148.smt_in.smt2, unsat, 5, v3, 239.5602412968874
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_46_45_961_984148.smt_in.smt2, unsat, 5, v1, 355.74161464348435
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_46_45_961_984148.smt_in.smt2, unsat, 5, v3, 240.6415842808783
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_46_45_961_984148.smt_in.smt2, unsat, 5, v1, 352.82460244745016
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_46_45_961_984148.smt_in.smt2, unsat, 5, v3, 239.9766348414123
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1001270.smt2, unsat, 9, v1, 1196.3100084997714
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1001270.smt2, unsat, 9, v3, 463.84114208444953
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1001270.smt2, unsat, 9, v1, 1198.2187753766775
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1001270.smt2, unsat, 9, v3, 463.0928938165307
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1001270.smt2, unsat, 9, v1, 1186.7035793364048
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1001270.smt2, unsat, 9, v3, 458.5909645110369
+./sledgehammer/Hoare/uf.672461.smt2, unsat, 5, v1, 650.8545167706907
+./sledgehammer/Hoare/uf.672461.smt2, unsat, 5, v3, 456.0221116989851
+./sledgehammer/Hoare/uf.672461.smt2, unsat, 5, v1, 652.1799913160503
+./sledgehammer/Hoare/uf.672461.smt2, unsat, 5, v3, 455.7322897836566
+./sledgehammer/Hoare/uf.672461.smt2, unsat, 5, v1, 657.0026591382921
+./sledgehammer/Hoare/uf.672461.smt2, unsat, 5, v3, 453.72996586188674
+./sledgehammer/Fundamental_Theorem_Algebra/uf.571740.smt2, unsat, 8, v1, 219.21293043345213
+./sledgehammer/Fundamental_Theorem_Algebra/uf.571740.smt2, unsat, 8, v3, 69.31118405237794
+./sledgehammer/Fundamental_Theorem_Algebra/uf.571740.smt2, unsat, 8, v1, 219.2851188071072
+./sledgehammer/Fundamental_Theorem_Algebra/uf.571740.smt2, unsat, 8, v3, 69.72185262292624
+./sledgehammer/Fundamental_Theorem_Algebra/uf.571740.smt2, unsat, 8, v1, 219.32639603316784
+./sledgehammer/Fundamental_Theorem_Algebra/uf.571740.smt2, unsat, 8, v3, 69.90238447114825
+./sledgehammer/TypeSafe/smtlib.1412484.smt2, unsat, 6, v1, 612.651243314147
+./sledgehammer/TypeSafe/smtlib.1412484.smt2, unsat, 6, v3, 562.7423061169684
+./sledgehammer/TypeSafe/smtlib.1412484.smt2, unsat, 6, v1, 606.3851988837123
+./sledgehammer/TypeSafe/smtlib.1412484.smt2, unsat, 6, v3, 561.1158563457429
+./sledgehammer/TypeSafe/smtlib.1412484.smt2, unsat, 6, v1, 613.6051768027246
+./sledgehammer/TypeSafe/smtlib.1412484.smt2, unsat, 6, v3, 564.2977480143309
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5, v1, 213.11762246116996
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5, v3, 211.41513968631625
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5, v1, 214.01974031329155
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5, v3, 211.2749078013003
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5, v1, 214.00297720730305
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5, v3, 212.06359342113137
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9, v1, 898.3382742740214
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9, v3, 757.1825602762401
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9, v1, 898.4865537621081
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9, v3, 755.5047915540636
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9, v1, 911.6682356335223
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9, v3, 761.8215900175273
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11, v1, 997.0631490796804
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11, v3, 875.017379231751
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11, v1, 994.2916574478149
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11, v3, 876.1347570717335
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11, v1, 988.2321444042027
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11, v3, 874.1079988405108
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_35_439_2741694.smt_in.smt2, unsat, 6, v1, 184.14392346516252
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_35_439_2741694.smt_in.smt2, unsat, 6, v3, 197.66913571208715
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_35_439_2741694.smt_in.smt2, unsat, 6, v1, 185.3696282170713
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_35_439_2741694.smt_in.smt2, unsat, 6, v3, 198.90652960911393
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_35_439_2741694.smt_in.smt2, unsat, 6, v1, 184.36360820382833
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_35_439_2741694.smt_in.smt2, unsat, 6, v3, 200.30191463977098
+./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_17_276_1085125.smt_in.smt2, unsat, 5, v1, 318.2481627166271
+./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_17_276_1085125.smt_in.smt2, unsat, 5, v3, 368.3146349824965
+./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_17_276_1085125.smt_in.smt2, unsat, 5, v1, 318.0295643135905
+./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_17_276_1085125.smt_in.smt2, unsat, 5, v3, 370.3384329043329
+./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_17_276_1085125.smt_in.smt2, unsat, 5, v1, 316.5355587564409
+./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_17_276_1085125.smt_in.smt2, unsat, 5, v3, 372.0698096938431
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1459663.smt2, unsat, 7, v1, 855.395181633532
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1459663.smt2, unsat, 7, v3, 467.2995150014758
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1459663.smt2, unsat, 7, v1, 841.8725608959794
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1459663.smt2, unsat, 7, v3, 464.0893024802208
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1459663.smt2, unsat, 7, v1, 852.0161263421178
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1459663.smt2, unsat, 7, v3, 465.4425469264388
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1309838.smt2, unsat, 13, v1, 211.53605722635984
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1309838.smt2, unsat, 13, v3, 602.2790745310485
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1309838.smt2, unsat, 13, v1, 211.82642110064626
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1309838.smt2, unsat, 13, v3, 597.5334821976721
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1309838.smt2, unsat, 13, v1, 213.85969188436866
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1309838.smt2, unsat, 13, v3, 595.1144574321806
+./sledgehammer/Hoare/uf.1124589.smt2, unsat, 7, v1, 227.47934027388692
+./sledgehammer/Hoare/uf.1124589.smt2, unsat, 7, v3, 227.43904533982277
+./sledgehammer/Hoare/uf.1124589.smt2, unsat, 7, v1, 227.3000636473298
+./sledgehammer/Hoare/uf.1124589.smt2, unsat, 7, v3, 228.9569809436798
+./sledgehammer/Hoare/uf.1124589.smt2, unsat, 7, v1, 225.79077107831836
+./sledgehammer/Hoare/uf.1124589.smt2, unsat, 7, v3, 226.96653750538826
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7, v1, 287.8965550586581
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7, v3, 244.93771243095398
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7, v1, 288.03438583761454
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7, v3, 242.88814505934715
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7, v1, 289.8537002019584
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7, v3, 243.48650142550468
+./grasshopper/uninstantiated/rec_traverse_precondition_of_rec_traverse_16_4.smt2, unsat, 11, v1, 270.0292035341263
+./grasshopper/uninstantiated/rec_traverse_precondition_of_rec_traverse_16_4.smt2, unsat, 11, v3, 26.439817070961
+./grasshopper/uninstantiated/rec_traverse_precondition_of_rec_traverse_16_4.smt2, unsat, 11, v1, 269.09086153283715
+./grasshopper/uninstantiated/rec_traverse_precondition_of_rec_traverse_16_4.smt2, unsat, 11, v3, 26.39747066795826
+./grasshopper/uninstantiated/rec_traverse_precondition_of_rec_traverse_16_4.smt2, unsat, 11, v1, 272.5690626092255
+./grasshopper/uninstantiated/rec_traverse_precondition_of_rec_traverse_16_4.smt2, unsat, 11, v3, 27.175684563815594
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_25_33_589_1256369.smt_in.smt2, unsat, 9, v1, 383.2428224943578
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_25_33_589_1256369.smt_in.smt2, unsat, 9, v3, 309.13929522410035
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_25_33_589_1256369.smt_in.smt2, unsat, 9, v1, 390.3397321291268
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_25_33_589_1256369.smt_in.smt2, unsat, 9, v3, 312.1050483249128
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_25_33_589_1256369.smt_in.smt2, unsat, 9, v1, 387.2868575192988
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_25_33_589_1256369.smt_in.smt2, unsat, 9, v3, 310.47259904816747
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_57_795_1949648.smt_in.smt2, unsat, 6, v1, 505.87211034074426
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_57_795_1949648.smt_in.smt2, unsat, 6, v3, 524.219958934933
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_57_795_1949648.smt_in.smt2, unsat, 6, v1, 505.1513078920543
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_57_795_1949648.smt_in.smt2, unsat, 6, v3, 522.8862013593316
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_57_795_1949648.smt_in.smt2, unsat, 6, v1, 502.81636302545667
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_57_795_1949648.smt_in.smt2, unsat, 6, v3, 520.4029638469219
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1314985.smt2, unsat, 11, v1, 1169.5506963804364
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1314985.smt2, unsat, 11, v3, 1056.623878262937
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1314985.smt2, unsat, 11, v1, 1168.969075229019
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1314985.smt2, unsat, 11, v3, 1061.048226673156
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1314985.smt2, unsat, 11, v1, 1172.326184939593
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1314985.smt2, unsat, 11, v3, 1072.3543511517346
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_42_548_1627248.smt_in.smt2, unsat, 7, v1, 586.6916741281748
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_42_548_1627248.smt_in.smt2, unsat, 7, v3, 595.5345603786409
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_42_548_1627248.smt_in.smt2, unsat, 7, v1, 588.2891323491931
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_42_548_1627248.smt_in.smt2, unsat, 7, v3, 591.7835029549897
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_42_548_1627248.smt_in.smt2, unsat, 7, v1, 592.6613324321806
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_42_548_1627248.smt_in.smt2, unsat, 7, v3, 598.2810137793422
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5, v1, 394.43047458678484
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5, v3, 492.74459778517485
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5, v1, 391.72855749726295
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5, v3, 496.29910918697715
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5, v1, 390.6289046034217
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5, v3, 492.3647811934352
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_12_520_1461971.smt_in.smt2, unsat, 7, v1, 447.2502066344023
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_12_520_1461971.smt_in.smt2, unsat, 7, v3, 505.7029000259936
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_12_520_1461971.smt_in.smt2, unsat, 7, v1, 445.8156141452491
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_12_520_1461971.smt_in.smt2, unsat, 7, v3, 503.4836972653866
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_12_520_1461971.smt_in.smt2, unsat, 7, v1, 445.54241481795907
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_12_520_1461971.smt_in.smt2, unsat, 7, v3, 502.5626894310117
+./grasshopper/uninstantiated/insert_postcondition_of_insert_14_4.smt2, unsat, 10, v1, 205.7650586590171
+./grasshopper/uninstantiated/insert_postcondition_of_insert_14_4.smt2, unsat, 10, v3, 162.8408825919032
+./grasshopper/uninstantiated/insert_postcondition_of_insert_14_4.smt2, unsat, 10, v1, 205.40456522628665
+./grasshopper/uninstantiated/insert_postcondition_of_insert_14_4.smt2, unsat, 10, v3, 163.8380969017744
+./grasshopper/uninstantiated/insert_postcondition_of_insert_14_4.smt2, unsat, 10, v1, 207.96057019755244
+./grasshopper/uninstantiated/insert_postcondition_of_insert_14_4.smt2, unsat, 10, v3, 163.07438181340694
+./sledgehammer/Arrow_Order/uf.556137.smt2, unsat, 11, v1, 192.49030785262585
+./sledgehammer/Arrow_Order/uf.556137.smt2, unsat, 11, v3, 192.9145579189062
+./sledgehammer/Arrow_Order/uf.556137.smt2, unsat, 11, v1, 192.65072960406542
+./sledgehammer/Arrow_Order/uf.556137.smt2, unsat, 11, v3, 192.3687048777938
+./sledgehammer/Arrow_Order/uf.556137.smt2, unsat, 11, v1, 192.30181108415127
+./sledgehammer/Arrow_Order/uf.556137.smt2, unsat, 11, v3, 191.5717118754983
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list_prefix/x2015_09_10_16_47_25_842_1068770.smt_in.smt2, unsat, 5, v1, 312.748213570565
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list_prefix/x2015_09_10_16_47_25_842_1068770.smt_in.smt2, unsat, 5, v3, 313.59558675810695
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list_prefix/x2015_09_10_16_47_25_842_1068770.smt_in.smt2, unsat, 5, v1, 312.74096981436014
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list_prefix/x2015_09_10_16_47_25_842_1068770.smt_in.smt2, unsat, 5, v3, 313.98409044742584
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list_prefix/x2015_09_10_16_47_25_842_1068770.smt_in.smt2, unsat, 5, v1, 313.0992171019316
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list_prefix/x2015_09_10_16_47_25_842_1068770.smt_in.smt2, unsat, 5, v3, 312.85461845993996
+./sledgehammer/FFT/uf.645117.smt2, unsat, 11, v1, 268.01110069826245
+./sledgehammer/FFT/uf.645117.smt2, unsat, 11, v3, 45.04036279767752
+./sledgehammer/FFT/uf.645117.smt2, unsat, 11, v1, 270.5380021817982
+./sledgehammer/FFT/uf.645117.smt2, unsat, 11, v3, 45.44401998817921
+./sledgehammer/FFT/uf.645117.smt2, unsat, 11, v1, 267.42531418800354
+./sledgehammer/FFT/uf.645117.smt2, unsat, 11, v3, 45.08298825845122
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_04_372_1071474.smt_in.smt2, unsat, 5, v1, 523.3372775129974
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_04_372_1071474.smt_in.smt2, unsat, 5, v3, 521.5954596735537
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_04_372_1071474.smt_in.smt2, unsat, 5, v1, 523.0386975519359
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_04_372_1071474.smt_in.smt2, unsat, 5, v3, 524.7062234990299
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_04_372_1071474.smt_in.smt2, unsat, 5, v1, 521.025826331228
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_04_372_1071474.smt_in.smt2, unsat, 5, v3, 520.212778672576
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11, v1, 190.31269754469395
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11, v3, 191.7875842191279
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11, v1, 189.37335124611855
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11, v3, 189.78594759479165
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11, v1, 188.2698448561132
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11, v3, 191.1362636834383
+./grasshopper/uninstantiated/dl_reverse_loop_check_heap_access_24_4.smt2, unsat, 7, v1, 249.03386875614524
+./grasshopper/uninstantiated/dl_reverse_loop_check_heap_access_24_4.smt2, unsat, 7, v3, 247.15976839140058
+./grasshopper/uninstantiated/dl_reverse_loop_check_heap_access_24_4.smt2, unsat, 7, v1, 248.7166047282517
+./grasshopper/uninstantiated/dl_reverse_loop_check_heap_access_24_4.smt2, unsat, 7, v3, 246.60328725352883
+./grasshopper/uninstantiated/dl_reverse_loop_check_heap_access_24_4.smt2, unsat, 7, v1, 251.73167677223682
+./grasshopper/uninstantiated/dl_reverse_loop_check_heap_access_24_4.smt2, unsat, 7, v3, 245.95030713826418
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1309838.smt2, unsat, 13, v3si, 115.451739218086, 12, 13
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1309838.smt2, unsat, 13, v3si, 115.51254240423441, 12, 13
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1309838.smt2, unsat, 13, v3si, 115.3181602358818, 12, 13
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_49_39_837_1199284.smt_in.smt2, unsat, 6, v3si, 616.4687750302255, 10, 27
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_49_39_837_1199284.smt_in.smt2, unsat, 6, v3si, 610.4412386827171, 10, 27
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_49_39_837_1199284.smt_in.smt2, unsat, 6, v3si, 611.7754352167249, 10, 27
+./sledgehammer/Hoare/uf.672461.smt2, unsat, 5, v3si, 263.7526282221079, 75, 77
+./sledgehammer/Hoare/uf.672461.smt2, unsat, 5, v3si, 262.8743669614196, 75, 77
+./sledgehammer/Hoare/uf.672461.smt2, unsat, 5, v3si, 266.62989857792854, 75, 77
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_50_746_2350536.smt_in.smt2, unsat, 6, v3si, 608.6167813390493, 27, 31
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_50_746_2350536.smt_in.smt2, unsat, 6, v3si, 610.0510663799942, 27, 31
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_08_50_746_2350536.smt_in.smt2, unsat, 6, v3si, 609.8697935901582, 27, 31
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_53_49_382_1218775.smt_in.smt2, unsat, 8, v3si, 392.98762922361493, 80, 127
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_53_49_382_1218775.smt_in.smt2, unsat, 8, v3si, 394.94496507942677, 80, 127
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_53_49_382_1218775.smt_in.smt2, unsat, 8, v3si, 394.06117482855916, 80, 127
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_30_148_1188795.smt_in.smt2, unsat, 7, v3si, 1089.8362005092204, 44, 54
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_30_148_1188795.smt_in.smt2, unsat, 7, v3si, 1091.1222517862916, 44, 54
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_30_148_1188795.smt_in.smt2, unsat, 7, v3si, 1099.5212050452828, 44, 54
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11, v3si, 894.337151221931, 38, 43
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11, v3si, 892.6049754023552, 38, 43
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_47_28_619_1034417.smt_in.smt2, unsat, 11, v3si, 899.195839393884, 38, 43
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_16_613_1356619.smt_in.smt2, unsat, 6, v3si, 645.6172008551657, 38, 46
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_16_613_1356619.smt_in.smt2, unsat, 6, v3si, 639.88833681494, 38, 46
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_16_613_1356619.smt_in.smt2, unsat, 6, v3si, 645.6540957912803, 38, 46
+./20170428-Barrett/cdt-cade2015/nada/afp/koenigslemma/x2015_09_10_16_54_36_939_1175012.smt_in.smt2, unsat, 9, v3si, 494.93481738865376, 77, 113
+./20170428-Barrett/cdt-cade2015/nada/afp/koenigslemma/x2015_09_10_16_54_36_939_1175012.smt_in.smt2, unsat, 9, v3si, 494.0429350845516, 77, 113
+./20170428-Barrett/cdt-cade2015/nada/afp/koenigslemma/x2015_09_10_16_54_36_939_1175012.smt_in.smt2, unsat, 9, v3si, 494.21386497467756, 77, 113
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_47_01_275_1024212.smt_in.smt2, unsat, 8, v3si, 356.9389754794538, 18, 32
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_47_01_275_1024212.smt_in.smt2, unsat, 8, v3si, 356.1365166082978, 18, 32
+./20170428-Barrett/cdt-cade2015/nada/afp/huffman/x2015_09_10_16_47_01_275_1024212.smt_in.smt2, unsat, 8, v3si, 353.87286122888327, 18, 32
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_36_942_2250532.smt_in.smt2, unsat, 6, v3si, 286.5458212271333, 29, 39
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_36_942_2250532.smt_in.smt2, unsat, 6, v3si, 285.9047486446798, 29, 39
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_36_942_2250532.smt_in.smt2, unsat, 6, v3si, 286.436276063323, 29, 39
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1288658.smt2, unsat, 18, v3si, 349.89037637785077, 130, 138
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1288658.smt2, unsat, 18, v3si, 351.21709813922644, 130, 138
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1288658.smt2, unsat, 18, v3si, 350.74663246423006, 130, 138
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6, v3si, 231.8402643725276, 148, 252
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6, v3si, 231.72263036295772, 148, 252
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_39_729_1550336.smt_in.smt2, unsat, 6, v3si, 231.1651230826974, 148, 252
+./sledgehammer/Hoare/uf.1103225.smt2, unsat, 6, v3si, 194.01965647563338, 90, 92
+./sledgehammer/Hoare/uf.1103225.smt2, unsat, 6, v3si, 193.8679155111313, 90, 92
+./sledgehammer/Hoare/uf.1103225.smt2, unsat, 6, v3si, 194.33042564243078, 90, 92
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_05_525_1072875.smt_in.smt2, unsat, 5, v3si, 507.588933840394, 36, 45
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_05_525_1072875.smt_in.smt2, unsat, 5, v3si, 511.76322093233466, 36, 45
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_05_525_1072875.smt_in.smt2, unsat, 5, v3si, 509.5806928053498, 36, 45
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_46_663_1466431.smt_in.smt2, unsat, 6, v3si, 861.3678154274821, 35, 63
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_46_663_1466431.smt_in.smt2, unsat, 6, v3si, 864.8921274505556, 35, 63
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_46_663_1466431.smt_in.smt2, unsat, 6, v3si, 870.3918442390859, 35, 63
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_20_312_1397321.smt_in.smt2, unsat, 5, v3si, 341.64857456833124, 41, 66
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_20_312_1397321.smt_in.smt2, unsat, 5, v3si, 345.3251820318401, 41, 66
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_20_312_1397321.smt_in.smt2, unsat, 5, v3si, 343.75870913639665, 41, 66
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_04_46_537_2017783.smt_in.smt2, unsat, 9, v3si, 855.0253534428775, 19, 35
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_04_46_537_2017783.smt_in.smt2, unsat, 9, v3si, 859.3646017387509, 19, 35
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_04_46_537_2017783.smt_in.smt2, unsat, 9, v3si, 857.551392506808, 19, 35
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1281914.smt2, unsat, 15, v3si, 868.4893191605806, 86, 90
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1281914.smt2, unsat, 15, v3si, 865.4567897692323, 86, 90
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1281914.smt2, unsat, 15, v3si, 868.7247626967728, 86, 90
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list_prefix/x2015_09_10_16_47_25_842_1068770.smt_in.smt2, unsat, 5, v3si, 321.54502967372537, 34, 55
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list_prefix/x2015_09_10_16_47_25_842_1068770.smt_in.smt2, unsat, 5, v3si, 322.7046772800386, 34, 55
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list_prefix/x2015_09_10_16_47_25_842_1068770.smt_in.smt2, unsat, 5, v3si, 322.7232445329428, 34, 55
+./sledgehammer/TypeSafe/smtlib.1267524.smt2, unsat, 5, v3si, 83.2309066131711, 29, 30
+./sledgehammer/TypeSafe/smtlib.1267524.smt2, unsat, 5, v3si, 83.4492638669908, 29, 30
+./sledgehammer/TypeSafe/smtlib.1267524.smt2, unsat, 5, v3si, 83.27710980176926, 29, 30
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7, v3si, 954.9056623876095, 176, 188
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7, v3si, 954.5667594484985, 176, 188
+./sledgehammer/QEpres/uf.867345.smt2, unsat, 7, v3si, 955.0387304536998, 176, 188
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7, v3si, 306.8303826227784, 374, 391
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7, v3si, 300.5078697949648, 374, 391
+./sledgehammer/QEpres/uf.780191.smt2, unsat, 7, v3si, 298.9660905711353, 374, 391
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_55_37_832_1288612.smt_in.smt2, unsat, 9, v3si, 286.61238546669483, 28, 55
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_55_37_832_1288612.smt_in.smt2, unsat, 9, v3si, 287.4808601848781, 28, 55
+./20170428-Barrett/cdt-cade2015/nada/afp/llist2/x2015_09_10_16_55_37_832_1288612.smt_in.smt2, unsat, 9, v3si, 286.5850347094238, 28, 55
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7, v3si, 188.62562711909413, 32, 41
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7, v3si, 189.21470668539405, 32, 41
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_51_28_631_1187170.smt_in.smt2, unsat, 7, v3si, 189.12309850379825, 32, 41
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_47_42_094_1080705.smt_in.smt2, unsat, 9, v3si, 212.8414787054062, 43, 63
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_47_42_094_1080705.smt_in.smt2, unsat, 9, v3si, 207.0132655724883, 43, 63
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_47_42_094_1080705.smt_in.smt2, unsat, 9, v3si, 210.98394983634353, 43, 63
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_47_308_2265102.smt_in.smt2, unsat, 6, v3si, 311.38416039571166, 29, 39
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_47_308_2265102.smt_in.smt2, unsat, 6, v3si, 310.5126657932997, 29, 39
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_07_47_308_2265102.smt_in.smt2, unsat, 6, v3si, 311.5011010579765, 29, 39
+./sledgehammer/Arrow_Order/smtlib.667974.smt2, unsat, 11, v3si, 1155.316299855709, 894, 896
+./sledgehammer/Arrow_Order/smtlib.667974.smt2, unsat, 11, v3si, 1150.8839590027928, 894, 896
+./sledgehammer/Arrow_Order/smtlib.667974.smt2, unsat, 11, v3si, 1152.2703382745385, 894, 896
+./sledgehammer/Hoare/uf.775979.smt2, unsat, 8, v3si, 15.665069691836834, 21, 24
+./sledgehammer/Hoare/uf.775979.smt2, unsat, 8, v3si, 15.688017792999744, 21, 24
+./sledgehammer/Hoare/uf.775979.smt2, unsat, 8, v3si, 15.732066355645657, 21, 24
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5, v3si, 266.5548688210547, 61, 155
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5, v3si, 266.02545830607414, 61, 155
+./20170428-Barrett/cdt-cade2015/nada/gandl/stern_brocot_tree/x2015_09_10_16_51_40_158_1068539.smt_in.smt2, unsat, 5, v3si, 267.32119658589363, 61, 155
+./sledgehammer/Hoare/uf.1124589.smt2, unsat, 7, v3si, 233.44539960473776, 111, 116
+./sledgehammer/Hoare/uf.1124589.smt2, unsat, 7, v3si, 232.5984034910798, 111, 116
+./sledgehammer/Hoare/uf.1124589.smt2, unsat, 7, v3si, 233.4501385577023, 111, 116
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7, v3si, 517.4895083121955, 48, 93
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7, v3si, 521.0510322526097, 48, 93
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_55_09_268_1386388.smt_in.smt2, unsat, 7, v3si, 521.7215666621923, 48, 93
+./sledgehammer/Arrow_Order/uf.556137.smt2, unsat, 11, v3si, 1004.4014742672443, 21, 24
+./sledgehammer/Arrow_Order/uf.556137.smt2, unsat, 11, v3si, 1004.2087396085262, 21, 24
+./sledgehammer/Arrow_Order/uf.556137.smt2, unsat, 11, v3si, 1010.8403218910098, 21, 24
+./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_17_276_1085125.smt_in.smt2, unsat, 5, v3si, 335.8917450606823, 89, 111
+./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_17_276_1085125.smt_in.smt2, unsat, 5, v3si, 334.6434551551938, 89, 111
+./20170428-Barrett/cdt-cade2015/nada/afp/abstract_completeness/x2015_09_10_17_00_17_276_1085125.smt_in.smt2, unsat, 5, v3si, 334.8404530249536, 89, 111
+./20170428-Barrett/cdt-cade2015/nada/afp/bindag/x2015_09_10_16_54_00_148_1099230.smt_in.smt2, unsat, 6, v3si, 413.2784755565226, 22, 35
+./20170428-Barrett/cdt-cade2015/nada/afp/bindag/x2015_09_10_16_54_00_148_1099230.smt_in.smt2, unsat, 6, v3si, 409.17337600141764, 22, 35
+./20170428-Barrett/cdt-cade2015/nada/afp/bindag/x2015_09_10_16_54_00_148_1099230.smt_in.smt2, unsat, 6, v3si, 410.9587976112962, 22, 35
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_35_439_2741694.smt_in.smt2, unsat, 6, v3si, 201.1368686929345, 125, 182
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_35_439_2741694.smt_in.smt2, unsat, 6, v3si, 202.28785995021462, 125, 182
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_15_35_439_2741694.smt_in.smt2, unsat, 6, v3si, 202.1878572665155, 125, 182
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9, v3si, 519.7301684841514, 17, 28
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9, v3si, 517.3390004374087, 17, 28
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_00_45_663_1698368.smt_in.smt2, unsat, 9, v3si, 519.0038444921374, 17, 28
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_49_14_041_1152954.smt_in.smt2, unsat, 9, v3si, 113.92577572911978, 33, 76
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_49_14_041_1152954.smt_in.smt2, unsat, 9, v3si, 114.14535029232502, 33, 76
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_49_14_041_1152954.smt_in.smt2, unsat, 9, v3si, 113.64862913265824, 33, 76
+./sledgehammer/Fundamental_Theorem_Algebra/uf.931403.smt2, unsat, 10, v3si, 668.5354988463223, 24, 25
+./sledgehammer/Fundamental_Theorem_Algebra/uf.931403.smt2, unsat, 10, v3si, 669.760948702693, 24, 25
+./sledgehammer/Fundamental_Theorem_Algebra/uf.931403.smt2, unsat, 10, v3si, 661.4623730145395, 24, 25
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11, v3si, 192.04762605950236, 33, 43
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11, v3si, 191.6075531207025, 33, 43
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_52_06_521_1345810.smt_in.smt2, unsat, 11, v3si, 189.962303198874, 33, 43
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9, v3si, 725.0009009428322, 65, 81
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9, v3si, 729.5723609179258, 65, 81
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_07_038_1457348.smt_in.smt2, unsat, 9, v3si, 725.7739218920469, 65, 81
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_52_015_2717538.smt_in.smt2, unsat, 7, v3si, 382.0549593642354, 64, 265
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_52_015_2717538.smt_in.smt2, unsat, 7, v3si, 387.55910974368453, 64, 265
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_52_015_2717538.smt_in.smt2, unsat, 7, v3si, 382.51264668628573, 64, 265
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11, v3si, 160.26634046062827, 37, 107
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11, v3si, 160.74701306596398, 37, 107
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_58_34_151_1565498.smt_in.smt2, unsat, 11, v3si, 159.58716846257448, 37, 107
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_25_33_589_1256369.smt_in.smt2, unsat, 9, v3si, 301.36933290213346, 25, 38
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_25_33_589_1256369.smt_in.smt2, unsat, 9, v3si, 298.25113643705845, 25, 38
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_stream/x2015_09_10_17_25_33_589_1256369.smt_in.smt2, unsat, 9, v3si, 297.8819166496396, 25, 38
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6, v3si, 560.8334920108318, 52, 102
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6, v3si, 562.0476532056928, 52, 102
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_57_55_977_1529815.smt_in.smt2, unsat, 6, v3si, 560.684284683317, 52, 102
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_12_26_578_2629778.smt_in.smt2, unsat, 7, v3si, 382.0987676233053, 39, 60
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_12_26_578_2629778.smt_in.smt2, unsat, 7, v3si, 382.54917715489864, 39, 60
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_12_26_578_2629778.smt_in.smt2, unsat, 7, v3si, 382.9617590866983, 39, 60
+./20170428-Barrett/cdt-cade2015/nada/distro/koenig/x2015_09_10_16_44_54_854_992098.smt_in.smt2, unsat, 5, v3si, 425.50664473697543, 139, 214
+./20170428-Barrett/cdt-cade2015/nada/distro/koenig/x2015_09_10_16_44_54_854_992098.smt_in.smt2, unsat, 5, v3si, 424.5737240612507, 139, 214
+./20170428-Barrett/cdt-cade2015/nada/distro/koenig/x2015_09_10_16_44_54_854_992098.smt_in.smt2, unsat, 5, v3si, 426.77971106395125, 139, 214
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_33_263_2707193.smt_in.smt2, unsat, 7, v3si, 396.2275747731328, 32, 73
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_33_263_2707193.smt_in.smt2, unsat, 7, v3si, 396.0116159841418, 32, 73
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_33_263_2707193.smt_in.smt2, unsat, 7, v3si, 398.25179725140333, 32, 73
+./sledgehammer/NS_Shared/uf.781306.smt2, unsat, 8, v3si, 998.7883961871266, 93, 95
+./sledgehammer/NS_Shared/uf.781306.smt2, unsat, 8, v3si, 995.7415726855397, 93, 95
+./sledgehammer/NS_Shared/uf.781306.smt2, unsat, 8, v3si, 996.8856230452657, 93, 95
+./sledgehammer/Hoare/uf.663973.smt2, unsat, 6, v3si, 400.50514348596334, 76, 78
+./sledgehammer/Hoare/uf.663973.smt2, unsat, 6, v3si, 400.82168612629175, 76, 78
+./sledgehammer/Hoare/uf.663973.smt2, unsat, 6, v3si, 405.9095554500818, 76, 78
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_51_47_804_1324224.smt_in.smt2, unsat, 8, v3si, 422.84567603468895, 88, 159
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_51_47_804_1324224.smt_in.smt2, unsat, 8, v3si, 421.26286838948727, 88, 159
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_51_47_804_1324224.smt_in.smt2, unsat, 8, v3si, 417.5251727886498, 88, 159
+./sledgehammer/Hoare/uf.692423.smt2, unsat, 6, v3si, 359.0736285559833, 50, 52
+./sledgehammer/Hoare/uf.692423.smt2, unsat, 6, v3si, 360.22875548526645, 50, 52
+./sledgehammer/Hoare/uf.692423.smt2, unsat, 6, v3si, 360.1332449093461, 50, 52
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_57_795_1949648.smt_in.smt2, unsat, 6, v3si, 460.2065265737474, 47, 68
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_57_795_1949648.smt_in.smt2, unsat, 6, v3si, 461.44660164788365, 47, 68
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_03_57_795_1949648.smt_in.smt2, unsat, 6, v3si, 456.8635920211673, 47, 68
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_08_793_2694000.smt_in.smt2, unsat, 6, v3si, 300.4521887600422, 32, 65
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_08_793_2694000.smt_in.smt2, unsat, 6, v3si, 297.9384675733745, 32, 65
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_14_08_793_2694000.smt_in.smt2, unsat, 6, v3si, 299.967537868768, 32, 65
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2, unsat, 5, v3si, 253.63926747441292, 157, 747
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2, unsat, 5, v3si, 251.49656772613525, 157, 747
+./20170428-Barrett/cdt-cade2015/nada/gandl/bird_tree/x2015_09_10_16_54_42_821_1024603.smt_in.smt2, unsat, 5, v3si, 249.28016834706068, 157, 747
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_52_32_239_1240528.smt_in.smt2, unsat, 11, v3si, 214.77346930652857, 42, 48
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_52_32_239_1240528.smt_in.smt2, unsat, 11, v3si, 217.79789480566978, 42, 48
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_52_32_239_1240528.smt_in.smt2, unsat, 11, v3si, 219.68656599149108, 42, 48
+./sledgehammer/Hoare/uf.968765.smt2, unsat, 6, v3si, 721.3128353692591, 54, 56
+./sledgehammer/Hoare/uf.968765.smt2, unsat, 6, v3si, 730.4904948882759, 54, 56
+./sledgehammer/Hoare/uf.968765.smt2, unsat, 6, v3si, 721.6350339055061, 54, 56
+./sledgehammer/Hoare/uf.1004091.smt2, unsat, 10, v3si, 189.4271897263825, 79, 95
+./sledgehammer/Hoare/uf.1004091.smt2, unsat, 10, v3si, 192.30485812202096, 79, 95
+./sledgehammer/Hoare/uf.1004091.smt2, unsat, 10, v3si, 190.32859529927373, 79, 95
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_42_548_1627248.smt_in.smt2, unsat, 7, v3si, 64.133225902915, 23, 61
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_42_548_1627248.smt_in.smt2, unsat, 7, v3si, 64.41365078091621, 23, 61
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_59_42_548_1627248.smt_in.smt2, unsat, 7, v3si, 64.49475852400064, 23, 61
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_12_520_1461971.smt_in.smt2, unsat, 7, v3si, 524.1909927614033, 67, 91
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_12_520_1461971.smt_in.smt2, unsat, 7, v3si, 525.5833941586316, 67, 91
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_54_12_520_1461971.smt_in.smt2, unsat, 7, v3si, 528.0721043795347, 67, 91
+./sledgehammer/Arrow_Order/uf.806754.smt2, unsat, 6, v3si, 554.4644298180938, 721, 726
+./sledgehammer/Arrow_Order/uf.806754.smt2, unsat, 6, v3si, 549.3344950079918, 721, 726
+./sledgehammer/Arrow_Order/uf.806754.smt2, unsat, 6, v3si, 549.045435808599, 721, 726
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_18_305_1444907.smt_in.smt2, unsat, 7, v3si, 1081.9867777749896, 89, 307
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_18_305_1444907.smt_in.smt2, unsat, 7, v3si, 1081.7770975977182, 89, 307
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_16_56_18_305_1444907.smt_in.smt2, unsat, 7, v3si, 1073.4153666086495, 89, 307
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1445231.smt2, unsat, 9, v3si, 621.0420082509518, 60, 61
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1445231.smt2, unsat, 9, v3si, 626.9044393822551, 60, 61
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1445231.smt2, unsat, 9, v3si, 621.580438259989, 60, 61
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_11_57_675_2594884.smt_in.smt2, unsat, 8, v3si, 926.3614917546511, 57, 114
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_11_57_675_2594884.smt_in.smt2, unsat, 8, v3si, 928.4774060100317, 57, 114
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_11_57_675_2594884.smt_in.smt2, unsat, 8, v3si, 925.7469793707132, 57, 114
+./20170428-Barrett/cdt-cade2015/nada/afp/sorted_list_operations/x2015_09_10_16_47_48_233_1073860.smt_in.smt2, unsat, 9, v3si, 181.65256817638874, 17, 27
+./20170428-Barrett/cdt-cade2015/nada/afp/sorted_list_operations/x2015_09_10_16_47_48_233_1073860.smt_in.smt2, unsat, 9, v3si, 180.91310027614236, 17, 27
+./20170428-Barrett/cdt-cade2015/nada/afp/sorted_list_operations/x2015_09_10_16_47_48_233_1073860.smt_in.smt2, unsat, 9, v3si, 180.41359386593103, 17, 27
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1266708.smt2, unsat, 25, v3si, 594.4397656582296, 74, 79
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1266708.smt2, unsat, 25, v3si, 593.1514817550778, 74, 79
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1266708.smt2, unsat, 25, v3si, 600.0222386755049, 74, 79
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_46_45_961_984148.smt_in.smt2, unsat, 5, v3si, 407.80075269564986, 37, 46
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_46_45_961_984148.smt_in.smt2, unsat, 5, v3si, 404.3158462308347, 37, 46
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_46_45_961_984148.smt_in.smt2, unsat, 5, v3si, 404.3684661760926, 37, 46
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6, v3si, 322.95084876567125, 22, 38
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6, v3si, 321.49153284356, 22, 38
+./20170428-Barrett/cdt-cade2015/nada/afp/coinductive_list/x2015_09_10_17_01_29_013_1750437.smt_in.smt2, unsat, 6, v3si, 322.46303948014975, 22, 38
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_04_372_1071474.smt_in.smt2, unsat, 5, v3si, 373.6784553863108, 35, 45
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_04_372_1071474.smt_in.smt2, unsat, 5, v3si, 373.73764112591743, 35, 45
+./20170428-Barrett/cdt-cade2015/nada/distro/stream/x2015_09_10_16_48_04_372_1071474.smt_in.smt2, unsat, 5, v3si, 374.27341237291694, 35, 45
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5, v3si, 296.96809788793325, 66, 85
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5, v3si, 297.446526248008, 66, 85
+./20170428-Barrett/cdt-cade2015/nada/afp/hamming_stream/x2015_09_10_16_47_38_469_1070123.smt_in.smt2, unsat, 5, v3si, 298.76276241987944, 66, 85
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1398696.smt2, unsat, 18, v3si, 520.8089122064412, 90, 91
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1398696.smt2, unsat, 18, v3si, 523.8615318872035, 90, 91
+./sledgehammer/Fundamental_Theorem_Algebra/uf.1398696.smt2, unsat, 18, v3si, 518.9091707058251, 90, 91
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_14_499_1523019.smt_in.smt2, unsat, 7, v3si, 359.4545577801764, 55, 115
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_14_499_1523019.smt_in.smt2, unsat, 7, v3si, 358.68013329058886, 55, 115
+./20170428-Barrett/cdt-cade2015/nada/distro/gram_lang/x2015_09_10_16_55_14_499_1523019.smt_in.smt2, unsat, 7, v3si, 360.31719329953194, 55, 115
+./sledgehammer/StrongNorm/uf.793193.smt2, unsat, 5, v3si, 623.9015986770391, 215, 219
+./sledgehammer/StrongNorm/uf.793193.smt2, unsat, 5, v3si, 621.6998619139194, 215, 219
+./sledgehammer/StrongNorm/uf.793193.smt2, unsat, 5, v3si, 622.5864896439016, 215, 219

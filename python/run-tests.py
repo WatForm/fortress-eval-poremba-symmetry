@@ -16,7 +16,7 @@ from datetime import datetime
 import util
 from defs import *
 
-versions = ["v3si"]
+versions = ["v1","v3","v3si"]
 num_tries = 3
 
 # for 50 sat files
