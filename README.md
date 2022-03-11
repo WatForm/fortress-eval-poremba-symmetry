@@ -1,6 +1,6 @@
 # README
 
-This is how the evaluation of Poremba and Day's symmetry breaking schemes was completed.
+This is how the evaluation of Poremba, Day and Vakili's symmetry breaking schemes was completed.
 
 ## TL;DR
 ```
