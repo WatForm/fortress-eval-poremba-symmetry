@@ -2,6 +2,7 @@
 # filename, unsat, scope, version, time(seconds)
 
 import csv
+import statistics
 
 goals = ["unsat","sat"]
 
@@ -203,6 +204,7 @@ def compare(aa,bb,g,x):
 
     total_files = 0
 
+    data = []
     for f in filelist:
         if f in a.keys() and f in b.keys():
             # put this first so these don't get counted for the timeout and 
@@ -224,6 +226,10 @@ def compare(aa,bb,g,x):
             total_b_time += b[f]
             total_files += 1
 
+            ratio = b[f]/a[f]
+            data.append(ratio)
+
+
     # command-line output
     print(inputfilename)
     an = getname(aa)
@@ -238,12 +244,19 @@ def compare(aa,bb,g,x):
     print("Number of files "+an+" faster "+str(num_a_faster))
     print("Number of files "+bn+" faster "+str(num_b_faster))
 
+    print("---- for "+bn+"/"+an+" ")
+    print("Geometric Mean: "+str(round(statistics.geometric_mean(data),2)))
+    print("Median: "+str(round(statistics.median(data),2)))
+    print("Min: "+str(round(min(data),2)))
+    print("Max: "+str(round(max(data),2)))
+    print("Std deviation: "+str(round(statistics.stdev(data),2)))
+
     # latex output   
     a_b_table_tex_name = g+"-"+an+"-vs-"+bn+"-table.tex"
 
     make_table(tex_location+a_b_table_tex_name, \
-        "v1", \
-        "v3", \
+        aa, \
+        bb, \
         total_a_time, \
         total_b_time, \
         num_a_faster, \
@@ -304,6 +317,7 @@ for g in goals:
                 sum = 0
                 for i in f_v_entries:
                     sum += float(i[time])
+                # take the average of the numentries times that the same file was run
                 getv(v)[f] = round(sum/numentries,2)
                 if v == 'v3si':
                     # sorts found will all be the same
@@ -313,20 +327,26 @@ for g in goals:
                     new_sorts[f] = f_v_entries[0][newsorts]
 
 
-
+    # g = sat/unsat
+    # last parameter is a label
     print('-----')
     print('Compare Fortress with Fortress+ for '+g+'\n')
     compare("v1","v3",g,1)
+    make_scatterplot("v1","v3",g)
 
     print("")
 
     print('-----')
     print('Compare Fortress+ with Fortress+SI for '+g+'\n')
     compare("v3","v3si",g,2)
-
-    make_scatterplot("v1","v3",g)
     make_scatterplot("v3", "v3si",g)
 
+    print("")
+
+    print('-----')
+    print('Compare Fortress with Fortress+SI for '+g+'\n')
+    compare("v1","v3si",g,3)
+    make_scatterplot("v1", "v3si",g)
 
     # used to look at sort data
     # compare_sorts()
